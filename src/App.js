@@ -8,9 +8,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1 class ="hello">UBC BIONICS</h1>
+      <img class="hola" src="hand.png" width="400" height="400" />
+      <b><div class="heading">UBC BIONICS</div></b>
       {
-        <img class="hola" src="hand.png" width="350" height="350" />
+        // <img class="hola" src="hand.png" width="450" height="450" />
 
         /* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -29,10 +30,9 @@ function App() {
       }
 
       <p>
-        A STUDENT-LED DESIGN TEAM STRIVING TO FOSTER <br /> 
-        EXCELLENCE IN BIONICS BY
-        CREATING SOLUTIONS <br /> TO REPLACE HUMAN PHYSIOLOGY AND ULTIMATELY <br /> IMPROVE
-        QUALITY OF LIFE.
+        A STUDENT-LED DESIGN TEAM STRIVING TO FOSTER <br />
+        EXCELLENCE IN BIONICS BY CREATING SOLUTIONS <br /> TO REPLACE HUMAN
+        PHYSIOLOGY AND ULTIMATELY <br /> IMPROVE QUALITY OF LIFE.
       </p>
     </div>
   );
