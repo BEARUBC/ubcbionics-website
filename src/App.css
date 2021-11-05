@@ -3,7 +3,7 @@
   font-family: "Montserrat", sans-serif;
   text-align: left;
   font-size: 45px;
-  padding-top:190px;
+  padding-top: 190px;
   padding-left: 100px;
   font-weight: bolder;
   color: #152349;
@@ -14,14 +14,15 @@
   font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 35px;
-  padding-top:90px;
+  padding-top: 90px;
   font-weight: bolder;
   color: #152349;
+  text-decoration: underline;
 }
 
 img.hola {
   display: flex;
-  position: absolute; 
+  position: absolute;
   padding-top: 70px;
   padding-left: 530px;
   right: 10%;
@@ -30,7 +31,7 @@ img.hola {
 p.text {
   color: #152349;
   display: flex;
-  font-family: 'Lato', sans-serif; 
+  font-family: "Lato", sans-serif;
   padding: 50px;
   padding-top: 10px;
   padding-left: 100px;
@@ -38,21 +39,28 @@ p.text {
   padding-bottom: 190px;
 }
 
+p.graspText {
+  color: #152349;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  padding: 50px;
+}
+
 .partTwo {
   background-color: #152349;
   color: #fff;
-  padding:150px;
+  padding: 150px;
   text-align: center;
-  font-family: 'Lato', sans-serif; 
+  font-family: "Lato", sans-serif;
   margin: 0;
 }
 
 .header {
   color: #fff;
-  padding:150px;
+  padding: 150px;
   text-align: center;
   font-size: 20px;
-  font-family: 'Lato', sans-serif; 
+  font-family: "Lato", sans-serif;
   text-decoration: underline;
 }
 

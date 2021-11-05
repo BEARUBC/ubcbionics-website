@@ -68,6 +68,16 @@ function App() {
       </div>
 
       <div class="headingGrasp">GRASP PROJECT</div>
+      <p className="graspText">
+        The demand for prostheses is universal--over one million amputations
+        occur annually, with prosthetic options <br /> available only to about
+        5% of the population. UBC Bionics was created to foster undergraduate
+        excellence in this <br />
+        field. We undertook the project of creating a bionic arm and completed
+        an initial prototype in 2019-2020.
+        <br /> During the pandemic, we updated our design and plan on
+        implementing the physical changes this year.
+      </p>
     </div>
   );
 }
