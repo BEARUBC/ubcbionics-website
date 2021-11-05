@@ -1,6 +1,6 @@
 .navbar {
   background-color: #152349;
-  height:80px;
+  height:50px;
   display: flex;
   align-items: center; 
   font-size: 1.2rem;
@@ -20,6 +20,28 @@
   align-items: center;
   height: 80px;
   max-width: 1500px;
+}
+
+.navigation {
+  list-style-type: none;
+  display: flex;
+  /* margin: 0; */
+  /* padding: 30px; */
+  color: #fff;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  padding-left: 530px;
+}
+
+a {
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.item {
+  color: #fff;
+  font-size: 14px;
 }
 
 /* .nav-menu {

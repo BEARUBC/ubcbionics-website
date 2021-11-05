@@ -9,20 +9,27 @@ class Navbar extends Component {
       <nav className="navbar">
         <div className="navbar-container">
           <h1 className="navbar-logo">
-              <img src="bionicslogo.png" width="80" height="80" />
+            <img src="bionicslogo.png" width="60" height="60" />
+
             <i className="fab fa-react"></i>
           </h1>
           <div className="menu-icon"></div>
-          <ul>
-            {MenuItems.map((item, index) => {
-              return (
-                <li key={index}>
-                  <a className={MenuItems.cName} href={item.url}>
-                    {item.title}
-                  </a>
-                </li>
-              );
-            })}
+          <ul class="navigation">
+            <li class="item">
+              <a href="#">HOME</a>
+            </li>
+            <li class="item">
+              <a href="#">GRASP</a>
+            </li>
+            <li class="item">
+              <a href="#">TEAMS</a>
+            </li>
+            <li class="item">
+              <a href="#">JOIN US</a>
+            </li>
+            <li class="item">
+              <a href="#">SPONSORS</a>
+            </li>
           </ul>
         </div>
       </nav>
