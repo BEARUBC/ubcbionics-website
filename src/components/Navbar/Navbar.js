@@ -9,7 +9,8 @@ class Navbar extends Component {
       <nav className="navbar">
         <div className="navbar-container">
           <h1 className="navbar-logo">
-            UBC BIONICS<i className="fab fa-react"></i>
+              <img src="bionicslogo.png" width="80" height="80" />
+            <i className="fab fa-react"></i>
           </h1>
           <div className="menu-icon"></div>
           <ul>

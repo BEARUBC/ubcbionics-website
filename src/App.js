@@ -8,8 +8,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <h1>Welcome</h1>
-      {/* <header className="App-header">
+      <h1 class ="hello">UBC BIONICS</h1>
+      {
+        <img class="hola" src="hand.png" width="350" height="350" />
+
+        /* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -22,7 +25,15 @@ function App() {
         >
           Learn React
         </a>
-      </header> */}
+      </header> */
+      }
+
+      <p>
+        A STUDENT-LED DESIGN TEAM STRIVING TO FOSTER <br /> 
+        EXCELLENCE IN BIONICS BY
+        CREATING SOLUTIONS <br /> TO REPLACE HUMAN PHYSIOLOGY AND ULTIMATELY <br /> IMPROVE
+        QUALITY OF LIFE.
+      </p>
     </div>
   );
 }
