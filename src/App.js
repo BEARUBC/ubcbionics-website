@@ -12,23 +12,6 @@ function App() {
       <b>
         <div class="heading">UBC BIONICS</div>
       </b>
-      {
-        // <img class="hola" src="hand.png" width="450" height="450" />
-        /* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */
-      }
 
       <p className="text">
         A STUDENT-LED DESIGN TEAM STRIVING TO FOSTER <br />
@@ -78,6 +61,10 @@ function App() {
         <br /> During the pandemic, we updated our design and plan on
         implementing the physical changes this year.
       </p>
+
+      <img class = "picOne" src="pic1.png" />
+
+      <img class = "picTwo" src="pic2.png" />
     </div>
   );
 }
