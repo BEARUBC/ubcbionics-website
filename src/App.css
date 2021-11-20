@@ -91,9 +91,56 @@ p.graspText {
 
 .footer {
   margin-top: 400px;
+  padding-top:10px;
   background-color: #152349;
-  padding: 40px;
+  padding: 30px;
+  text-align: left;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding-left: 120px;
+  font-size: 18px;
+  height: 22px;
 }
+
+.images {
+  margin: -25px;
+}
+
+.facebook {
+  padding-left: 480px;
+}
+
+.contact {
+  text-align: right;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding-left: 890px;
+  font-size: 18px;
+}
+
+.bionics {
+  margin:-25px;
+  text-align: right;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding-left:45px;
+  font-size: 18px;
+}
+
+/* .instagram {
+  padding-left: 10px;
+}
+
+.twitter {
+padding-left: 10px;
+}
+
+.linkedin {
+  padding-left: 10px;
+} */
 
 /* .App {
   text-align: center;
