@@ -33,6 +33,8 @@ img.picOne {
   position: absolute;
   left:15%;
   padding-bottom: 80px;
+  width: 27%;
+  height: auto;
   /* padding: 40px; */
   /* padding-top: 70px;
   padding-left: 530px; */

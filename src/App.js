@@ -73,7 +73,7 @@ function App() {
           design and plan on implementing the physical changes this year.
         </p>
 
-        <img class = "picOne" src="pic1.png" />
+        <img class = "picOne" src="Bionic-Arm-TopDown.jpg" />
 
         <img class = "picTwo" src="pic2.png" />
       </div>
