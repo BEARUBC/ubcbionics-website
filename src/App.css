@@ -61,10 +61,13 @@ p.text {
 }
 
 p.graspText {
+  /* margin: auto; */
   color: #152349;
   display: flex;
+  text-align: center;
   font-family: "Lato", sans-serif;
-  padding: 50px;
+  padding-left: 300px;
+  /* padding-right: center; */
 }
 
 .partTwo {
@@ -72,6 +75,7 @@ p.graspText {
   color: #fff;
   padding: 150px;
   text-align: center;
+  /* margin-left: auto; */
   font-family: "Lato", sans-serif;
   margin: 0;
 }

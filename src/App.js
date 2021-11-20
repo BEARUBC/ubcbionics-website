@@ -22,6 +22,18 @@ function App() {
       <div className="partTwo">
         <span className="header">UPDATES</span>
         <br />
+        <p>
+          Amidst the increasing demand for bionic devices and UBC’s strategic
+          positioning in the field, our student-led <br /> design team, UBC
+          Bionics, strives to foster excellence in bionics. Our ultimate goal is
+          to create solutions that <br /> can replace human physiology, either
+          by prosthesis or implants. UBC Bionics' current project is to design
+          and <br /> build a smart bionic hand, GRASP, that can be used by
+          individuals who have suffered amputation or congenital
+          <br /> birth defects. Join us on our journey and be a part of our
+          history! <br />
+          <br />
+        </p>
         <br />
         <span className="header">MISSION</span>
         <br />
@@ -51,21 +63,20 @@ function App() {
       </div>
 
       <div class="headingGrasp">GRASP PROJECT</div>
-      <p className="graspText">
-        The demand for prostheses is universal--over one million amputations
-        occur annually, with prosthetic options <br /> available only to about
-        5% of the population. UBC Bionics was created to foster undergraduate
-        excellence in this <br />
-        field. We undertook the project of creating a bionic arm and completed
-        an initial prototype in 2019-2020.
-        <br /> During the pandemic, we updated our design and plan on
-        implementing the physical changes this year.
-      </p>
+        <p className="graspText">
+          The demand for prostheses is universal--over one million amputations
+          occur annually, with prosthetic options available only <br /> to about
+          5% of the population. UBC Bionics was created to foster undergraduate
+          excellence in this 
+          field. We undertook the <br /> project of creating a bionic arm and completed
+          an initial prototype in 2019-2020. During the pandemic, we updated our <br /> 
+          design and plan on implementing the physical changes this year.
+        </p>
 
-      <img class = "picOne" src="pic1.png" />
+        <img class = "picOne" src="pic1.png" />
 
-      <img class = "picTwo" src="pic2.png" />
-    </div>
+        <img class = "picTwo" src="pic2.png" />
+      </div>
   );
 }
 
