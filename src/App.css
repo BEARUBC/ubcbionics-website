@@ -89,6 +89,12 @@ p.graspText {
   text-decoration: underline;
 }
 
+.footer {
+  margin-top: 400px;
+  background-color: #152349;
+  padding: 40px;
+}
+
 /* .App {
   text-align: center;
 } */

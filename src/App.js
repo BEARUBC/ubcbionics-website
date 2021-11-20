@@ -1,8 +1,7 @@
 // import logo from './logo.svg';
-import React from 'react';
+import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import './App.css';
-
+import "./App.css";
 
 function App() {
   return (
@@ -63,20 +62,22 @@ function App() {
       </div>
 
       <div class="headingGrasp">GRASP PROJECT</div>
-        <p className="graspText">
-          The demand for prostheses is universal--over one million amputations
-          occur annually, with prosthetic options available only <br /> to about
-          5% of the population. UBC Bionics was created to foster undergraduate
-          excellence in this 
-          field. We undertook the <br /> project of creating a bionic arm and completed
-          an initial prototype in 2019-2020. During the pandemic, we updated our <br /> 
-          design and plan on implementing the physical changes this year.
-        </p>
+      <p className="graspText">
+        The demand for prostheses is universal--over one million amputations
+        occur annually, with prosthetic options available only <br /> to about
+        5% of the population. UBC Bionics was created to foster undergraduate
+        excellence in this field. We undertook the <br /> project of creating a
+        bionic arm and completed an initial prototype in 2019-2020. During the
+        pandemic, we updated our <br />
+        design and plan on implementing the physical changes this year.
+      </p>
 
-        <img class = "picOne" src="pic1.png" />
+      <img class="picOne" src="pic1.png" />
 
-        <img class = "picTwo" src="pic2.png" />
-      </div>
+      <img class="picTwo" src="pic2.png" />
+
+      <div class="footer"></div>
+    </div>
   );
 }
 
