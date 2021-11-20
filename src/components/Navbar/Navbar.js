@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import { MenuItems } from "./MenuItems";
 import './Navbar.css'
 
@@ -16,10 +17,10 @@ class Navbar extends Component {
           <div className="menu-icon"></div>
           <ul class="navigation">
             <li class="item">
-              <a href="#">HOME</a>
+              <Link to="/">HOME</Link>
             </li>
             <li class="item">
-              <a href="#">GRASP</a>
+              <Link to="/grasp">GRASP</Link>
             </li>
             <li class="item">
               <a href="#">TEAMS</a>

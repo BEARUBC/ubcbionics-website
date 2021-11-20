@@ -91,6 +91,13 @@ p.graspText {
   text-decoration: underline;
 }
 
+p.graspDesc {
+  color: #152349;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  padding-left: 100px;
+  font-size: 14px;
+}
 /* .App {
   text-align: center;
 } */
