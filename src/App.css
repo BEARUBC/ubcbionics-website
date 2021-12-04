@@ -109,6 +109,77 @@ p.graspBold{
   padding-top: 25px;
   padding-bottom: 14px;
 }
+
+img.graspHand{
+  display: flex;
+  position: absolute;
+  padding-top: 25px;
+  padding-left: 530px;
+  right: 15%;
+  width: 27%;
+  height: auto;
+}
+
+p.graspSubText{
+  color: #bebebe;
+  position: absolute;
+  padding-top: 150px;
+}
+
+img.graspIcon1{
+  display: flex;
+  position: absolute;
+  padding-top:25px;
+  right: 80%;
+  width: 5%;
+  height:auto;
+}
+
+p.graspIcon1{
+  color: #152349;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  padding-left: 150px;
+  font-size: 14px;
+  padding-top:120px;
+  text-align: center;
+}
+
+img.graspIcon2{
+  display: flex;
+  position: absolute;
+  padding-top:25px;
+  right: 45%;
+  width: 5%;
+  height:auto;
+}
+
+p.graspIcon2{
+  color: #152349;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  padding-left: 600px;
+  font-size: 14px;
+  padding-top: -300px;
+  text-align: center;
+}
+
+img.graspIcon3{
+  display: flex;
+  position: absolute;
+  padding-top:25px;
+  right: 15%;
+  width: 5%;
+  height:auto;
+}
+
+p.graspIcon3{
+  color: #152349;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  padding-left: 100px;
+  font-size: 14px;
+}
 /* .App {
   text-align: center;
 } */
