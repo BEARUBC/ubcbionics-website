@@ -20,35 +20,20 @@
   text-decoration: underline;
 }
 
-img.hola {
+img.mainArm {
   display: flex;
-  position: absolute;
-  padding-top: 70px;
-  padding-left: 530px;
-  right: 10%;
+  justify-content: center;
+  padding-top: 75px;
+  width: 400px;
+  height:auto;
 }
 
 img.picOne {
   display: flex;
-  position: absolute;
-  left:15%;
-  padding-bottom: 80px;
-  width: 27%;
-  height: auto;
-  /* padding: 40px; */
-  /* padding-top: 70px;
-  padding-left: 530px; */
-  /* right: 10%; */
 }
 
 img.picTwo {
   display: flex;
-  position: absolute;
-  /* padding: 40px; */
-  /* padding-top: 70px;
-  padding-left: 530px; */
-  right: 15%;
-  padding-bottom: 80px;
 }
 
 p.text {
@@ -62,33 +47,62 @@ p.text {
   padding-bottom: 190px;
 }
 
+p.infoBlock {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 80%;
+  line-height: 140%;
+}
+
 p.graspText {
   /* margin: auto; */
   color: #152349;
   display: flex;
   text-align: center;
   font-family: "Lato", sans-serif;
-  padding-left: 300px;
-  /* padding-right: center; */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .partTwo {
   background-color: #152349;
   color: #fff;
-  padding: 150px;
+  padding: 75px;
   text-align: center;
   /* margin-left: auto; */
   font-family: "Lato", sans-serif;
   margin: 0;
 }
 
-.header {
+.headerWhite {
   color: #fff;
-  padding: 150px;
-  text-align: center;
-  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  letter-spacing: 5px;
   font-family: "Lato", sans-serif;
+  font-weight: bold;
   text-decoration: underline;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 1px;
+}
+
+.headerBlue {
+  color: #152349;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 1px;
 }
 
 p.graspDesc {
@@ -112,11 +126,8 @@ p.graspBold{
 
 img.graspHand{
   display: flex;
-  position: absolute;
   padding-top: 25px;
-  padding-left: 530px;
-  right: 15%;
-  width: 27%;
+  width: 60%;
   height: auto;
 }
 
@@ -126,95 +137,79 @@ p.graspSubText{
   padding-top: 150px;
 }
 
-img.graspIcon1{
+img.graspIcons{
   display: flex;
-  position: absolute;
-  padding-top:25px;
-  right: 80%;
-  width: 5%;
-  height:auto;
 }
 
-p.graspIcon1{
+p.graspIcons{
   color: #152349;
-  display: flex;
   font-family: "Lato", sans-serif;
-  padding-left: 150px;
   font-size: 14px;
-  padding-top:120px;
-  text-align: center;
+  padding-top:20px;
 }
 
-img.graspIcon2{
-  display: flex;
-  position: absolute;
-  padding-top:25px;
-  right: 45%;
-  width: 5%;
-  height:auto;
+.bold{
+  font-weight: bolder;
 }
 
-p.graspIcon2{
-  color: #152349;
-  display: flex;
+img.teamimg {
+  clip-path: circle();
+  width: 150px;
+  height: auto;
+  display: "block";
+}
+
+img.memberimg {
+  clip-path: circle();
+  width: 120px;
+  height: auto;
+  display: "block";
+}
+p.joinusHeader{
   font-family: "Lato", sans-serif;
-  padding-left: 600px;
-  font-size: 14px;
-  padding-top: -300px;
-  text-align: center;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
-img.graspIcon3{
-  display: flex;
-  position: absolute;
-  padding-top:25px;
-  right: 15%;
-  width: 5%;
-  height:auto;
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-p.graspIcon3{
-  color: #152349;
-  display: flex;
-  font-family: "Lato", sans-serif;
-  padding-left: 100px;
-  font-size: 14px;
-}
-/* .App {
-  text-align: center;
-} */
-
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Control the left side */
+.left {
+  left: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Control the right side */
+.right {
+  right: 0;
+}
+
+@media (max-width: 1000px) {
+  img.mainArm {
+    display: flex;
+    position: center;
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+    height:auto;
+    right: 10%;
+  }
+  .heading {
+    color: #152349;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    font-size: 45px;
+    padding-top: 190px;
+    padding-left: 100px;
+    font-weight: bolder;
+    color: #152349;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
