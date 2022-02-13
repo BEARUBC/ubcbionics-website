@@ -1,6 +1,10 @@
 import React from 'react';
 // import Navbar from "./components/Navbar/Navbar";
 import './App.css';
+import graspPic1 from './Photos/graspPic1.jpeg';
+import nuanceControl from './Photos/nuanceControl.png';
+import softMaterials from './Photos/softMaterials.png';
+import costEffective from './Photos/costEffective.png';
 
 import { Layout } from './components/Layout';
 
@@ -30,7 +34,7 @@ export const Grasp = () => {
                 </p>
             </div>
             <div class="col">
-                <img class="graspHand img-responsive center-block d-block mx-auto" src="graspPic1.jpeg" />
+                <img class="graspHand img-responsive center-block d-block mx-auto" src={ graspPic1 } />
             </div>
         </div>
 
@@ -39,13 +43,13 @@ export const Grasp = () => {
 
         <div class="row">
             <div class="col-4">
-                <img class= "graspIcons img-responsive center-block d-block mx-auto" src = "softMaterials.png" />
+                <img class= "graspIcons img-responsive center-block d-block mx-auto" src = {softMaterials} />
             </div>
             <div class="col-4">
-                <img class= "graspIcons img-responsive center-block d-block mx-auto" src = "nuanceControl.png" />
+                <img class= "graspIcons img-responsive center-block d-block mx-auto" src = {nuanceControl} />
             </ div>
             <div class="col-4"> 
-                <img class= "graspIcons img-responsive center-block d-block mx-auto" src = "costEffective.png" />
+                <img class= "graspIcons img-responsive center-block d-block mx-auto" src = {costEffective} />
             </div>
         </div>
 

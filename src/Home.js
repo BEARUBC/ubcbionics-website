@@ -2,6 +2,9 @@
 import React from 'react';
 import './App.css';
 import { Layout } from './components/Layout';
+import hand from './Photos/hand.png';
+import pic1 from './Photos/pic1.png';
+import pic2 from './Photos/pic2.png';
 
 export const Home = () => {
     return(
@@ -19,7 +22,7 @@ export const Home = () => {
                     </p>
                 </div>
                 <div class="col">
-                    <img class="mainArm img-responsive center-block d-block mx-auto" src="hand.png" />
+                    <img class="mainArm img-responsive center-block d-block mx-auto" alt='' src={ hand } />
                 </div>
             </div>
             <div class="row partTwo">
@@ -75,10 +78,10 @@ export const Home = () => {
                 </p>
                 <div class="py-3"/>
                 <div class="col">
-                    <img class="picOne img-responsive center-block d-block mx-auto" src="pic1.png" />
+                    <img class="picOne img-responsive center-block d-block mx-auto" src={ pic1 } />
                 </div>
                 <div class="col">
-                    <img class="picTwo img-responsive center-block d-block mx-auto" src="pic2.png" />
+                    <img class="picTwo img-responsive center-block d-block mx-auto" src={ pic2 } />
                 </div>
                 <div class="py-3"/>
                 

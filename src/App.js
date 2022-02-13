@@ -10,6 +10,7 @@ import { Layout } from './components/Layout';
 import { Joinus } from './Joinus';
 import { Teams } from './Teams';
 import { Sponsor } from './Sponsor';
+import { Admin } from './subTeams/Admin'
 
 
 
@@ -24,9 +25,10 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Home}/>
               <Route path="/grasp" component={Grasp} />
-              <Route path="/teams" component={Teams} />
+              <Route exact path="/teams" component={Teams} />
               <Route path="/join" component={Joinus} />
               <Route path="/sponsor" component={Sponsor} />
+              <Route path="/teams/admin" component={Admin} />
             </Switch>
             </div>
           </Router>
