@@ -107,9 +107,22 @@ p.graspText {
   text-decoration-thickness: 1px;
 }
 
-<<<<<<< HEAD
+.headerBlue {
+  color: #152349;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 0.1em;
+  text-decoration-thickness: 1px;
+}
+
 .footer {
-  margin-top: 400px;
+  margin-top: 100px;
   padding-top:10px;
   background-color: #152349;
   padding: 30px;
@@ -117,9 +130,9 @@ p.graspText {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
-  padding-left: 120px;
+  /* padding-left: 120px; */
   font-size: 18px;
-  height: 22px;
+  height: 75px;
 }
 
 .images {
@@ -146,39 +159,9 @@ p.graspText {
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
   padding-left:45px;
+  padding-bottom:20px;
   font-size: 18px;
 }
-
-/* .instagram {
-  padding-left: 10px;
-}
-
-.twitter {
-padding-left: 10px;
-}
-
-.linkedin {
-  padding-left: 10px;
-} */
-
-/* .App {
-  text-align: center;
-} */
-=======
-.headerBlue {
-  color: #152349;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 40px;
-  letter-spacing: 3px;
-  font-family: "Lato", sans-serif;
-  font-weight: bold;
-  text-decoration: underline;
-  text-underline-offset: 15px;
-  text-decoration-thickness: 0.1em;
-  text-decoration-thickness: 1px;
-}
->>>>>>> 8e9aea53b732827fd386afb5552d6d8efddf75f1
 
 p.graspDesc {
   color: #152349;
@@ -275,24 +258,5 @@ p.joinusHeader{
 }
 
 @media (max-width: 1000px) {
-  img.mainArm {
-    display: flex;
-    position: center;
-    padding-top: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 27%;
-    height:auto;
-    right: 10%;
-  }
-  .heading {
-    color: #152349;
-    font-family: "Montserrat", sans-serif;
-    text-align: left;
-    font-size: 45px;
-    padding-top: 190px;
-    padding-left: 100px;
-    font-weight: bolder;
-    color: #152349;
-  }
+
 }
