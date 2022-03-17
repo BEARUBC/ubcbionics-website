@@ -1,7 +1,5 @@
-// import logo from './logo.svg';
+
 import React, { Component } from 'react';
-// import Navbar from "./components/Navbar/Navbar";
-// import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
 import { Grasp } from './Grasp';
@@ -9,9 +7,8 @@ import { Navbar } from './components/Navbar'
 import { Joinus } from './Joinus';
 import { Teams } from './Teams';
 import { Sponsor } from './Sponsor';
-import { Admin } from './subTeams/Admin'
 import { Footer } from './components/Footer'
-import { ContactForm } from './ContactForm'
+import { Mailer } from './components/Mailer'
 
 
 
@@ -28,8 +25,7 @@ class App extends Component {
               <Route exact path="/teams" component={Teams} />
               <Route path="/join" component={Joinus} />
               <Route path="/sponsor" component={Sponsor} />
-              <Route path="/teams/admin" component={Admin} />
-              <Route path='/contactform' component={ContactForm} />
+              <Route path='/contactform' component={Mailer} />
             </Switch>
             </div>
             <Footer />
