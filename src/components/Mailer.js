@@ -13,6 +13,7 @@ export const Mailer = () => {
 
     return (
         <Layout>
+            <div class="row">
         <section class="mb-4">
 
             <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
@@ -74,8 +75,71 @@ export const Mailer = () => {
                 
 
             </div>
+        </section>
+        </div>
+        <div class="row">
+            <section>
+            <h2 class="title">APPLICATION FAQs</h2>
+
+            <div class = "faq">
+                <div class = "questions">
+                    <h3>When can I apply?</h3>
+                    <svg width="15" height="65" viewBox= "0 0 42 25">
+                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            <div class = "answers">
+                <p>
+                    The best time to apply is during our recruitment season, which occurs at the start of every winter session semester at the end of August! However, our email inbox remains open throughout the year.
+                </p>
+            </div>
+        </div>
+
+            <div class = "faq">
+                <div class = "questions">
+                    <h3>Will I be considered if I do not have prior experience being on a design team?</h3>
+                    <svg width="20" height="100" viewBox= "0 0 42 25">
+                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            <div class = "answers">
+                <p>
+                    Yes! We encourage all candidates interested in joining the team to send in an application, regardless of what your experience may include. We are ultimately looking for those who are willing to dedicate the time and energy to learn and further the goals of our team.
+                </p>
+            </div>
+        </div>
+
+            <div class = "faq">
+                <div class = "questions">
+                    <h3>What sub-team should I apply for?</h3>
+                    <svg width="15" height="65" viewBox= "0 0 42 25">
+                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            <div class = "answers">
+                <p>
+                    The final choice that you list on your application is up to you! All we ask is that you have an idea of which sub-team(s) aligns best with your own interests or studies, to better help us decide what the best fit is for you.
+                </p>
+            </div>
+        </div>
+
+
+            <div class = "faq">
+                <div class = "questions">
+                    <h3>How do I join the research team?</h3>
+                    <svg width="15" height="65" viewBox= "0 0 42 25">
+                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            <div class = "answers">
+                <p>
+                    The research team is a new addition to our team as a whole, and requires membership on one of our sub-teams to be eligible for consideration. Recommendation from your sub-team lead is also required to apply for a position on the research team. All applications will be reviewed by the executive team and the professor/graduate student in charge.
+                </p>
+            </div>
+        </div>
 
         </section>
+        </div>
         </Layout>
     )
 }
