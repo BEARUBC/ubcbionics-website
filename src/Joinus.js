@@ -28,7 +28,7 @@ export const Joinus = () => {
             <p class="headerBlue text-center py-3">OUR SUB-TEAMS</p>
             <div class="py-3" />
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4">
                     <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>
                     <div class="py-2" />
                     <p class="subHeader text-center">Administration</p>
@@ -42,9 +42,11 @@ export const Joinus = () => {
                         they work on recruitment, planning events and maintain
                         the team's website.
                     </p>
+                    <a class="btn btn-primary justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
+                    <div class="py-5" />
                 </div>    
-                <div class="col-4">
-                <img class="teamPhotos img-responsive center-block d-block mx-auto" src={elecPhoto} alt=''/>
+                <div class="col-md-4">
+                <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>
                     <div class="py-2" />
                     <p class="subHeader text-center">Electrical</p>
                     <p class="graspDesc">
@@ -55,10 +57,11 @@ export const Joinus = () => {
                         PCB using Altium that integrates sensors, motors, 
                         and actuators, while using Oscilloscope for testing.
                     </p>
+                    <a class="btn btn-primary justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
+                    <div class="py-5" />
                 </div>  
-                <div class="col-4">
-                <img class="teamPhotos img-responsive center-block d-block mx-auto" src={mechPhoto} alt=''/>
-                    <div class="py-2" />
+                <div class="col-md-4">
+                <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>                    <div class="py-2" />
                     <p class="subHeader text-center">Mechanical</p>
                     <p class="graspDesc">
                         The mechanical sub-team designs the structure of 
@@ -68,26 +71,13 @@ export const Joinus = () => {
                         They're responsible for the printing and assembly of the 
                         prototype.
                     </p>
+                    <a class="btn btn-primary justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
+                    <div class="py-5" />
                 </div>  
             </div> 
-            <div class="py-2" />
-            <div class='row'>
-                <div class='col-4'>
-                    <a class="btn btn-primary d-flex justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
-                </div>
-                <div class='col-4'>
-                    <a class="btn btn-primary d-flex justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
-                </div>
-                <div class='col-4'>
-                    <a class="btn btn-primary d-flex justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
-                </div>
-            </div>
-            <div class="py-5" />
             <div class="row">
-                <div class="col-2"/>
-                <div class="col-4">
-                    <img class="teamPhotos img-responsive center-block d-block mx-auto" src={analyticsPhoto} alt=''/>
-                    <div class="py-2" />
+                <div class="col-md">
+                <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>                    <div class="py-2" />
                     <p class="subHeader text-center">Analytics</p>
                     <p class="graspDesc text-center">
                         The analytics sub-team uses data science and machine learning 
@@ -95,10 +85,11 @@ export const Joinus = () => {
                         work includes programming with Python and performing data 
                         analysis on sensor information like EMG, FSR, etc.
                     </p>
+                    <a class="btn btn-primary justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
+                    <div class="py-5" />
                 </div>
-                <div class="col-4">
-                    <img class="teamPhotos img-responsive center-block d-block mx-auto" src={embeddedPhoto} alt=''/>
-                    <div class="py-2" />
+                <div class="col-md">
+                <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>                    <div class="py-2" />
                     <p class="subHeader text-center">Embedded</p>
                     <p class="graspDesc text-center">
                         The embedded systems sub-team is responsible for detailing the
@@ -107,20 +98,10 @@ export const Joinus = () => {
                         in sensor data. Currently, they are programming with Rust, but
                         will move forward with C or C++.
                     </p>
+                    <a class="btn btn-primary justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
                 </div>  
-                <div class="col-2"/>
             </div>
             <div class="py-2" />
-            <div class='row'>
-                <div class='col-2' />
-                <div class='col-4'>
-                    <a class="btn btn-primary d-flex justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
-                </div>
-                <div class='col-4'>
-                    <a class="btn btn-primary d-flex justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
-                </div>
-                <div class='col-2' />
-            </div>
 
             <div class="py-3"/>
         </div>
