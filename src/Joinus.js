@@ -1,6 +1,6 @@
 import react from 'react';
 import { Layout } from './components/Layout'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import adminPhoto from './Photos/admin 1.png';
 import elecPhoto from './Photos/electrical 1.png';
 import mechPhoto from './Photos/mech 1.png';

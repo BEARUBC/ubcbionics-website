@@ -1,6 +1,7 @@
 import emailjs from 'emailjs-com'
-import { Layout } from "./Layout"
-const keys = require('../keys')
+import './faq.css';
+import { Layout } from "./components/Layout"
+const keys = require('./keys')
 
 export const Mailer = () => {
     function sendEmail(e) {
@@ -73,7 +74,6 @@ export const Mailer = () => {
                 </div>
 
                 
-
             </div>
         </section>
         </div>

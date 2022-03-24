@@ -8,7 +8,7 @@ import { Joinus } from './Joinus';
 import { Teams } from './Teams';
 import { Sponsor } from './Sponsor';
 import { Footer } from './components/Footer'
-import { Mailer } from './components/Mailer'
+import { Mailer } from './Mailer'
 
 
 
