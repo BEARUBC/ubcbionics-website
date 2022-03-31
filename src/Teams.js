@@ -7,7 +7,7 @@ export const Teams = () => {
     return(
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="py-5 "> 
                         <img class="teamimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
                         <div class="py-5">
@@ -24,38 +24,37 @@ export const Teams = () => {
                         </div>
                     </div>
                 </div>
-
-            <div class="col-3">
-                <div class="py-4" />
-                <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
-                <div class="py-2" />
-                <p class="text-center">PERSON NAME</p>
-                <div class="py-1" />
-                <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
-                <div class="py-2" />
-                <p class="text-center">PERSON NAME</p>
-                <div class="py-1" />
-                <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
-                <div class="py-2" />
-                <p class="text-center">PERSON NAME</p>
-            </div>
-            <div class="col-3">
-                <div class="py-4" />
-                <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
-                <div class="py-2" />
-                <p class="text-center">PERSON NAME</p>
-                <div class="py-1" />
-                <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
-                <div class="py-2" />
-                <p class="text-center">PERSON NAME</p>
-                <div class="py-1" />
-                <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
-                <div class="py-2" />
-                <p class="text-center">PERSON NAME</p> </div>
-            </div>          
+                <div class="col-sm">
+                    <div class="py-4" />
+                    <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
+                    <div class="py-2" />
+                    <p class="text-center">PERSON NAME</p>
+                    <div class="py-1" />
+                    <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
+                    <div class="py-2" />
+                    <p class="text-center">PERSON NAME</p>
+                    <div class="py-1" />
+                    <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
+                    <div class="py-2" />
+                    <p class="text-center">PERSON NAME</p>
+                </div>
+                <div class="col-sm">
+                    <div class="py-4" />
+                    <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
+                    <div class="py-2" />
+                    <p class="text-center">PERSON NAME</p>
+                    <div class="py-1" />
+                    <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
+                    <div class="py-2" />
+                    <p class="text-center">PERSON NAME</p>
+                    <div class="py-1" />
+                    <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
+                    <div class="py-2" />
+                    <p class="text-center">PERSON NAME</p> </div>
+                </div>
 
             <div class="row partTwo">
-                <div class="col-6">
+                <div class="col-md-6">
                     <div class="py-5 "> 
                         <img class="teamimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
                         <div class="py-5">
@@ -73,7 +72,7 @@ export const Teams = () => {
                     </div>
                 </div>
 
-            <div class="col-3">
+            <div class="col-sm">
                 <div class="py-4" />
                 <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
                 <div class="py-2" />
@@ -87,7 +86,7 @@ export const Teams = () => {
                 <div class="py-2" />
                 <p class="text-center">PERSON NAME</p>
             </div>
-            <div class="col-3">
+            <div class="col-sm">
                 <div class="py-4" />
                 <img class="memberimg img-responsive center-block d-block mx-auto" alt='' src={testMember} />
                 <div class="py-2" />
