@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
- box-sizing: border-box;
+    box-sizing: border-box;
 } 
 
 section.appquestions {
@@ -40,7 +40,7 @@ section.appquestions {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .answers {
@@ -52,7 +52,7 @@ section.appquestions {
 .answers p {
     padding-top: 1rem;
     line-height: 1.6;
-    font-size: 1.4rem;
+    font-size: 18px;
 }
 
 .faq.active .answers {
