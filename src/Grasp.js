@@ -1,6 +1,6 @@
 import React from 'react';
 // import Navbar from "./components/Navbar/Navbar";
-import './App.css';
+// import './App.css';
 import graspPic1 from './Photos/graspPic1.jpeg';
 import nuanceControl from './Photos/nuanceControl.png';
 import softMaterials from './Photos/softMaterials.png';

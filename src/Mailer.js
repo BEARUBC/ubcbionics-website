@@ -1,7 +1,17 @@
 import emailjs from 'emailjs-com'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { faq } from './faq';
 import './faq.css';
 import { Layout } from "./components/Layout"
 const keys = require('./keys')
+
+const faqs = document.querySelectorAll(".faq");
+
+faqs.forEach((faq) => {
+    faq.addEventListener("click", () => {
+        faq.classList.toggle("active");
+    }) ;
+});
 
 export const Mailer = () => {
     function sendEmail(e) {
@@ -78,7 +88,7 @@ export const Mailer = () => {
         </section>
         </div>
         <div class="row">
-            <section>
+            <section class = "appquestions">
             <h2 class="title">APPLICATION FAQs</h2>
 
             <div class = "faq">
@@ -98,7 +108,7 @@ export const Mailer = () => {
             <div class = "faq">
                 <div class = "questions">
                     <h3>Will I be considered if I do not have prior experience being on a design team?</h3>
-                    <svg width="20" height="100" viewBox= "0 0 42 25">
+                    <svg width="16" height="65" viewBox= "0 0 42 25">
                         <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
                     </svg>
                 </div>
@@ -127,10 +137,10 @@ export const Mailer = () => {
             <div class = "faq">
                 <div class = "questions">
                     <h3>How do I join the research team?</h3>
-                    <svg width="15" height="65" viewBox= "0 0 42 25">
-                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
-                    </svg>
-                </div>
+                <svg width="15" height="65" viewBox= "0 0 42 25">
+                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
+                </svg>
+             </div>
             <div class = "answers">
                 <p>
                     The research team is a new addition to our team as a whole, and requires membership on one of our sub-teams to be eligible for consideration. Recommendation from your sub-team lead is also required to apply for a position on the research team. All applications will be reviewed by the executive team and the professor/graduate student in charge.

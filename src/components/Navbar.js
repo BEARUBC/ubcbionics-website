@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { MenuItems } from "./MenuItems";
 import bionicslogo from '../Photos/bionicslogo.png';
 import './Navbar.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export const Navbar = () => {
