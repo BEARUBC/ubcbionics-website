@@ -11,15 +11,17 @@ export const Home = () => {
         <div>
             <div class="row">
                 <div class="col">
-                    <b>
-                    <div class="heading">UBC BIONICS</div>
-                    </b>
+                    <div class="py-5" />
+                    <div class="py-2" />
+                    <div class="heading d-flex justify-content-center">UBC BIONICS</div>
 
-                    <p className="text">
-                    A STUDENT-LED DESIGN TEAM STRIVING TO FOSTER <br />
-                    EXCELLENCE IN BIONICS BY CREATING SOLUTIONS <br /> TO REPLACE HUMAN
-                    PHYSIOLOGY AND ULTIMATELY <br /> IMPROVE QUALITY OF LIFE.
-                    </p>
+                    <div class="d-flex justify-content-center align-middle">
+                        <p class="text">
+                        A STUDENT-LED DESIGN TEAM STRIVING TO FOSTER
+                        EXCELLENCE IN BIONICS BY CREATING SOLUTIONS TO REPLACE HUMAN
+                        PHYSIOLOGY AND ULTIMATELY IMPROVE QUALITY OF LIFE.
+                        </p>
+                    </div>
                 </div>
                 <div class="col">
                     <img class="mainArm img-responsive center-block d-block mx-auto" alt='' src={ hand } />

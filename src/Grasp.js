@@ -1,5 +1,5 @@
 import React from 'react';
-// import Navbar from "./components/Navbar/Navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import graspPic1 from './Photos/graspPic1.jpeg';
 import nuanceControl from './Photos/nuanceControl.png';
@@ -15,11 +15,15 @@ export const Grasp = () => {
         <div class="headerBlue text-center">GRASP PROJECT</div>
         <div class="py-3" />
         <div class="row">
-            <div class="col">
+
+        <div class="col-sm-6 order-sm-2">
+                <img class="graspHand img-responsive center-block d-block mx-auto" src={ graspPic1 } />
+            </div>
+            <div class="col-sm-6 order-sm-1">
                 <p className="graspBold">What is Grasp?</p>
                 <p className="graspDesc">
-                    GRASP is UBC Bionics' first attempt at the creation of a smart <br />
-                    prosthetic arm. Our current design of the arm features a variety <br />
+                    GRASP is UBC Bionics' first attempt at the creation of a smart
+                    prosthetic arm. Our current design of the arm features a variety
                     of functionalities including:
                 </p>
                 <p className="graspDesc"> 
@@ -33,42 +37,31 @@ export const Grasp = () => {
                     </ul>
                 </p>
             </div>
-            <div class="col">
-                <img class="graspHand img-responsive center-block d-block mx-auto" src={ graspPic1 } />
-            </div>
+            
         </div>
 
         <div class="headerBlue text-center">FEATURES</div>
-        <div class="py-3" />
+        <div class="py-5" />
 
         <div class="row">
-            <div class="col-4">
+            <div class="col-sm-4">
                 <img class= "graspIcons img-responsive center-block d-block mx-auto" src = {softMaterials} />
-            </div>
-            <div class="col-4">
-                <img class= "graspIcons img-responsive center-block d-block mx-auto" src = {nuanceControl} />
-            </ div>
-            <div class="col-4"> 
-                <img class= "graspIcons img-responsive center-block d-block mx-auto" src = {costEffective} />
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-4">
                 <p class="graspIcons text-center">
                     <p class="bold">Soft Materials</p>
                     The use of soft materials to create an anthropomorphic desing that reduces
                     social stigma and allows for more satisfying human-to-human interaction.
                 </p>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
+                <img class= "graspIcons img-responsive center-block d-block mx-auto" src = {nuanceControl} />
                 <p class="graspIcons text-center">
                     <p class="bold">Nuanced Control</p>
                     The use of two levels of control, myoelectric and electromechanical, to 
                     bridge the gap between patient preferences and technological limitations.
                 </p>
-            </div>
-            <div class="col-4"> 
+            </ div>
+            <div class="col-sm-4"> 
+                <img class= "graspIcons img-responsive center-block d-block mx-auto" src = {costEffective} />
                 <p class="graspIcons text-center">
                     <p class="bold">Cost-Effective</p>
                     The use of 3-D pritning to reduce costs and allow for rapid manufacturing

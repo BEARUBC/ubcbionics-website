@@ -1,10 +1,7 @@
 .heading {
   color: #152349;
   font-family: "Montserrat", sans-serif;
-  text-align: left;
   font-size: 45px;
-  padding-top: 190px;
-  padding-left: 100px;
   font-weight: bolder;
   color: #152349;
 }
@@ -39,7 +36,6 @@
 img.mainArm {
   display: flex;
   justify-content: center;
-  padding-top: 75px;
   width: 400px;
   height:auto;
 }
@@ -56,11 +52,9 @@ p.text {
   color: #152349;
   display: flex;
   font-family: "Lato", sans-serif;
-  padding: 50px;
-  padding-top: 10px;
-  padding-left: 100px;
   font-size: 14px;
-  padding-bottom: 190px;
+  text-align: justify;
+  width: 350px;
 }
 
 p.infoBlock {
@@ -121,6 +115,36 @@ p.graspText {
   text-decoration-thickness: 1px;
 }
 
+.sponsor-header {
+  color: #152349;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.sponsor-header-mini {
+  color: #152349;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.sponsor-header-bold {
+  color: #152349;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: "Lato-bold", sans-serif;
+  font-weight: 1000;
+}
+
 .footer {
   margin-top: 100px;
   padding-top:10px;
@@ -171,6 +195,10 @@ p.graspDesc {
   font-size: 14px;
 }
 
+p.height-130 {
+  height: 130px;
+}
+
 p.graspBold{
   color: #152349;
   display: flex;
@@ -184,8 +212,8 @@ p.graspBold{
 img.graspHand{
   display: flex;
   padding-top: 25px;
-  width: 60%;
-  height: auto;
+  width: 450px;
+  height: auto; 
 }
 
 p.graspSubText{
@@ -196,6 +224,8 @@ p.graspSubText{
 
 img.graspIcons{
   display: flex;
+  width: 80px;
+  height:auto;
 }
 
 p.graspIcons{
@@ -245,6 +275,19 @@ p.joinusHeader{
   top: 0;
   overflow-x: hidden;
   padding-top: 20px;
+}
+
+img.sq_sponsor {
+  width:auto;
+  height:125px;
+  max-height: 150px;
+  max-width: 200px; 
+}
+
+img.rect_sponsor {
+  width:300px;
+  height:100px;
+  
 }
 
 /* Control the left side */
