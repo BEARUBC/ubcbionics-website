@@ -5,14 +5,6 @@ import './faq.css';
 import { Layout } from "./components/Layout"
 const keys = require('./keys')
 
-// const faqs = document.querySelectorAll(".faq");
-
-// faqs.forEach((faq) => {
-//     faq.addEventListener("click", () => {
-//         faq.classList.toggle("active");
-//     }) ;
-// });
-
 export const Mailer = () => {
     function sendEmail(e) {
         e.preventDefault();
@@ -20,6 +12,7 @@ export const Mailer = () => {
         emailjs.sendForm(keys.serviceID, keys.templateID, e.target, keys.userID).then(res=>{
             console.log(res);
         }).catch(err=>console.log(err))
+        alert('Your message was successfully sent!')
     }
 
     return (
@@ -40,15 +33,16 @@ export const Mailer = () => {
 
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="name" name="name" class="form-control"/>
                                     <label for="name" class="">Your name</label>
+                                    <input type="text" id="name" name="name" class="form-control"/>
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="email" name="email" class="form-control"/>
                                     <label for="email" class="">Your email</label>
+                                    <input type="text" id="email" name="email" class="form-control"/>
+                            
                                 </div>
                             </div>
 
@@ -58,8 +52,9 @@ export const Mailer = () => {
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="subject" name="subject" class="form-control"/>
                                     <label for="subject" class="">Subject</label>
+                                    <input type="text" id="subject" name="subject" class="form-control"/>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -69,8 +64,9 @@ export const Mailer = () => {
                             <div class="col-md-12">
 
                                 <div class="md-form">
+                                <label for="message">Your message</label>
                                     <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                    <label for="message">Your message</label>
+                                    
                                 </div>
 
                             </div>
