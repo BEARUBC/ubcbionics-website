@@ -16,26 +16,27 @@ export const Grasp = () => {
         <div class="py-3" />
         <div class="row">
 
-        <div class="col-sm-6 order-sm-2">
+        <div class="col-sm col-order-2">
+            <p className="graspBold">What is Grasp?</p>
+            <p className="graspDesc">
+                GRASP is UBC Bionics' first attempt at the creation of a smart
+                prosthetic arm. Our current design of the arm features a variety
+                of functionalities including:
+            </p>
+            <p className="graspDesc"> 
+                <ul>
+                    <li>Object recognition via an onboard camera </li>
+                    <li>Various hand and finger grips </li>
+                    <li>Integration with machine learning</li>
+                    <li>Incorporation fo an ergonomic design using a shoulder sling <br />
+                    and consolidate electrical components </li>
+                    <li>EMG signalling</li>
+                </ul>
+            </p>
+        </div>
+
+        <div class="col-sm col-order-1">
                 <img class="graspHand img-responsive center-block d-block mx-auto" src={ graspPic1 } />
-            </div>
-            <div class="col-sm-6 order-sm-1">
-                <p className="graspBold">What is Grasp?</p>
-                <p className="graspDesc">
-                    GRASP is UBC Bionics' first attempt at the creation of a smart
-                    prosthetic arm. Our current design of the arm features a variety
-                    of functionalities including:
-                </p>
-                <p className="graspDesc"> 
-                    <ul>
-                        <li>Object recognition via an onboard camera </li>
-                        <li>Various hand and finger grips </li>
-                        <li>Integration with machine learning</li>
-                        <li>Incorporation fo an ergonomic design using a shoulder sling <br />
-                        and consolidate electrical components </li>
-                        <li>EMG signalling</li>
-                    </ul>
-                </p>
             </div>
             
         </div>

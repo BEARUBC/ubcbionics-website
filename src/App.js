@@ -9,7 +9,8 @@ import { Joinus } from './Joinus';
 import { Teams } from './Teams';
 import { Sponsor } from './Sponsor';
 import { Footer } from './components/Footer'
-import { Mailer } from './Mailer'
+import { Mailer } from './Mailer';
+import { Navbar2 } from './components/Navbar2';
 
 
 
@@ -17,8 +18,9 @@ class App extends Component {
   render() {
       return(
         <>
+          <Navbar2 />
           <Router>
-            <Navbar />
+            
             <div className="App">
             <Switch>
               <Route exact path="/" component={Home}/>
@@ -29,8 +31,8 @@ class App extends Component {
               <Route path='/contactform' component={Mailer} />
             </Switch>
             </div>
-            <Footer />
           </Router>
+          <Footer />
         </>
     );
   }

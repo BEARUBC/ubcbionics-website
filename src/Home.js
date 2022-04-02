@@ -6,10 +6,11 @@ import hand from './Photos/hand.png';
 import pic1 from './Photos/pic1.png';
 import pic2 from './Photos/pic2.png';
 
+
 export const Home = () => {
     return(
         <div>
-            <div class="row">
+            <div class="row partTwo">
                 <div class="col">
                     <div class="py-5" />
                     <div class="py-2" />
@@ -24,7 +25,9 @@ export const Home = () => {
                     </div>
                 </div>
                 <div class="col">
+                    <div class='py-3' />
                     <img class="mainArm img-responsive center-block d-block mx-auto" alt='' src={ hand } />
+                    <div class='py-3' />
                 </div>
             </div>
             <div class="row partTwo">
