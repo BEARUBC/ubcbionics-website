@@ -5,6 +5,14 @@ import './faq.css';
 import { Layout } from "./components/Layout"
 const keys = require('./keys')
 
+// const faqs = document.querySelectorAll(".faq");
+
+// faqs.forEach((faq) => {
+//     faq.addEventListener("click", () => {
+//         faq.classList.toggle("active");
+//     }) ;
+// });
+
 export const Mailer = () => {
     function sendEmail(e) {
         e.preventDefault();
