@@ -1,23 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    color: #fff;
-}
-
 footer {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #152349;
+    display: flex;
     height: auto;
     font-family: 'Lato', sans-serif;
-    padding-top: 20px;
     color: #fff;
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
 }
 
 .footer-content{
@@ -26,12 +15,18 @@ footer {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    background-color: #152349;
+    margin-top: 80px;
+    background-size: auto;
+    height: auto;
+    padding-top: 20px;
 }
 
 .footer-content p{
-    /* max-width: 500px; */
-    margin: 10px auto;
     font-size: 14px;
+    word-spacing: 2px;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
 }
 
 .socials {
@@ -39,11 +34,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 12px 0 12px 0;
 }
 
 .socials li{
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .socials a{
@@ -52,7 +46,7 @@ footer {
 }
 
 .socials a i{
-    font-size: 25px;
+    font-size: 34px;
     transition: color 0.4s ease;
 }
 
@@ -61,15 +55,16 @@ footer {
     color: rgb(101, 126, 209);
 }
 
-.footer-bottom {
+/* .footer-bottom {
     width: 100vw;
     text-align: center;
     padding-bottom: 10px;
     font-size: 18px;
     word-spacing: 2px;
-}
+    background-color: #152349;
+} */
 
-.right{
+/* .right{
     float:right;
     padding-right: 40px;
     padding-top: 10px;
@@ -83,4 +78,4 @@ footer {
     padding-top: 10px;
     font-size: 18px;
     letter-spacing: 0.7px;
-}
+} */
