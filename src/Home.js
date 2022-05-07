@@ -10,7 +10,7 @@ import pic2 from './Photos/pic2.png';
 export const Home = () => {
     return(
         <div>
-            <div class="row partTwo">
+            <div class="row">
                 <div class="col">
                     <div class="py-5" />
                     <div class="py-2" />
