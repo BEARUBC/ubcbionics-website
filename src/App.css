@@ -137,6 +137,25 @@ p.graspText {
   font-weight: bold;
 }
 
+.cute-btn {
+  background-color: #152349;
+  color: white; 
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  border: none;
+  margin-left: 25px;
+}
+
+.link{
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover{
+  color:white;
+}
+
 .sponsor-header-bold {
   color: #152349;
   margin-left: auto;
