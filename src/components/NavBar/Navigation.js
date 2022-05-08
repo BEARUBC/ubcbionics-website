@@ -1,11 +1,12 @@
 import NavLinks from './NavLinks';
-import classes from './Navbar.css'
+import { useState} from 'react';
 
+function Navigation() {
+    const[sider, setSider] = useState("nav-links");
 
-const Navigation = () => {
     return( 
-        <div class="Navigation">
-            <NavLinks />
+        <div style={{color:'white'}}class="nav">
+            <NavLinks fn={sider} />
         </div>
      );
 }
