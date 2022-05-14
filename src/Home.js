@@ -3,8 +3,6 @@ import React from 'react';
 import './App.css';
 import { Layout } from './components/Layout';
 import hand from './Photos/hand.png';
-import pic1 from './Photos/pic1.png';
-import pic2 from './Photos/pic2.png';
 
 
 export const Home = () => {
@@ -67,30 +65,6 @@ export const Home = () => {
                     GRASP. For more details, view our FAQ section under the Join Us page!
                 </p>
             </ div>
-
-            <div class="row">
-                <div class="py-3" />
-                <div class="headerBlue text-center">GRASP PROJECT</div>
-                <div class="py-3"/>
-                <p className="graspText">
-                    The demand for prostheses is universal--over one million amputations
-                    occur annually, with prosthetic options available only to about
-                    5% of the population. UBC Bionics was created to foster undergraduate
-                    excellence in this 
-                    field. We undertook the project of creating a bionic arm and completed
-                    an initial prototype in 2019-2020. During the pandemic, we updated our  
-                    design and plan on implementing the physical changes this year.
-                </p>
-                <div class="py-3"/>
-                <div class="col">
-                    <img class="picOne img-responsive center-block d-block mx-auto" src={ pic1 } />
-                </div>
-                <div class="col">
-                    <img class="picTwo img-responsive center-block d-block mx-auto" src={ pic2 } />
-                </div>
-                <div class="py-3"/>
-                
-            </div>
         </div>
     );
 }
