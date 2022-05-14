@@ -15,7 +15,7 @@ export const Projects = () => {
         <Layout>
         <div class="py-4" />
         <div class="headerBlue text-center">GRASP PROJECT</div>
-        <div class="py-4"/>
+        <div class="py-2"/>
                 <p className="graspText">
                     The demand for prostheses is universal--over one million amputations
                     occur annually, with prosthetic options available only to about
@@ -94,6 +94,10 @@ export const Projects = () => {
                 </p>
             </div>
         </div>
+
+        <div class="py-4" />
+        <div class="headerBlue text-center">BCI PROJECT</div>
+        <div class="py-2"/>
     </Layout>
     );
 }
