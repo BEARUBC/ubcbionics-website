@@ -16,11 +16,8 @@ export const Joinus = () => {
             <div class="py-2" />
             <div class="justify-content-center">
                 <p class="graspDesc text-center width-80">
-                    Join one of the fastest growing design teams at UBC!
                     Our team is composed of some of the best and brightest
-                    science and engineering students, ranging from 
-                    mechnaical to biomdeical engineering and computer 
-                    science. Seize the opportunity to learn, grow, network,
+                    science and engineering students. Seize the opportunity to learn, grow, network,
                     and develop your skills among your fellow teammates.
                 </p>
             </div>
