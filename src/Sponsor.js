@@ -105,10 +105,12 @@ export const Sponsor = () => {
             <hr  style={{color: '#000000', backgroundColor: '#000000', height: 1, borderColor : '#000000'}}/>
             <div class="py-2" />
             <div class="row">
-                <div class="col-sm">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+                <div class="col-sm-2">
                     <img class="sq_sponsor img-responsive center-block d-block mx-auto" alt='' src={ crn } />
                 </div>
-                <div class="col-sm">
+                <div class="col-sm-2">
                     <img class="sq_sponsor img-responsive center-block d-block mx-auto" alt='' src={ bcit } />
                 </div>
             </div>
