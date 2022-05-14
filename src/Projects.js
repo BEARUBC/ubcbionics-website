@@ -8,7 +8,7 @@ import costEffective from './Photos/costEffective.png';
 
 import { Layout } from './components/Layout';
 
-export const Grasp = () => {
+export const Projects = () => {
     return(
         <Layout>
         <div class="py-3" />
