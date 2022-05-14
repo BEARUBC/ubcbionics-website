@@ -252,17 +252,21 @@ img.teamPhotos {
 }
 
 img.teamimg {
+  position: relative;
   clip-path: circle();
   width: 150px;
   height: auto;
   display: "block";
+  z-index: -1;
 }
 
 img.memberimg {
+  position: relative;
   clip-path: circle();
   width: 120px;
   height: auto;
   display: "block";
+  z-index: -1;
 }
 p.joinusHeader{
   font-family: "Lato", sans-serif;
