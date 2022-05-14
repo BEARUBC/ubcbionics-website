@@ -13,9 +13,9 @@ import { Layout } from './components/Layout';
 export const Projects = () => {
     return(
         <Layout>
-        <div class="py-3" />
+        <div class="py-4" />
         <div class="headerBlue text-center">GRASP PROJECT</div>
-        <div class="py-3"/>
+        <div class="py-4"/>
                 <p className="graspText">
                     The demand for prostheses is universal--over one million amputations
                     occur annually, with prosthetic options available only to about
@@ -64,7 +64,7 @@ export const Projects = () => {
             
         </div>
 
-        <div class="py-5" />
+        <div class="py-4" />
         <div class="headerBlue text-center">FEATURES</div>
         <div class="py-4" />
 
