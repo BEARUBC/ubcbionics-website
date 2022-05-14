@@ -8,7 +8,7 @@ import { Joinus } from './Joinus';
 import { Teams } from './Teams';
 import { Sponsor } from './Sponsor';
 import { Footer } from './components/Footer'
-import { Mailer } from './Mailer';
+import { Accordion } from './Accordion';
 import { Navbar } from './components/NavBar/Navbar';
 
 
@@ -27,7 +27,7 @@ class App extends Component {
               <Route exact path="/teams" component={Teams} />
               <Route path="/join" component={Joinus} />
               <Route path="/sponsor" component={Sponsor} />
-              <Route path='/contactform' component={Mailer} />
+              <Route path='/contactform' component={Accordion} />
             </Switch>
             </div>
           </Router>
