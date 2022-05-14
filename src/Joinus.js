@@ -11,7 +11,7 @@ export const Joinus = () => {
     return(
         <div class="container">
             <div class="row">
-            <div class="py-2" />
+            <div class="py-4" />
                 <p class="headerBlue text-center">LIFE AT UBC BIONICS</p>
             <div class="py-2" />
             <div class="justify-content-center">
@@ -22,8 +22,9 @@ export const Joinus = () => {
                 </p>
             </div>
             </div>
-            <p class="headerBlue text-center py-3">OUR SUB-TEAMS</p>
             <div class="py-3" />
+            <p class="headerBlue text-center py-3">OUR SUB-TEAMS</p>
+            <div class="py-2" />
             <div class="row">
                 <div class="col-lg-4">
                     <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>
