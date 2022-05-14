@@ -159,9 +159,10 @@ export const Sponsor = () => {
 
             <div class="py-5" />
             <div class="sponsor-header">
-                FOR MORE SPONSORSHIP INFORMATION:
+                FOR MORE SPONSORSHIP INFORMATION: 
                 <button class = "cute-btn"><a class = "link" href = "https://drive.google.com/drive/u/1/folders/1L06FEgcfDd0wOwUYOpnhefMNBcIUzbFQ">Sponsorship Package</a></button>
-            </div>
+                </div>
+        
             
 
 
