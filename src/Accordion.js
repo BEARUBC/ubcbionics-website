@@ -40,7 +40,6 @@ export const Accordion = () => {
 
             <div class="row">
 
-              
                 <div class="col-md-12 mb-md-0 mb-5">
                     <form name="contact-form" onSubmit ={sendEmail}>
 
@@ -60,7 +59,6 @@ export const Accordion = () => {
                             
                                 </div>
                             </div>
-
                         </div></p>
 
 
