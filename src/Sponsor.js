@@ -24,15 +24,15 @@ import bcit from './Photos/Supporting/bcit.jpg';
 export const Sponsor = () => {
     return(
         <Layout>
-            <div class="py-3" />
+            <div class="py-4" />
             <div className="headerBlue text-center">OUR SPONSORS</div>
-            <div class="py-2" />
+            <div class="py-3" />
             <div class="sponsor-header text-center">GOLD</div>
             <hr  style={{color: '#000000', backgroundColor: '#000000', height: 1, borderColor : '#000000'}}/>
 
-            <div class="py-2" />
+            <div class="py-3" />
             <img class="sq_sponsor img-responsive center-block d-block mx-auto" alt='' src={ ubcapplied } />
-            <div class="py-2" />
+            <div class="py-3" />
             <div class="sponsor-header text-center">SILVER</div>
             <hr  style={{color: '#000000', backgroundColor: '#000000', height: 1, borderColor : '#000000'}}/>
 
@@ -54,7 +54,7 @@ export const Sponsor = () => {
                     <img class="sq_sponsor img-responsive center-block d-block mx-auto" alt='' src={ alma } />
                 </div>
             </div>
-            <div class="py-2" />
+            <div class="py-3" />
             <div class="sponsor-header text-center">BRONZE</div>
             <hr  style={{color: '#000000', backgroundColor: '#000000', height: 1, borderColor : '#000000'}}/>
 
@@ -101,7 +101,6 @@ export const Sponsor = () => {
                     <img class="rect_sponsor img-responsive center-block d-block mx-auto" style={{height: 175, width: 240}} alt='' src={ spaenaur } />
                 </div>
             </div>
-            <div class="py-2" />
             <div class="sponsor-header text-center">SUPPORTING ORGANIZATIONS</div>
             <hr  style={{color: '#000000', backgroundColor: '#000000', height: 1, borderColor : '#000000'}}/>
             <div class="py-2" />
