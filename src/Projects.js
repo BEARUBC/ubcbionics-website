@@ -38,7 +38,7 @@ export const Projects = () => {
         <div class="row">
 
         <div class="col-sm col-order-2">
-        <div class="py-5" />
+        <div class="py-4" />
             <p className="graspBold">What is Grasp?</p>
             <p className="graspDesc">
                 GRASP is UBC Bionics' first attempt at the creation of a smart
@@ -58,7 +58,7 @@ export const Projects = () => {
         </div>
 
         <div class="col-sm col-order-1">
-        <div class="py-5" />
+        <div class="py-4" />
                 <img class="graspHand img-responsive center-block d-block mx-auto" src={ graspPic1 } />
             </div>
             
