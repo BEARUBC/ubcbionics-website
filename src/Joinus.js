@@ -28,7 +28,7 @@ export const Joinus = () => {
             <p class="headerBlue text-center py-3">OUR SUB-TEAMS</p>
             <div class="py-3" />
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-lg-4">
                     <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>
                     <div class="py-2" />
                     <p class="subHeader text-center">Administration</p>
@@ -45,7 +45,7 @@ export const Joinus = () => {
                     <a class="btn btn-primary justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
                     <div class="py-5" />
                 </div>    
-                <div class="col-md-4">
+                <div class="col-lg-4">
                 <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>
                     <div class="py-2" />
                     <p class="subHeader text-center">Electrical</p>
@@ -60,7 +60,7 @@ export const Joinus = () => {
                     <a class="btn btn-primary justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
                     <div class="py-5" />
                 </div>  
-                <div class="col-md-4">
+                <div class="col-lg-4">
                 <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>                    <div class="py-2" />
                     <p class="subHeader text-center">Mechanical</p>
                     <p class="graspDesc height-130">

@@ -29,7 +29,7 @@ export const Accordion = () => {
     
     return (
         <Layout>
-  
+            
             <div class="row">
         <section class="mb-4">
 
