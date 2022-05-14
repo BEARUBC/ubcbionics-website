@@ -66,7 +66,7 @@ export const Projects = () => {
 
         <div class="py-5" />
         <div class="headerBlue text-center">FEATURES</div>
-        <div class="py-5" />
+        <div class="py-4" />
 
         <div class="row">
             <div class="col-sm-4">
