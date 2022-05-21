@@ -19,9 +19,8 @@
   background-color: #152349 !important;
   border-radius: 32px !important;
   font-family: "Lato", sans-serif !important;
-  font-weight: bolder !important;
   letter-spacing: 0.5px;
-  font-size: 14px !important;
+  font-size: 20px !important;
 }
 
 .headingGrasp {
@@ -40,6 +39,10 @@ img.mainArm {
   justify-content: center;
   width: 400px;
   height:auto;
+}
+
+.backimage {
+  background-image: url('./Photos/ranger-4df6c1b6.png');
 }
 
 img.picOne {

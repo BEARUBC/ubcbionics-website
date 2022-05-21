@@ -6,20 +6,27 @@ import elecPhoto from './Photos/electrical 1.png';
 import mechPhoto from './Photos/mech 1.png';
 import analyticsPhoto from './Photos/analytics 1.png';
 import embeddedPhoto from './Photos/embedded 1.png';
+import background from './Photos/ranger-4df6c1b6.png'
 
 export const Joinus = () => {
     return(
         <div class="container">
             <div class="row">
-            <div class="py-4" />
-                <p class="headerBlue text-center">LIFE AT UBC BIONICS</p>
-            <div class="py-2" />
+            <section className="backimage">
+            <div class="py-5" />
+            <p class="headerBlue text-center">LIFE AT UBC BIONICS</p>
             <div class="justify-content-center">
                 <p class="graspDesc text-center width-80">
                     Our team is composed of some of the best and brightest
                     science and engineering students. Seize the opportunity to develop and hone your technical skills.
                 </p>
             </div>
+            <div class="py-3" />
+            <div class="text-center">
+                <a class="btn btn-primary" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>   
+            </div>
+            <div class="py-5" />
+            </section>
             </div>
             <div class="py-3" />
             <p class="headerBlue text-center py-3">OUR SUB-TEAMS</p>
@@ -28,13 +35,8 @@ export const Joinus = () => {
                 <div class="col-lg-4">
                     <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>
                     <div class="py-2" />
-<<<<<<< HEAD
-                    <p class="subHeader text-center">Administration</p>
-                    <p class="graspDesc">
-=======
                     <p class="subHeader text-center">Administrative</p>
                     <p class="graspDesc height-130">
->>>>>>> 9ea05be50e724704a70f6f8e096301063fa18018
                         The administration sub-team is responsible for 
                         overseeing and managing the team's public affairs.
                         They secure sponsorship, maintain the budget, and 
@@ -98,10 +100,6 @@ export const Joinus = () => {
                     </p>
                 </div>  
             </div>
-            <div class="py-2" />
-            <a class="btn btn-primary" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
-
-            <div class="py-3"/>
         </div>
     );
 };
