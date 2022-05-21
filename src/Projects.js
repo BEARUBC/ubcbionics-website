@@ -14,6 +14,17 @@ export const Projects = () => {
     return(
         <Layout>
         <div class="py-4" />
+        <div class="headerBlue text-center">OUR GOALS</div>
+        <div class="py-2"/>
+        <p className="graspText">
+        Currently, we have undertaken two main projects; our pilot
+        project, GRASP, which is a smart bionic arm designed to enhance
+        daily life for amputees. Recently, we have also initiated the design
+        of a brain-computer interface, NERV. We hope to submit both of
+        our projects to the leading global bionics competition,
+        CYBATHLON 2024. </p>
+        
+        <div class="py-2" />
         <div class="headerBlue text-center">GRASP PROJECT</div>
         <div class="py-2"/>
                 <p className="graspText">
