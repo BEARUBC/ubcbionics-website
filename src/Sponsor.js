@@ -29,7 +29,7 @@ export const Sponsor = () => {
                     <img class="sq_sponsor img-responsive center-block d-block mx-auto" alt='' src={ ubcapplied } />
                 </div>
                 <div class="col-sm-3">
-                    <img class="sq_sponsor img-responsive center-block d-block mx-auto" alt='' src={ ece } />
+                    <img class="sq_sponsor img-responsive center-block d-block mx-auto" style={{width: 375}} alt='' src={ ece } />
                 </div>
                 <div class="col-sm-3">
                     <img class="rect_sponsor img-responsive center-block d-block mx-auto" alt=''  src={ bionicsnetworklogo } />
