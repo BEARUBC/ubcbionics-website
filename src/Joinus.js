@@ -28,8 +28,13 @@ export const Joinus = () => {
                 <div class="col-lg-4">
                     <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>
                     <div class="py-2" />
+<<<<<<< HEAD
+                    <p class="subHeader text-center">Administration</p>
+                    <p class="graspDesc">
+=======
                     <p class="subHeader text-center">Administrative</p>
                     <p class="graspDesc height-130">
+>>>>>>> 9ea05be50e724704a70f6f8e096301063fa18018
                         The administration sub-team is responsible for 
                         overseeing and managing the team's public affairs.
                         They secure sponsorship, maintain the budget, and 
@@ -39,14 +44,13 @@ export const Joinus = () => {
                         they work on recruitment, planning events and maintain
                         the team's website.
                     </p>
-                    <a class="btn btn-primary justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
                     <div class="py-5" />
                 </div>    
                 <div class="col-lg-4">
                 <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>
                     <div class="py-2" />
                     <p class="subHeader text-center">Electrical</p>
-                    <p class="graspDesc height-130">
+                    <p class="graspDesc">
                         The electrical sub-team is in charge of developing
                         the electrical components into the prototype. 
                         Currently, they're working on EMG acquisition and 
@@ -54,13 +58,12 @@ export const Joinus = () => {
                         PCB using Altium that integrates sensors, motors, 
                         and actuators, while using Oscilloscope for testing.
                     </p>
-                    <a class="btn btn-primary justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
                     <div class="py-5" />
                 </div>  
                 <div class="col-lg-4">
                 <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>                    <div class="py-2" />
                     <p class="subHeader text-center">Mechanical</p>
-                    <p class="graspDesc height-130">
+                    <p class="graspDesc">
                         The mechanical sub-team designs the structure of 
                         the current project and models the devices on CAD 
                         software. They research and develop mechanical designs 
@@ -68,7 +71,6 @@ export const Joinus = () => {
                         They're responsible for the printing and assembly of the 
                         prototype.
                     </p>
-                    <a class="btn btn-primary justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
                     <div class="py-5" />
                 </div>  
             </div> 
@@ -76,29 +78,28 @@ export const Joinus = () => {
                 <div class="col-md">
                 <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>                    <div class="py-2" />
                     <p class="subHeader text-center">Analytics</p>
-                    <p class="graspDesc height-130">
+                    <p class="graspDesc">
                         The analytics sub-team uses data science and machine learning 
                         to improve the usability of the current project. Part of their
                         work includes programming with Python and performing data 
                         analysis on sensor information like EMG, FSR, etc.
                     </p>
-                    <a class="btn btn-primary justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
                     <div class="py-5" />
                 </div>
                 <div class="col-md">
                 <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>                    <div class="py-2" />
                     <p class="subHeader text-center">Embedded</p>
-                    <p class="graspDesc height-130">
+                    <p class="graspDesc">
                         The embedded systems sub-team is responsible for detailing the
                         most optimal design, programming, and acutation methods to 
                         follow. They work on low-level control of the hardware and take
                         in sensor data. Currently, they are programming with Rust, but
                         will move forward with C or C++.
                     </p>
-                    <a class="btn btn-primary justify-content-center" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
                 </div>  
             </div>
             <div class="py-2" />
+            <a class="btn btn-primary" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>
 
             <div class="py-3"/>
         </div>
