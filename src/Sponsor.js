@@ -89,7 +89,7 @@ export const Sponsor = () => {
             </div>
             <hr  style={{color: '#000000', backgroundColor: '#000000', height: 1, borderColor : '#000000'}}/>
 
-            <div class="py-3" />
+            <div class="py-4" />
             <div class="sponsor-header">
                 FOR MORE SPONSORSHIP INFORMATION: 
                 <button class = "cute-btn"><a class = "link" href = "https://drive.google.com/drive/u/1/folders/1L06FEgcfDd0wOwUYOpnhefMNBcIUzbFQ">Sponsorship Package</a></button>
