@@ -78,7 +78,7 @@ export const Sponsor = () => {
             <img class="sq_sponsor img-responsive center-block d-block mx-auto" alt='' src={ digikey } />
             </div>
             <div class="col-sm-3">
-            <img class="sq_sponsor img-responsive center-block d-block mx-auto" style={{height: 175, width: 250}} alt='' src={ pololu } />
+            <img class="sq_sponsor img-responsive center-block d-block mx-auto" style={{height: 350, width: 350}} alt='' src={ pololu } />
             </div>
                 <div class="col-sm-3">
                     <img class="rect_sponsor img-responsive center-block d-block mx-auto" alt='' style={{height: 115, width: 310}} src={ asee } />
