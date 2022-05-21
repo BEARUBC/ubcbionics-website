@@ -28,13 +28,8 @@ export const Joinus = () => {
                 <div class="col-lg-4">
                     <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>
                     <div class="py-2" />
-<<<<<<< HEAD
-                    <p class="subHeader text-center">Administration</p>
-                    <p class="graspDesc">
-=======
                     <p class="subHeader text-center">Administrative</p>
                     <p class="graspDesc height-130">
->>>>>>> 9ea05be50e724704a70f6f8e096301063fa18018
                         The administration sub-team is responsible for 
                         overseeing and managing the team's public affairs.
                         They secure sponsorship, maintain the budget, and 
