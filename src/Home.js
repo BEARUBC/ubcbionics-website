@@ -16,9 +16,8 @@ export const Home = () => {
 
                     <div class="d-flex justify-content-center align-middle">
                         <p class="text">
-                        A STUDENT-LED DESIGN TEAM STRIVING TO FOSTER
-                        EXCELLENCE IN BIONICS BY CREATING SOLUTIONS TO REPLACE HUMAN
-                        PHYSIOLOGY AND ULTIMATELY IMPROVE QUALITY OF LIFE.
+                        UBC Bionics is an undergraduate engineering design team at the University of British Columbia in Vancouver,
+                        focused on the advancement of bionics.
                         </p>
                     </div>
                 </div>
@@ -29,30 +28,27 @@ export const Home = () => {
                 </div>
             </div>
             <div class="row partTwo">
-                <span className="headerWhite">UPDATES</span>
-                <p className="infoBlock">
-                    Amidst the increasing demand for bionic devices and UBC’s strategic
-                    positioning in the field, our student-led  design team, UBC
-                    Bionics, strives to foster excellence in bionics. Our ultimate goal is
-                    to create solutions that  can replace human physiology, either
-                    by prosthesis or implants. UBC Bionics' current project is to design
-                    and  build a smart bionic hand, GRASP, that can be used by
-                    individuals who have suffered amputation or congenital
-                    birth defects. Join us on our journey and be a part of our
-                    history! 
-                </p>
                 <span className="headerWhite">OUR MISSION</span>
+                <p className="infoBlock">
+                Our team aims to foster an environment that is readily
+                accessible to students and provide a space for them to apply,
+                strengthen, and hone their technical skills. We take pride in
+                providing a very hands-on learning experience for all of our
+                members, with support and guidance from senior leads. It is
+                our utmost priority to ensure that our team members are
+                equipped with the necessary skills to succeed both within and
+                outside of the team. As such, we integrate many research
+                opportunities into the team that pertain to our main tasks,
+                as well as projects that are conducted under our collaboration
+                with the Bionics Network at UBC.
+                </p>
+                <span className="headerWhite">OUR VISION</span>
                 <br />
                 <p className="infoBlock">
-                    Amidst the increasing demand for bionic devices and UBC’s strategic
-                    positioning in the field, our student-led design team, UBC
-                    Bionics, strives to foster excellence in bionics. Our ultimate goal is
-                    to create solutions that can replace human physiology, either
-                    by prosthesis or implants. UBC Bionics' current project is to design
-                    and build a smart bionic hand, GRASP, that can be used by
-                    individuals who have suffered amputation or congenital
-                    birth defects. Join us on our journey and be a part of our
-                    history!
+                Our ultimate goal as a team is to create solutions that can
+                replace human physiology. With so many resources available to
+                us, and extensive knowledge at our fingertips, we strive to
+                push the bounds of technology.
                 </p>
                 <span className="headerWhite">NEW RESEARCH TEAM</span> <br />
                 <p className="infoBlock">
