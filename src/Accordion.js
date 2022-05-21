@@ -4,6 +4,7 @@ import './Accordion.css';
 import {useState} from 'react';
 import { Layout } from "./components/Layout";
 import emailjs from 'emailjs-com'
+import { Container } from 'react-bootstrap';
 
 const keys = require('./keys')
 
@@ -28,8 +29,7 @@ export const Accordion = () => {
     }
     
     return (
-        <Layout>
-            
+        <div class="container">
             <div class="row">
         <section class="mb-4">
         <div class="py-4" />
@@ -93,7 +93,6 @@ export const Accordion = () => {
                 
             </div>
         </section>
-        </div>
     
         <div className="wrapper">
             <div className = "accordion">
@@ -111,7 +110,8 @@ export const Accordion = () => {
                 ))}
             </div>
         </div>
-        </Layout>
+        </div>
+        </div>  
     )
 }
 
