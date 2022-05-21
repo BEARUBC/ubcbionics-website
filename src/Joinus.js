@@ -17,8 +17,7 @@ export const Joinus = () => {
             <div class="justify-content-center">
                 <p class="graspDesc text-center width-80">
                     Our team is composed of some of the best and brightest
-                    science and engineering students. Seize the opportunity to learn, grow, network,
-                    and develop your skills among your fellow teammates.
+                    science and engineering students. Seize the opportunity to develop and hone your technical skills.
                 </p>
             </div>
             </div>
@@ -29,7 +28,7 @@ export const Joinus = () => {
                 <div class="col-lg-4">
                     <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>
                     <div class="py-2" />
-                    <p class="subHeader text-center">Administration</p>
+                    <p class="subHeader text-center">Administrative</p>
                     <p class="graspDesc height-130">
                         The administration sub-team is responsible for 
                         overseeing and managing the team's public affairs.
