@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
-import { Grasp } from './Grasp';
+import { Projects } from './Projects';
 import { Joinus } from './Joinus';
 import { Teams } from './Teams';
 import { Sponsor } from './Sponsor';
@@ -23,7 +23,7 @@ class App extends Component {
             <div className="App">
             <Switch>
               <Route exact path="/" component={Home}/>
-              <Route path="/grasp" component={Grasp} />
+              <Route path="/grasp" component={Projects} />
               <Route exact path="/teams" component={Teams} />
               <Route path="/join" component={Joinus} />
               <Route path="/sponsor" component={Sponsor} />

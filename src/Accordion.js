@@ -32,14 +32,14 @@ export const Accordion = () => {
             
             <div class="row">
         <section class="mb-4">
-
-            <h3 class="h1-responsive font-weight-bold text-center my-4"><b>Contact Us</b></h3>
+        <div class="py-4" />
+            <div className="headerBlue text-center">CONTACT US</div>
+            <div class="py-3" />
             <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
                 a matter of hours to help you.</p>
 
             <div class="row">
 
-              
                 <div class="col-md-12 mb-md-0 mb-5">
                     <form name="contact-form" onSubmit ={sendEmail}>
 
@@ -59,7 +59,6 @@ export const Accordion = () => {
                             
                                 </div>
                             </div>
-
                         </div></p>
 
 
@@ -98,7 +97,9 @@ export const Accordion = () => {
     
         <div className="wrapper">
             <div className = "accordion">
-            <h3 class="h1-responsive font-weight-bold text-center my-4"><b>Frequently Asked Questions</b></h3>
+            <div class="py-2" />
+            <div className="headerBlue text-center">FREQUENTLY ASKED QUESTIONS</div>
+            <div class="py-3" />
                 {data.map((item, i) => (
                     <div className = "item">
                         <div className = "title" onClick = {() => toggle(i)}> 
