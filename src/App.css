@@ -1,5 +1,3 @@
-
-
 .heading {
   color: #152349;
   font-family: "Montserrat", sans-serif;
@@ -38,11 +36,11 @@ img.mainArm {
   display: flex;
   justify-content: center;
   width: 400px;
-  height:auto;
+  height: auto;
 }
 
 .backimage {
-  background-image: url('./Photos/ranger-4df6c1b6.png');
+  background-image: url("./Photos/ranger-4df6c1b6.png");
 }
 
 img.picOne {
@@ -128,6 +126,7 @@ p.graspText {
   letter-spacing: 1px;
   font-family: "Lato", sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 
 .sponsor-header-mini {
@@ -142,7 +141,7 @@ p.graspText {
 
 .cute-btn {
   background-color: #152349;
-  color: white; 
+  color: white;
   font-size: 20px;
   padding: 20px;
   border-radius: 25px;
@@ -150,13 +149,13 @@ p.graspText {
   margin-left: 25px;
 }
 
-.link{
+.link {
   color: white;
   text-decoration: none;
 }
 
-.link:hover{
-  color:white;
+.link:hover {
+  color: white;
 }
 
 .sponsor-header-bold {
@@ -187,13 +186,13 @@ p.graspText {
 }
 
 .bionics {
-  margin:-25px;
+  margin: -25px;
   text-align: right;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
-  padding-left:45px;
-  padding-bottom:20px;
+  padding-left: 45px;
+  padding-bottom: 20px;
   font-size: 18px;
 }
 
@@ -209,48 +208,48 @@ p.height-130 {
   height: 180px;
 }
 
-p.graspBold{
+p.graspBold {
   color: #152349;
   display: flex;
   font-family: "Lato", sans-serif;
   font-size: 20px;
-  font-weight:bold;
+  font-weight: bold;
   padding-top: 25px;
   padding-bottom: 14px;
 }
 
-img.graspHand{
+img.graspHand {
   display: flex;
   padding-top: 25px;
   width: 450px;
-  height: auto; 
+  height: auto;
 }
 
-p.graspSubText{
+p.graspSubText {
   color: #bebebe;
   position: absolute;
   padding-top: 150px;
 }
 
-img.graspIcons{
+img.graspIcons {
   display: flex;
   width: 80px;
-  height:auto;
+  height: auto;
 }
 
-p.graspIcons{
+p.graspIcons {
   color: #152349;
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  padding-top:20px;
+  padding-top: 20px;
 }
 
-.bold{
+.bold {
   font-weight: bolder;
 }
 
 img.teamPhotos {
-  width:300px;
+  width: 300px;
   height: auto;
 }
 
@@ -271,15 +270,15 @@ img.memberimg {
   display: "block";
   z-index: -1;
 }
-p.joinusHeader{
+p.joinusHeader {
   font-family: "Lato", sans-serif;
   font-weight: bolder;
   font-size: 20px;
 }
 
 .width-80 {
-  width:70%;
-  margin:auto;
+  width: 70%;
+  margin: auto;
 }
 .split {
   height: 100%;
@@ -292,16 +291,15 @@ p.joinusHeader{
 }
 
 img.sq_sponsor {
-  width:auto;
-  height:125px;
+  width: auto;
+  height: 125px;
   max-height: 150px;
-  max-width: 200px; 
+  max-width: 200px;
 }
 
 img.rect_sponsor {
-  width:300px;
-  height:100px;
-  
+  width: 300px;
+  height: 100px;
 }
 
 /* Control the left side */
@@ -315,5 +313,4 @@ img.rect_sponsor {
 }
 
 @media (max-width: 1000px) {
-
-} 
+}
