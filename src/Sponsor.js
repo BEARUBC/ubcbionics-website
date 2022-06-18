@@ -77,6 +77,7 @@ export const Sponsor = () => {
         <div class="col-sm-2"></div>
         <div class="col-sm-2"></div>
         <div class="col-sm-2">
+          <div class="py-2" />
           <img
             class="sq_sponsor img-responsive center-block d-block mx-auto"
             style={{ height: 110, width: 120 }}
