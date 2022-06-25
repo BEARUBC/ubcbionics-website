@@ -85,7 +85,7 @@ p.graspText {
 .partTwo {
   background-color: #152349;
   color: #fff;
-  padding: 75px;
+  padding-top: 25px;
   text-align: center;
   /* margin-left: auto; */
   font-family: "Lato", sans-serif;
@@ -263,6 +263,24 @@ img.teamimg {
   z-index: -1;
 }
 
+img.captain {
+  position: relative;
+  clip-path: circle();
+  width: 300px;
+  height: auto;
+  display: "block";
+  z-index: -1;
+}
+
+img.teamimg-z{
+  position: relative;
+  clip-path: circle();
+  width: 150px;
+  height: auto;
+  display: "block";
+  z-index: 1;
+}
+
 img.memberimg {
   position: relative;
   clip-path: circle();
@@ -271,6 +289,16 @@ img.memberimg {
   display: "block";
   z-index: -1;
 }
+
+img.memberimg-z {
+  position: relative;
+  clip-path: circle();
+  width: 120px;
+  height: auto;
+  display: "block";
+  z-index: 1;
+}
+
 p.joinusHeader{
   font-family: "Lato", sans-serif;
   font-weight: bolder;
