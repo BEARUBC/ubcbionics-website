@@ -1,7 +1,6 @@
 import react from 'react';
 import { Layout } from './components/Layout'
 import './App.css';
-import testMember from './Photos/test-member.jpg';
 import VZhao from './Photos/Edited Headshots/VZhao.jpg';
 import JLee from './Photos/Edited Headshots/JLee.jpg';
 import BAhyou from './Photos/Edited Headshots/BAyouh.jpg';
@@ -50,7 +49,7 @@ export const Teams = () => {
 
             </div>
 
-            <div class="row">
+            <div class="row partTwo">
                 <div class="col-md-6">
                     <div class="py-5"/> 
                         <img class="teamimg img-responsive center-block d-block mx-auto" alt='' src={VZhao} />
