@@ -85,10 +85,10 @@ export const Teams = () => {
                     </div>
             </div>
 
-            <div class="row partTwo">
+            <div class="row">
                 <div class="col-md-6">
                     <div class="py-5 "> 
-                        <img class="teamimg-z img-responsive center-block d-block mx-auto" alt='' src={JRoss} />
+                        <img class="teamimg img-responsive center-block d-block mx-auto" alt='' src={JRoss} />
                         <div class="py-5">
                             <p class="joinusHeader text-center">ANALYTICS SUBTEAM</p>
                             <div class="container-sm">
@@ -120,7 +120,7 @@ export const Teams = () => {
                 </div>
             </div>            
         
-            <div class="row">
+            <div class="row partTwo">
                 <div class="py-2"/>
                 <div class="col-md-6">
                     <div class="py-5 "> 
@@ -172,10 +172,10 @@ export const Teams = () => {
                 <div class="py-4"/>
             </div>
 
-            <div class="row partTwo">
+            <div class="row">
                 <div class="col-md-6">
                     <div class="py-5 "> 
-                        <img class="teamimg-z img-responsive center-block d-block mx-auto" alt='' src={NPoon} />
+                        <img class="teamimg img-responsive center-block d-block mx-auto" alt='' src={NPoon} />
                         <div class="py-5">
                             <p class="joinusHeader text-center">EMBEDDED SUBTEAM</p>
                             <div class="container-sm">
@@ -211,7 +211,7 @@ export const Teams = () => {
                 </div>
             </div>   
 
-            <div class="row">
+            <div class="row partTwo">
                 <div class="py-2"/>
                 <div class="col-md-6">
                     <div class="py-5 "> 

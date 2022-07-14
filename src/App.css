@@ -259,7 +259,7 @@ img.teamimg {
   width: 150px;
   height: auto;
   display: "block";
-  z-index: -1;
+  z-index: 1;
 }
 
 img.captain {
@@ -271,14 +271,6 @@ img.captain {
   z-index: -1;
 }
 
-img.teamimg-z{
-  position: relative;
-  clip-path: circle();
-  width: 150px;
-  height: auto;
-  display: "block";
-  z-index: 1;
-}
 
 img.memberimg {
   position: relative;
@@ -286,7 +278,7 @@ img.memberimg {
   width: 120px;
   height: auto;
   display: "block";
-  z-index: -1;
+  z-index: 1;
 }
 
 img.memberimg-z {
