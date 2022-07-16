@@ -4,6 +4,7 @@ import "./App.css";
 import pic1 from "./Photos/pic1.png";
 import pic2 from "./Photos/pic2.png";
 import graspPic1 from "./Photos/graspPic1.jpeg";
+import bionicHand from "./Photos/bionicHand.png";
 import nuanceControl from "./Photos/nuanceControl.png";
 import softMaterials from "./Photos/softMaterials.png";
 import costEffective from "./Photos/costEffective.png";
@@ -33,25 +34,25 @@ export const Projects = () => {
         bionics competition, CYBATHLON 2024.
       </p>
       <div class="row">
-        <div class="py-3" />
-        <div class="col">
+        {/* <div class="py-3" /> */}
+        {/* <div class="col">
           <img
             class="picOne img-responsive center-block d-block mx-auto"
             src={pic1}
           />
-        </div>
-        <div class="col">
+        </div> */}
+        {/* <div class="col">
           <img
             class="picTwo img-responsive center-block d-block mx-auto"
             src={pic2}
-          />
-        </div>
+          /> */}
+        {/* </div> */}
       </div>
-      <div class="py-3" />
+      {/* <div class="py-3" /> */}
       <div class="row">
         <div class="col-sm col-order-2">
-          <div class="py-4" />
-          <p className="graspBold">What is GRASP?</p>
+          <div class="py-5" />
+          {/* <p className="graspBold">What is GRASP?</p> */}
           <p className="graspDesc">
             Our current design features a variety of funtionalities including
             the following:
@@ -83,10 +84,10 @@ export const Projects = () => {
         </div>
 
         <div class="col-sm col-order-1">
-          <div class="py-4" />
+          {/* <div class="py-4" /> */}
           <img
             class="graspHand img-responsive center-block d-block mx-auto"
-            src={graspPic1}
+            src={bionicHand}
           />
         </div>
       </div>

@@ -201,7 +201,7 @@ p.graspDesc {
   display: flex;
   font-family: "Lato", sans-serif;
   font-weight: 550;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 p.height-130 {
@@ -270,7 +270,6 @@ img.captain {
   display: "block";
   z-index: -1;
 }
-
 
 img.memberimg {
   position: relative;
