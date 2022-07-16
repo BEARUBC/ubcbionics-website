@@ -23,7 +23,6 @@ export const Projects = () => {
         brain-computer interface, NERV. We hope to submit both of our projects
         to the leading global bionics competition, CYBATHLON 2024.{" "}
       </p>
-
       <div class="py-2" />
       <div class="headerBlue text-center">GRASP PROJECT</div>
       <div class="py-2" />
@@ -54,21 +53,31 @@ export const Projects = () => {
           <div class="py-4" />
           <p className="graspBold">What is GRASP?</p>
           <p className="graspDesc">
-            GRASP is UBC Bionics' first attempt at the creation of a smart
-            prosthetic arm. Our current design of the arm features a variety of
-            functionalities including:
+            Our current design features a variety of funtionalities including
+            the following:
           </p>
           <p className="graspDesc">
             <ul>
-              <li>Object recognition via an onboard camera </li>
-              <li>Various hand and finger grips </li>
-              <li>Integration with machine learning</li>
+              <li>Analysis of EMG data to control the hands (ANA) </li>
               <li>
-                Incorporation fo an ergonomic design using a shoulder sling{" "}
-                <br />
-                and consolidate electrical components{" "}
+                Grip optimization that utilizes a camera on-board the arm for
+                object recognition (ANA)
               </li>
-              <li>EMG signalling</li>
+              <li>Integration with machine learning (ANA)</li>
+              <li>Translation of EMG signals into mechanical motion (EMB)</li>
+              <li>
+                Design core framework that interfaces with outputs provided by
+                electrical and analytical subteams (EMB)
+              </li>
+              <li>Implementation of signal processing (Rust and Python) </li>
+              <li>
+                Improved finger actuation to optimize physical grips (MECH)
+              </li>
+              <li>Use of ergonomic shouler brace for minimized load (MECH)</li>
+              <li>
+                Integration of wrist rotation and passive locking mechanism
+                (MECH)
+              </li>
             </ul>
           </p>
         </div>
@@ -81,11 +90,9 @@ export const Projects = () => {
           />
         </div>
       </div>
-
       <div class="py-4" />
       <div class="headerBlue text-center">FEATURES</div>
       <div class="py-4" />
-
       <div class="row">
         <div class="col-sm-4">
           <img
@@ -123,10 +130,16 @@ export const Projects = () => {
           </p>
         </div>
       </div>
-
       <div class="py-4" />
       <div class="headerBlue text-center">BCI PROJECT</div>
       <div class="py-2" />
+      <div class="py-4" />
+      <p className="graspBold">What is NERV?</p>
+      <p className="graspDesc">
+        NERV is UBC Bionics' current design of a BCI, or brain computer
+        interface. Our goal is to submit NERV at CYBATHLON 2024 once we have
+        completed the first iteration.
+      </p>
     </Layout>
   );
 };
