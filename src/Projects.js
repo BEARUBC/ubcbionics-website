@@ -28,13 +28,10 @@ export const Projects = () => {
       <div class="headerBlue text-center">GRASP PROJECT</div>
       <div class="py-2" />
       <p className="graspText">
-        The demand for prostheses is universal--over one million amputations
-        occur annually, with prosthetic options available only to about 5% of
-        the population. UBC Bionics was created to foster undergraduate
-        excellence in this field. We undertook the project of creating a bionic
-        arm and completed an initial prototype in 2019-2020. During the
-        pandemic, we updated our design and plan on implementing the physical
-        changes this year.
+        GRASP is UBC Bionics' pilot project: the design and creation of a smart
+        prosthethic arm. At the moment, we are working our team's second
+        iteration of the design. Our goal is to submit GRASP at the global
+        bionics competition, CYBATHLON 2024.
       </p>
       <div class="row">
         <div class="py-3" />
