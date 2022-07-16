@@ -14,8 +14,8 @@ import { Layout } from "./components/Layout";
 export const Projects = () => {
   return (
     <Layout>
-      {/* <div class="py-4" />
-      <div class="headerBlue text-center">OUR GOALS</div>
+      <div class="py-4" />
+      {/* <div class="headerBlue text-center">OUR GOALS</div>
       <div class="py-2" />
       <p className="graspText">
         Currently, we have undertaken two main projects; our pilot project,
