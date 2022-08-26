@@ -23,7 +23,7 @@ export const Joinus = () => {
             </div>
             <div class="py-3" />
             <div class="text-center">
-                <a class="btn btn-primary" href="https://forms.gle/TiEYEAjvB8FKUDov8" role="button">APPLY NOW</a>   
+                <a class="btn btn-primary" href="https://forms.gle/rz21odn1b6Ck3szx5" role="button">APPLY NOW</a>   
             </div>
             <div class="py-5" />
             </section>
