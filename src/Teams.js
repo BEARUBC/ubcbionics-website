@@ -43,7 +43,12 @@ export const Teams = () => {
                     <img class="captain img-responsive center-block d-block mx-auto" alt='' src={EFlaschner} />
                 </div>
                 <div class="col-md-6">
-                    HELLO THERE
+                    UBC Bionics, since its inception, has been dedicated to advancing student knowledge in the field of bionics and creating opportunities for students to apply themselves and gain experience. We are currently working on two major projects: a bionic arm, GRASP, and a brain-computer interface, NERV. Our design team has created an incredible environment for us to work collaboratively alongside other students and industry, participate in competitions and continue to advance and apply our knowledge.
+                    I am a fourth-year Biomedical Engineering student specializing in cellular bioengineering and have been a part of the team since 2019. My duties on the team include project management, executive responsibilities and supporting the rest of the team with anything they need.
+
+                    Bionics is a promising area of research with the potential to positively influence an individual’s quality of life, which I believe motivates our team to work hard to bring our projects into reality. 
+                    I hope you’ll support or join us on our journey!
+
                 </div>
 
 
@@ -57,10 +62,10 @@ export const Teams = () => {
                             <p class="joinusHeader text-center">ADMIN SUBTEAM</p>
                             <div class="container-sm">
                                 <p class="text-center">
-                                    The electrical sub-team is responsible for developing the electrical components 
-                                    into the prototype. Currently, they're working on EMG acquisition and battery 
-                                    management systems. They're developing a PCB using Altium that integrates sensors, 
-                                    motors and actuators, while using Ocilliscope for testing.
+                                    The administrative subteam is responsible for overseeing all the team’s logistics, including our finances, sponsorship, public relations, and content creation. 
+                                    We’re responsible for everything from tracking the annual budget to engaging in community outreach. 
+                                    You can often find us on all our social media platforms or at team events we’ve organized! 
+                                    Part of the administrative team is the web development group that designs our website, too.
                                 </p>
                             </div>
                         
@@ -129,10 +134,7 @@ export const Teams = () => {
                             <p class="joinusHeader text-center">ELECTRICAL SUBTEAM</p>
                             <div class="container-sm">
                                 <p class="text-center">
-                                    The electrical sub-team is responsible for developing the electrical components 
-                                    into the prototype. Currently, they're working on EMG acquisition and battery 
-                                    management systems. They're developing a PCB using Altium that integrates sensors, 
-                                    motors and actuators, while using Ocilliscope for testing.
+                                    The electrical subteam focuses on developing and engineering the underlying infrastructure that spans from actuating the intended motion of the pilot to making sure the battery delivers energy; and everything in between! In the past, we’ve worked on creating our own custom muscle sensor to convert electric signals in your arm to signals that our processor can read. We coordinate with the subteams to make sure that the arm and hand movement are as seamless as possible.
                                 </p>
                             </div>
                         
