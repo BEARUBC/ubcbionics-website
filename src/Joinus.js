@@ -95,8 +95,8 @@ export const Joinus = () => {
                         The embedded systems sub-team is responsible for detailing the
                         most optimal design, programming, and acutation methods to 
                         follow. They work on low-level control of the hardware and take
-                        in sensor data. Currently, they are programming with Rust, but
-                        will move forward with C or C++.
+                        in sensor data. Previously, the team was programming with C or C++, but
+                        have switched over to Rust.
                     </p>
                 </div>  
             </div>
