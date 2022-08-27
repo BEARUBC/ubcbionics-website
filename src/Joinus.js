@@ -92,11 +92,7 @@ export const Joinus = () => {
                 <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>                    <div class="py-2" />
                     <p class="subHeader text-center">Embedded</p>
                     <p class="graspDesc">
-                        The embedded systems sub-team is responsible for detailing the
-                        most optimal design, programming, and acutation methods to 
-                        follow. They work on low-level control of the hardware and take
-                        in sensor data. Previously, the team was programming with C or C++, but
-                        have since switched over to Rust.
+                        The embedded systems sub-team is responsible for detailing the optimal design, programming, and actuation methods to follow. We program a microcontroller which interfaces with sensors and motors to produce fluid arm motions. We are always looking for new members who are interested in programming and eager to learn!
                     </p>
                 </div>  
             </div>
