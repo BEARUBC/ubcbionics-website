@@ -96,7 +96,7 @@ export const Joinus = () => {
                         most optimal design, programming, and acutation methods to 
                         follow. They work on low-level control of the hardware and take
                         in sensor data. Previously, the team was programming with C or C++, but
-                        have switched over to Rust.
+                        have since switched over to Rust.
                     </p>
                 </div>  
             </div>
