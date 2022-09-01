@@ -224,10 +224,10 @@ export const Teams = () => {
                             <p class="joinusHeader text-center">MECHANICAL SUBTEAM</p>
                             <div class="container-sm">
                                 <p class="text-center">
-                                    The electrical sub-team is responsible for developing the electrical components 
-                                    into the prototype. Currently, they're working on EMG acquisition and battery 
-                                    management systems. They're developing a PCB using Altium that integrates sensors, 
-                                    motors and actuators, while using Ocilliscope for testing.
+                                    The mechanical sub-team is responsible for the structural design of our projects and models 
+                                    the devices on CAD software. They research and develop mechanical designs via engineering design process, prototyping, and SolidWorks.
+                                    They're responsible for the printing and assembly of 
+                                    our GRASP project and are helping out with the headset for our brain-computer interface project, NERV. 
                                 </p>
                             </div>
                         
