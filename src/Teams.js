@@ -41,6 +41,8 @@ export const Teams = () => {
                 <div class="py-5 "/> 
                 <div class="col-md-6">
                     <img class="captain img-responsive center-block d-block mx-auto" alt='' src={EFlaschner} />
+                    <div class="py-2" />
+                        <p class="text-center">EMILY FLASCHNER</p>
                 </div>
                 <div class="col-md-6">
                     UBC Bionics, since its inception, has been dedicated to advancing student knowledge in the field of bionics and creating opportunities for students to apply themselves and gain experience. We are currently working on two major projects: a bionic arm, GRASP, and a brain-computer interface, NERV. Our design team has created an incredible environment for us to work collaboratively alongside other students and industry, participate in competitions and continue to advance and apply our knowledge.
