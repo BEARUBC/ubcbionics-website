@@ -184,10 +184,7 @@ export const Teams = () => {
                             <p class="joinusHeader text-center">EMBEDDED SUBTEAM</p>
                             <div class="container-sm">
                                 <p class="text-center">
-                                    The electrical sub-team is responsible for developing the electrical components 
-                                    into the prototype. Currently, they're working on EMG acquisition and battery 
-                                    management systems. They're developing a PCB using Altium that integrates sensors, 
-                                    motors and actuators, while using Ocilliscope for testing.
+                                    The embedded systems sub-team is responsible for detailing the optimal design, programming, and actuation methods to follow. We program a microcontroller which interfaces with sensors and motors to produce fluid arm motions. We are always looking for new members who are interested in programming and eager to learn!
                                 </p>
                             </div>
                         
