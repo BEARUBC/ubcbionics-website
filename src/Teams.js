@@ -106,10 +106,12 @@ export const Teams = () => {
                             <p class="joinusHeader text-center">ANALYTICS SUBTEAM</p>
                             <div class="container-sm">
                                 <p class="text-center">
-                                    The electrical sub-team is responsible for developing the electrical components 
-                                    into the prototype. Currently, they're working on EMG acquisition and battery 
-                                    management systems. They're developing a PCB using Altium that integrates sensors, 
-                                    motors and actuators, while using Ocilliscope for testing.
+                                    The analytics sub-team uses data science and machine learning to improve the 
+                                    functionality of our current projects. For GRASP, they are focused on using computer vision (CV)
+                                    to optimize the arm's grips and for NERV, they are mainly focusing on EEG data analysis. Generally, 
+                                    their work includes programming with Python and performing data analysis on sensor information
+                                    like EMG, FSR, EEG, etc.
+                                    
                                 </p>
                             </div>
                         
