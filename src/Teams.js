@@ -45,11 +45,13 @@ export const Teams = () => {
                         <p class="text-center">EMILY FLASCHNER</p>
                 </div>
                 <div class="col-md-6">
-                    UBC Bionics, since its inception, has been dedicated to advancing student knowledge in the field of bionics and creating opportunities for students to apply themselves and gain experience. We are currently working on two major projects: a bionic arm, GRASP, and a brain-computer interface, NERV. Our design team has created an incredible environment for us to work collaboratively alongside other students and industry, participate in competitions and continue to advance and apply our knowledge.
-                    I am a fourth-year Biomedical Engineering student specializing in cellular bioengineering and have been a part of the team since 2019. My duties on the team include project management, executive responsibilities and supporting the rest of the team with anything they need.
+                    <p class="text-center">
+                        UBC Bionics, since its inception, has been dedicated to advancing student knowledge in the field of bionics and creating opportunities for students to apply themselves and gain experience. We are currently working on two major projects: a bionic arm, GRASP, and a brain-computer interface, NERV. Our design team has created an incredible environment for us to work collaboratively alongside other students and industry, participate in competitions and continue to advance and apply our knowledge.
+                        I am a fourth-year Biomedical Engineering student specializing in cellular bioengineering and have been a part of the team since 2019. My duties on the team include project management, executive responsibilities and supporting the rest of the team with anything they need.
 
-                    Bionics is a promising area of research with the potential to positively influence an individual’s quality of life, which I believe motivates our team to work hard to bring our projects into reality. 
-                    I hope you’ll support or join us on our journey!
+                        Bionics is a promising area of research with the potential to positively influence an individual’s quality of life, which I believe motivates our team to work hard to bring our projects into reality. 
+                        I hope you’ll support or join us on our journey!
+                    </p>
 
                 </div>
 
@@ -98,6 +100,8 @@ export const Teams = () => {
                 <div class="col-md-6">
                     <div class="py-5 "> 
                         <img class="teamimg img-responsive center-block d-block mx-auto" alt='' src={JRoss} />
+                        <div class="py-2" />
+                        <p class="text-center">JAMES ROSS</p>
                         <div class="py-5">
                             <p class="joinusHeader text-center">ANALYTICS SUBTEAM</p>
                             <div class="container-sm">
@@ -134,6 +138,8 @@ export const Teams = () => {
                 <div class="col-md-6">
                     <div class="py-5 "> 
                         <img class="teamimg img-responsive center-block d-block mx-auto" alt='' src={KKochi} />
+                        <div class="py-2" />
+                        <p class="text-center">KYLE KOCHI</p>
                         <div class="py-5">
                             <p class="joinusHeader text-center">ELECTRICAL SUBTEAM</p>
                             <div class="container-sm">
@@ -182,6 +188,8 @@ export const Teams = () => {
                 <div class="col-md-6">
                     <div class="py-5 "> 
                         <img class="teamimg img-responsive center-block d-block mx-auto" alt='' src={NPoon} />
+                        <div class="py-2" />
+                        <p class="text-center">NATHAN POON</p>
                         <div class="py-5">
                             <p class="joinusHeader text-center">EMBEDDED SUBTEAM</p>
                             <div class="container-sm">
@@ -219,6 +227,8 @@ export const Teams = () => {
                 <div class="col-md-6">
                     <div class="py-5 "> 
                         <img class="teamimg img-responsive center-block d-block mx-auto" alt='' src={AGovind} />
+                        <div class="py-2" />
+                        <p class="text-center">ADITYA GOVIND MENON</p>
                         <div class="py-5">
                             <p class="joinusHeader text-center">MECHANICAL SUBTEAM</p>
                             <div class="container-sm">
