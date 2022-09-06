@@ -60,6 +60,8 @@ export const Teams = () => {
                 <div class="col-md-6">
                     <div class="py-5"/> 
                         <img class="teamimg img-responsive center-block d-block mx-auto" alt='' src={VZhao} />
+                        <div class="py-2" />
+                        <p class="text-center">VIVIENNE ZHAO</p>
                         <div class="py-5">
                             <p class="joinusHeader text-center">ADMIN SUBTEAM</p>
                             <div class="container-sm">
