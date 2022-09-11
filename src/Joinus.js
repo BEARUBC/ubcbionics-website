@@ -49,7 +49,7 @@ export const Joinus = () => {
                     <div class="py-5" />
                 </div>    
                 <div class="col-lg-4">
-                <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>
+                    <img class="teamPhotos img-responsive center-block d-block mx-auto" src={elecPhoto} alt=''/>
                     <div class="py-2" />
                     <p class="subHeader text-center">Electrical</p>
                     <p class="graspDesc">
@@ -63,7 +63,7 @@ export const Joinus = () => {
                     <div class="py-5" />
                 </div>  
                 <div class="col-lg-4">
-                <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>                    <div class="py-2" />
+                    <img class="teamPhotos img-responsive center-block d-block mx-auto" src={mechPhoto} alt=''/>                    <div class="py-2" />
                     <p class="subHeader text-center">Mechanical</p>
                     <p class="graspDesc">
                         The mechanical sub-team designs the structure of 
@@ -78,7 +78,7 @@ export const Joinus = () => {
             </div> 
             <div class="row">
                 <div class="col-md">
-                <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>                    <div class="py-2" />
+                    <img class="teamPhotos img-responsive center-block d-block mx-auto" src={analyticsPhoto} alt=''/>                    <div class="py-2" />
                     <p class="subHeader text-center">Analytics</p>
                     <p class="graspDesc">
                         The analytics sub-team uses data science and machine learning 
@@ -89,10 +89,13 @@ export const Joinus = () => {
                     <div class="py-5" />
                 </div>
                 <div class="col-md">
-                <img class="teamPhotos img-responsive center-block d-block mx-auto" src={adminPhoto} alt=''/>                    <div class="py-2" />
+                    <img class="teamPhotos img-responsive center-block d-block mx-auto" src={embeddedPhoto} alt=''/>                    <div class="py-2" />
                     <p class="subHeader text-center">Embedded</p>
                     <p class="graspDesc">
-                        The embedded systems sub-team is responsible for detailing the optimal design, programming, and actuation methods to follow. We program a microcontroller which interfaces with sensors and motors to produce fluid arm motions. We are always looking for new members who are interested in programming and eager to learn!
+                        The embedded systems sub-team is responsible for detailing the optimal design, 
+                        programming, and actuation methods to follow. We program a microcontroller which 
+                        interfaces with sensors and motors to produce fluid arm motions. We are always 
+                        looking for new members who are interested in programming and eager to learn!
                     </p>
                 </div>  
             </div>
