@@ -6,7 +6,7 @@ import hand from "./Photos/hand.png";
 
 export const Home = () => {
   return (
-    <div>
+    <Layout>
       <div class="row">
         <div class="col">
           <div class="py-5" />
@@ -73,6 +73,6 @@ export const Home = () => {
         brain-computer interface, NERV. We hope to submit both of our projects
         to the leading global bionics competition, CYBATHLON 2024.{" "}
       </p>
-    </div>
+    </Layout>
   );
 };
