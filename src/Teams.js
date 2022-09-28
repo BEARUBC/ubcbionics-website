@@ -122,6 +122,7 @@ export const Teams = () => {
       </div>
 
       <div class="row partOne">
+        <div class="py-2" />
         <p class="joinusHeader text-center">ANALYTICS SUBTEAM</p>
         <div class="col-md-6">
           <div class="py-5 ">
