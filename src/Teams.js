@@ -279,12 +279,12 @@ export const Teams = () => {
         <div class="col-md-6">
           <div class="py-5 ">
             <img
-              class=" img-responsive center-block d-block mx-auto lead-img"
+              class="teamimg img-responsive center-block d-block mx-auto"
               alt=""
               src={NPoon}
             />
             <div class="py-2" />
-            <p class="pad-0 text-center">NATHAN POON</p>
+            <p class="pad-0 text-center ">NATHAN POON</p>
             <p class="italized text-center">EMBEDDED LEAD</p>
             <div class="py-5">
               {/* <div class="container-sm">
