@@ -274,6 +274,7 @@ export const Teams = () => {
         <div class="py-4" />
       </div>
 
+      <div class="py-2" />
       <div class="row partOne">
         <p class="joinusHeader text-center">EMBEDDED SUBTEAM</p>
         <div class="py-2" />
