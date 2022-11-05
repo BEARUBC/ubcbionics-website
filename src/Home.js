@@ -8,13 +8,13 @@ export const Home = () => {
   return (
     <Layout>
       <div class="row">
-        <div class="col">
+        <div class="col shiftLeft">
           <div class="py-5" />
           <div class="py-2" />
           <div class="heading d-flex justify-content-center">UBC BIONICS</div>
 
           <div class="d-flex justify-content-center align-middle">
-            <p class="text">
+            <p class="bionicsText">
               UBC Bionics is an undergraduate engineering design team at the
               University of British Columbia in Vancouver, focused on the
               advancement of bionics.
@@ -64,7 +64,7 @@ export const Home = () => {
         </p>
       </div>
       <div class="py-4" />
-      <div class="headerBlue text-center">PROJECT GOALS</div>
+      {/* <div class="headerBlue text-center">PROJECT GOALS</div>
       <div class="py-2" />
       <p className="graspText">
         Currently, we have undertaken two main projects; our pilot project,
@@ -72,7 +72,7 @@ export const Home = () => {
         amputees. Recently, we have also initiated the design of a
         brain-computer interface, NERV. We hope to submit both of our projects
         to the leading global bionics competition, CYBATHLON 2024.{" "}
-      </p>
+      </p> */}
     </Layout>
   );
 };

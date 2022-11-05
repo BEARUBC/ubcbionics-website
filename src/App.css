@@ -6,6 +6,10 @@
   color: #152349;
 }
 
+.shiftLeft {
+  float:right;
+}
+
 .subHeader {
   color: #152349;
   font-family: "Lato", sans-serif;
@@ -56,6 +60,15 @@ p.text {
   display: flex;
   font-family: "Lato", sans-serif;
   font-size: 14px;
+  text-align: justify;
+  width: 350px;
+}
+
+p.bionicsText {
+  color: #152349;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
   text-align: justify;
   width: 350px;
 }
