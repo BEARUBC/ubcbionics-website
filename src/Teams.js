@@ -34,6 +34,30 @@ export const Teams = () => {
   return (
     <div class="container">
       <div class="row">
+        <section className="backimage">
+          <div class="py-5" />
+          <p class="headerBlue text-center">LIFE AT UBC BIONICS</p>
+          <div class="justify-content-center">
+            <p class="graspDesc text-center width-80">
+              Our team is composed of some of the best and brightest science and
+              engineering students. Seize the opportunity to develop and hone
+              your technical skills.
+            </p>
+          </div>
+          <div class="py-3" />
+          <div class="text-center">
+            <a
+              class="btn btn-primary"
+              href="https://forms.gle/rz21odn1b6Ck3szx5"
+              role="button"
+            >
+              APPLY NOW
+            </a>
+          </div>
+          <div class="py-5" />
+        </section>
+      </div>
+      <div class="row">
         <div class="py-4 " />
         <p class="joinusHeader text-center">CAPTAINS MESSAGE</p>
         <div class="py-2" />
@@ -445,30 +469,6 @@ export const Teams = () => {
         </div>
       </div>
       {/* <div class="py-4" /> */}
-      <div class="row">
-        <section className="backimage">
-          <div class="py-5" />
-          <p class="headerBlue text-center">LIFE AT UBC BIONICS</p>
-          <div class="justify-content-center">
-            <p class="graspDesc text-center width-80">
-              Our team is composed of some of the best and brightest science and
-              engineering students. Seize the opportunity to develop and hone
-              your technical skills.
-            </p>
-          </div>
-          <div class="py-3" />
-          <div class="text-center">
-            <a
-              class="btn btn-primary"
-              href="https://forms.gle/rz21odn1b6Ck3szx5"
-              role="button"
-            >
-              APPLY NOW
-            </a>
-          </div>
-          <div class="py-5" />
-        </section>
-      </div>
     </div>
   );
 };
