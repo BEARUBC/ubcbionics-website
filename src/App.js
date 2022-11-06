@@ -17,7 +17,7 @@ class App extends Component {
   render() {
       return(
         <>
-          <Navbar> </ Navbar>
+          <Navbar className="sticky"/>
           <Router>
             
             <div className="App">

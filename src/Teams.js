@@ -423,7 +423,7 @@ export const Teams = () => {
           <div class="py-2" />
           <p class="text-center">DOMINIC STARCK</p>
           <div class="py-1" />
-          <img
+          {/* <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
             src={GJanes}
@@ -438,7 +438,7 @@ export const Teams = () => {
           />
           <div class="py-2" />
           <p class="text-center">OLIVIA HETLAND</p>
-          <div class="py-1" />
+          <div class="py-1" /> */}
         </div>
         <div class="col-sm">
           <div class="py-4" />
