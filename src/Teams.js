@@ -1,11 +1,20 @@
 import "./App.css";
+//admin
 import VZhao from "./Photos/Edited Headshots/VZhao.jpg";
 import JLee from "./Photos/Edited Headshots/JLee.jpg";
 import BAhyou from "./Photos/Edited Headshots/BAyouh.jpg";
 import TFang from "./Photos/Edited Headshots/TFang.jpg";
+import EKo from "./Photos/Edited Headshots/EKo.jpg";
+import MCheng from "./Photos/Edited Headshots/MCheng.jpg";
+//analytics
 import JRoss from "./Photos/Edited Headshots/JRoss.jpg";
 import LLi from "./Photos/Edited Headshots/LLi.jpg";
 import KLi from "./Photos/Edited Headshots/KLi.jpg";
+import MKim from "./Photos/Edited Headshots/MKim.jpg";
+import SShankar from "./Photos/Edited Headshots/SShankar.jpg";
+import RMacdougall from "./Photos/Edited Headshots/RMacdougall.jpg";
+import BAppolinary from "./Photos/Edited Headshots/BAppolinary.jpg";
+//Electrical
 import APalumbo from "./Photos/Edited Headshots/APalumbo.jpg";
 import KKochi from "./Photos/Edited Headshots/KKochi.jpg";
 import MRoss from "./Photos/Edited Headshots/MRoss.jpg";
@@ -13,20 +22,29 @@ import TBoshoff from "./Photos/Edited Headshots/TBoshoff.jpg";
 import TPraynito from "./Photos/Edited Headshots/TPrayitno.jpg";
 import UAli from "./Photos/Edited Headshots/UAli.jpg";
 import YParikh from "./Photos/Edited Headshots/YParikh.jpg";
+import BTan from "./Photos/Edited Headshots/BTan.jpg";
+import WJi from "./Photos/Edited Headshots/WJi.jpg";
+import CFroese from "./Photos/Edited Headshots/CFroese.jpg";
+import MDialani from "./Photos/Edited Headshots/MDialani.jpg";
+//Embedded
 import NPoon from "./Photos/Edited Headshots/NPoon.jpg";
 import PJavanrood from "./Photos/Edited Headshots/PJavanrood.jpg";
 import SWen from "./Photos/Edited Headshots/SWen.jpg";
 import ZChafe from "./Photos/Edited Headshots/ZChafe.jpg";
+import RBhagat from "./Photos/Edited Headshots/RBhagat.jpg";
+import ASoni from "./Photos/Edited Headshots/ASoni.jpg";
 //Mechanical
 import AGovind from "./Photos/Edited Headshots/AGovind.jpg";
 import AZheWang from "./Photos/Edited Headshots/AZheWang.jpg";
 import DStarck from "./Photos/Edited Headshots/DStarck.jpg";
-import GJanes from "./Photos/Edited Headshots/GJanes.jpg";
 import GGould from "./Photos/Edited Headshots/GGould.jpg";
 import JChiusa from "./Photos/Edited Headshots/JChiusa.jpg";
 import JXi from "./Photos/Edited Headshots/JXi.jpg";
 import JAhyou from "./Photos/Edited Headshots/JAhyou.jpg";
-import OHetland from "./Photos/Edited Headshots/OHetland.jpg";
+import MTing from "./Photos/Edited Headshots/MTing.jpg";
+import TLeong from "./Photos/Edited Headshots/TLeong.jpg";
+import NNayyar from "./Photos/Edited Headshots/NNayer.jpg";
+import SGupta from "./Photos/Edited Headshots/SGupta.jpg";
 //Captain
 import EFlaschner from "./Photos/Edited Headshots/EFlaschner.jpg";
 
@@ -60,16 +78,18 @@ export const Teams = () => {
       <div class="row">
         <div class="py-4 " />
         <p class="joinusHeader text-center">CAPTAINS MESSAGE</p>
-        <div class="py-2" />
+        <div class="py-3" />
         <img
           class="captain img-responsive center-block d-block mx-auto"
           alt=""
           src={EFlaschner}
         />
-        <div class="py-2" />
+        <div class="py-3" />
         <p class="text-center pad-0">EMILY FLASCHNER</p>
-        <p class="italized text-center">TEAM CAPTAIN</p>
-        <div class="py-2" />
+        <div>
+        <p class="subTitle text-center">TEAM CAPTAIN</p>
+        </div>
+        <div class="py-3" />
         <p class="text-center lead">
           UBC Bionics, since its inception, has been dedicated to advancing
           student knowledge in the field of bionics and creating opportunities
@@ -100,9 +120,11 @@ export const Teams = () => {
             alt=""
             src={VZhao}
           />
-          <div class="py-2" />
+          <div class="py-3" />
           <p class="pad-0 text-center ">VIVIENNE ZHAO</p>
-          <p class="italized text-center">ADMIN LEAD</p>
+          <div class="parent">
+            <p class="subTitle text-center ">ADMIN LEAD</p>
+          </div>
           <div class="py-5">
             <div class="container-sm">
               <p class="text-center">
@@ -124,32 +146,48 @@ export const Teams = () => {
             alt=""
             src={JLee}
           />
-          <div class="py-2" />
-          <p class="text-center">JUDY LEE</p>
           <div class="py-1" />
+          <p class="text-center">JUDY LEE</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={MCheng}
+          />
+          <div class="py-1" />
+          <p class="text-center">MELANIE CHENG</p>
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
             src={BAhyou}
           />
-          <div class="py-2" />
-          <p class="text-center">BRANDON AHYOU</p>
+          <div class="py-1" />
+          <p class="text-center">BRANDON AH YOU</p>
+          <div class="py-3" />
         </div>
         <div class="col-sm">
           <div class="py-4" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
+            src={EKo}
+          />
+          <div class="py-1" />
+          <p class="text-center">EUNSEOL KO</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
             src={TFang}
           />
-          <div class="py-2" />
-          <p class="text-center">TIMOTHY FANG</p>
           <div class="py-1" />
+          <p class="text-center">TIMOTHY FANG</p>
+          <div class="py-3" />
         </div>
       </div>
 
       <div class="row partOne">
-        <div class="py-2" />
+        <div class="py-3" />
         <p class="joinusHeader text-center">ANALYTICS SUBTEAM</p>
         <div class="col-md-6">
           <div class="py-5 ">
@@ -158,9 +196,11 @@ export const Teams = () => {
               alt=""
               src={JRoss}
             />
-            <div class="py-2" />
+            <div class="py-3" />
             <p class="pad-0 text-center">JAMES ROSS</p>
-            <p class="italized text-center">ANALYTICS LEAD</p>
+            <div class="parent">
+            <p class="subTitle text-center">ANALYTICS LEAD</p>
+            </div>
             <div class="py-5">
               <div class="container-sm">
                 <p class="text-center">
@@ -181,9 +221,25 @@ export const Teams = () => {
             alt=""
             src={LLi}
           />
-          <div class="py-2" />
-          <p class="text-center">LEON LI</p>
           <div class="py-1" />
+          <p class="text-center">LEON LI</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={MKim}
+          />
+          <div class="py-1" />
+          <p class="text-center">MATTHEW KIM</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={RMacdougall}
+          />
+          <div class="py-1" />
+          <p class="text-center">RACHEL MACDOUGALL</p>
+          <div class="py-3" />
         </div>
         <div class="col-sm">
           <div class="py-4" />
@@ -192,15 +248,31 @@ export const Teams = () => {
             alt=""
             src={KLi}
           />
-          <div class="py-2" />
-          <p class="text-center">KIRA LI</p>
           <div class="py-1" />
+          <p class="text-center">KIRA LI</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={SShankar}
+          />
+          <div class="py-1" />
+          <p class="text-center">SAMEER SHANKAR</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={BAppolinary}
+          />
+          <div class="py-1" />
+          <p class="text-center">BLAISE APPOLINARY</p>
+          <div class="py-3" />
         </div>
       </div>
 
       <div class="row partTwo">
         <p class="joinusHeader text-center">ELECTRICAL SUBTEAM</p>
-        <div class="py-2" />
+        <div class="py-3" />
         <div class="col-md-6">
           <div class="py-5 ">
             <div class="row">
@@ -211,9 +283,11 @@ export const Teams = () => {
                     alt=""
                     src={KKochi}
                   />
-                  <div class="py-2" />
+                  <div class="py-3" />
                   <p class="pad-0 text-center">KYLE KOCHI</p>
-                  <p class="italized text-center">ELECTRICAL CO-LEAD</p>
+                  <div class="parent">
+                  <p class="subTitle text-center">ELECTRICAL CO-LEAD</p>
+                  </div>
                 </div>
               </div>
               <div class="col">
@@ -223,9 +297,11 @@ export const Teams = () => {
                     alt=""
                     src={TPraynito}
                   />
-                  <div class="py-2" />
+                  <div class="py-3" />
                   <p class="pad-0 text-center">TIFFANY PRAYITNO</p>
-                  <p class="italized text-center">ELECTRICAL CO-LEAD</p>
+                  <div class="parent">
+                  <p class="subTitle text-center">ELECTRICAL CO-LEAD</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -250,25 +326,44 @@ export const Teams = () => {
             alt=""
             src={UAli}
           />
-          <div class="py-2" />
-          <p class="pad-0 text-center">UMAR ALI</p>
-          <p class="italized text-center">ADVISOR</p>
           <div class="py-1" />
+          <p class="pad-0 text-center">UMAR ALI</p>
+          <div class="parent">
+          <p class="subTitle text-center">ADVISOR</p>
+          </div>
+          <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
             src={MRoss}
           />
-          <div class="py-2" />
-          <p class="text-center">MICHAEL ROSS</p>
           <div class="py-1" />
+          <p class="text-center">MICHAEL ROSS</p>
+          <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
             src={YParikh}
           />
-          <div class="py-2" />
+          <div class="py-1" />
           <p class="text-center">YASH PARIKH</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={BTan}
+          />
+          <div class="py-1" />
+          <p class="text-center">BOLONG TAN</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={WJi}
+          />
+          <div class="py-1" />
+          <p class="text-center">WILLIAM JI</p>
+          <div class="py-3" />
         </div>
         <div class="col-sm">
           <div class="py-4" />
@@ -277,33 +372,48 @@ export const Teams = () => {
             alt=""
             src={TBoshoff}
           />
-          <div class="py-2" />
-          <p class="text-center">TIANN BOSHOFF</p>
           <div class="py-1" />
+          <p class="text-center">TIANN BOSHOFF</p>
+          <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
             src={TPraynito}
           />
-          <div class="py-2" />
-          <p class="text-center">TIFFANY PRAYITNO</p>
           <div class="py-1" />
+          <p class="text-center">TIFFANY PRAYITNO</p>
+          <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
             src={APalumbo}
           />
-          <div class="py-2" />
-          <p class="text-center">ALESSIA PALUMBO</p>
           <div class="py-1" />
+          <p class="text-center">ALESSIA PALUMBO</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={MDialani}
+          />
+          <div class="py-1" />
+          <p class="text-center">MANIK DIALANI</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={CFroese}
+          />
+          <div class="py-1" />
+          <p class="text-center">CONNOR FROESE</p>
+          <div class="py-3" />
         </div>
-        <div class="py-4" />
       </div>
 
-      <div class="py-2" />
+      <div class="py-3" />
       <div class="row partOne">
         <p class="joinusHeader text-center">EMBEDDED SUBTEAM</p>
-        <div class="py-2" />
+        <div class="py-3" />
         <div class="col-md-6">
           <div class="py-5 ">
             <img
@@ -311,9 +421,11 @@ export const Teams = () => {
               alt=""
               src={NPoon}
             />
-            <div class="py-2" />
+            <div class="py-3" />
             <p class="pad-0 text-center ">NATHAN POON</p>
-            <p class="italized text-center">EMBEDDED LEAD</p>
+            <div class="parent">
+            <p class="subTitle text-center">EMBEDDED LEAD</p>
+            </div>
             <div class="py-5">
               <div class="container-sm">
                 <p class="text-center">
@@ -336,17 +448,25 @@ export const Teams = () => {
             alt=""
             src={ZChafe}
           />
-          <div class="py-2" />
-          <p class="text-center">ZACHARY CHAFE</p>
           <div class="py-1" />
+          <p class="text-center">ZACHARY CHAFE</p>
+          <div class="py-3" />
           <img
             class="memberimg-z img-responsive center-block d-block mx-auto"
             alt=""
             src={SWen}
           />
-          <div class="py-2" />
-          <p class="text-center">SHUYAO WEN</p>
           <div class="py-1" />
+          <p class="text-center">SHUYAO WEN</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={RBhagat}
+          />
+          <div class="py-1" />
+          <p class="text-center">RAUNAK BHAGAT</p>
+          <div class="py-3" />
         </div>
         <div class="col-sm">
           <div class="py-4" />
@@ -355,15 +475,23 @@ export const Teams = () => {
             alt=""
             src={PJavanrood}
           />
-          <div class="py-2" />
-          <p class="text-center">PARSHAN JAVANROOD</p>
           <div class="py-1" />
+          <p class="text-center">PARSHAN JAVANROOD</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={ASoni}
+          />
+          <div class="py-1" />
+          <p class="text-center">ALBIN SONI</p>
+          <div class="py-3" />
         </div>
       </div>
 
       <div class="row partTwo">
         <p class="joinusHeader text-center">MECHANICAL SUBTEAM</p>
-        <div class="py-2" />
+        <div class="py-3" />
         <div class="col-md-6">
           <div class="py-4 " />
           <div class="row">
@@ -374,9 +502,11 @@ export const Teams = () => {
                   alt=""
                   src={JChiusa}
                 />
-                <div class="py-2" />
+                <div class="py-3" />
                 <p class="pad-0 text-center">JEDIDIAH CHIUSA</p>
-                <p class="italized text-center">MECHANICAL CO-LEAD</p>
+                <div class="parent">
+                <p class="subTitle text-center">MECHANICAL CO-LEAD</p>
+                </div>
               </div>
             </div>
             <div class="col">
@@ -386,9 +516,12 @@ export const Teams = () => {
                   alt=""
                   src={AGovind}
                 />
-                <div class="py-2" />
+                <div class="py-3" />
                 <p class="pad-0 text-center">ADITYA GOVIND MENON</p>
-                <p class="italized text-center">MECHANICAL CO-LEAD</p>
+                <div class="parent">
+                <p class="subTitle text-center">MECHANICAL CO-LEAD</p>
+                </div>
+
               </div>
             </div>
           </div>
@@ -411,34 +544,44 @@ export const Teams = () => {
             alt=""
             src={JAhyou}
           />
-          <div class="py-2" />
-          <p class="pad-0 text-center">JULIEN AH YOU</p>
-          <p class="italized text-center">ADVISOR</p>
           <div class="py-1" />
+          <p class="pad-0 text-center">JULIEN AH YOU</p>
+          <div class="parent">
+          <p class="subTitle text-center">ADVISOR</p>
+          </div>
+          <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
             src={DStarck}
           />
-          <div class="py-2" />
+          <div class="py-1" />
           <p class="text-center">DOMINIC STARCK</p>
-          <div class="py-1" />
-          {/* <img
-            class="memberimg img-responsive center-block d-block mx-auto"
-            alt=""
-            src={GJanes}
-          />
-          <div class="py-2" />
-          <p class="text-center">GIOVANNA JANES</p>
-          <div class="py-1" />
+          <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={OHetland}
+            src={SGupta}
           />
-          <div class="py-2" />
-          <p class="text-center">OLIVIA HETLAND</p>
-          <div class="py-1" /> */}
+          <div class="py-1" />
+          <p class="text-center">SAUM GUPTA</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={NNayyar}
+          />
+          <div class="py-1" />
+          <p class="text-center">NATALIA NAYYAR</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={MTing}
+          />
+          <div class="py-1" />
+          <p class="text-center">MARVIN TING</p>
+          <div class="py-3" />
         </div>
         <div class="col-sm">
           <div class="py-4" />
@@ -447,28 +590,35 @@ export const Teams = () => {
             alt=""
             src={GGould}
           />
-          <div class="py-2" />
-          <p class="text-center">GRACE GOULD</p>
           <div class="py-1" />
+          <p class="text-center">GRACE GOULD</p>
+          <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
             src={AZheWang}
           />
-          <div class="py-2" />
-          <p class="text-center">ANDREW ZHE WANG</p>
           <div class="py-1" />
+          <p class="text-center">ANDREW ZHE WANG</p>
+          <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
             src={JXi}
           />
-          <div class="py-2" />
-          <p class="text-center">JOYCE XI</p>
           <div class="py-1" />
+          <p class="text-center">JOYCE XI</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={TLeong}
+          />
+          <div class="py-1" />
+          <p class="text-center">TERRENCE LEONG</p>
+          <div class="py-3" />
         </div>
       </div>
-      {/* <div class="py-4" /> */}
     </div>
   );
 };

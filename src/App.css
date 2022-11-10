@@ -10,6 +10,20 @@
   float:right;
 }
 
+.parent {
+  position:relative;
+}
+
+p.subTitle {
+  font-style: italic;
+  position:absolute;
+  font-size:small;
+  line-height: 0;
+  text-align:center;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
 .sticky {
   position: sticky;
 }
