@@ -6,6 +6,7 @@ import BAhyou from "./Photos/Edited Headshots/BAyouh.jpg";
 import TFang from "./Photos/Edited Headshots/TFang.jpg";
 import EKo from "./Photos/Edited Headshots/EKo.jpg";
 import MCheng from "./Photos/Edited Headshots/MCheng.jpg";
+import SGopee from "./Photos/Edited Headshots/SGopee.jpg";
 //analytics
 import JRoss from "./Photos/Edited Headshots/JRoss.jpg";
 import LLi from "./Photos/Edited Headshots/LLi.jpg";
@@ -77,7 +78,7 @@ export const Teams = () => {
       </div>
       <div class="row">
         <div class="py-4 " />
-        <p class="joinusHeader text-center">CAPTAINS MESSAGE</p>
+        <p class="joinusHeader text-center">CAPTAIN'S MESSAGE</p>
         <div class="py-3" />
         <img
           class="captain img-responsive center-block d-block mx-auto"
@@ -87,7 +88,7 @@ export const Teams = () => {
         <div class="py-3" />
         <p class="text-center pad-0">EMILY FLASCHNER</p>
         <div>
-        <p class="subTitle text-center">TEAM CAPTAIN</p>
+          <p class="subTitle text-center">TEAM CAPTAIN</p>
         </div>
         <div class="py-3" />
         <p class="text-center lead">
@@ -156,6 +157,7 @@ export const Teams = () => {
           />
           <div class="py-1" />
           <p class="text-center">MELANIE CHENG</p>
+          <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
@@ -183,6 +185,14 @@ export const Teams = () => {
           <div class="py-1" />
           <p class="text-center">TIMOTHY FANG</p>
           <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={SGopee}
+          />
+          <div class="py-1" />
+          <p class="text-center">SANJANA GOPEE</p>
+          <div class="py-3" />
         </div>
       </div>
 
@@ -199,7 +209,7 @@ export const Teams = () => {
             <div class="py-3" />
             <p class="pad-0 text-center">JAMES ROSS</p>
             <div class="parent">
-            <p class="subTitle text-center">ANALYTICS LEAD</p>
+              <p class="subTitle text-center">ANALYTICS LEAD</p>
             </div>
             <div class="py-5">
               <div class="container-sm">
@@ -286,7 +296,7 @@ export const Teams = () => {
                   <div class="py-3" />
                   <p class="pad-0 text-center">KYLE KOCHI</p>
                   <div class="parent">
-                  <p class="subTitle text-center">ELECTRICAL CO-LEAD</p>
+                    <p class="subTitle text-center">ELECTRICAL CO-LEAD</p>
                   </div>
                 </div>
               </div>
@@ -300,7 +310,7 @@ export const Teams = () => {
                   <div class="py-3" />
                   <p class="pad-0 text-center">TIFFANY PRAYITNO</p>
                   <div class="parent">
-                  <p class="subTitle text-center">ELECTRICAL CO-LEAD</p>
+                    <p class="subTitle text-center">ELECTRICAL CO-LEAD</p>
                   </div>
                 </div>
               </div>
@@ -329,7 +339,7 @@ export const Teams = () => {
           <div class="py-1" />
           <p class="pad-0 text-center">UMAR ALI</p>
           <div class="parent">
-          <p class="subTitle text-center">ADVISOR</p>
+            <p class="subTitle text-center">ADVISOR</p>
           </div>
           <div class="py-3" />
           <img
@@ -373,15 +383,7 @@ export const Teams = () => {
             src={TBoshoff}
           />
           <div class="py-1" />
-          <p class="text-center">TIANN BOSHOFF</p>
-          <div class="py-3" />
-          <img
-            class="memberimg img-responsive center-block d-block mx-auto"
-            alt=""
-            src={TPraynito}
-          />
-          <div class="py-1" />
-          <p class="text-center">TIFFANY PRAYITNO</p>
+          <p class="text-center">TIAAN BOSHOFF</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
@@ -424,7 +426,7 @@ export const Teams = () => {
             <div class="py-3" />
             <p class="pad-0 text-center ">NATHAN POON</p>
             <div class="parent">
-            <p class="subTitle text-center">EMBEDDED LEAD</p>
+              <p class="subTitle text-center">EMBEDDED LEAD</p>
             </div>
             <div class="py-5">
               <div class="container-sm">
@@ -505,7 +507,7 @@ export const Teams = () => {
                 <div class="py-3" />
                 <p class="pad-0 text-center">JEDIDIAH CHIUSA</p>
                 <div class="parent">
-                <p class="subTitle text-center">MECHANICAL CO-LEAD</p>
+                  <p class="subTitle text-center">MECHANICAL CO-LEAD</p>
                 </div>
               </div>
             </div>
@@ -519,9 +521,8 @@ export const Teams = () => {
                 <div class="py-3" />
                 <p class="pad-0 text-center">ADITYA GOVIND MENON</p>
                 <div class="parent">
-                <p class="subTitle text-center">MECHANICAL CO-LEAD</p>
+                  <p class="subTitle text-center">MECHANICAL CO-LEAD</p>
                 </div>
-
               </div>
             </div>
           </div>
@@ -547,7 +548,7 @@ export const Teams = () => {
           <div class="py-1" />
           <p class="pad-0 text-center">JULIEN AH YOU</p>
           <div class="parent">
-          <p class="subTitle text-center">ADVISOR</p>
+            <p class="subTitle text-center">ADVISOR</p>
           </div>
           <div class="py-3" />
           <img
