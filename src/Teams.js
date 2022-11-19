@@ -34,6 +34,7 @@ import SWen from "./Photos/Edited Headshots/SWen.jpg";
 import ZChafe from "./Photos/Edited Headshots/ZChafe.jpg";
 import RBhagat from "./Photos/Edited Headshots/RBhagat.jpg";
 import ASoni from "./Photos/Edited Headshots/ASoni.jpg";
+import user from "./Photos/Edited Headshots/user.jpg";
 //Mechanical
 import AGovind from "./Photos/Edited Headshots/AGovind.jpg";
 import AZheWang from "./Photos/Edited Headshots/AZheWang.jpg";
@@ -374,12 +375,12 @@ export const Teams = () => {
           <p class="text-center">BOLONG TAN</p>
           <div class="py-3" />
           <img
-            class="memberimg img-responsive center-block d-block mx-auto"
+            class="memberimg-z img-responsive center-block d-block mx-auto"
             alt=""
-            src={WJi}
+            src={user}
           />
           <div class="py-1" />
-          <p class="text-center">WILLIAM JI</p>
+          <p class="text-center">ARSHDEEP KHURANA</p>
           <div class="py-3" />
         </div>
         <div class="col-sm">
@@ -416,6 +417,13 @@ export const Teams = () => {
           <div class="py-1" />
           <p class="text-center">CONNOR FROESE</p>
           <div class="py-3" />
+          <img
+            class="memberimg-z img-responsive center-block d-block mx-auto"
+            alt=""
+            src={WJi}
+          />
+          <div class="py-1" />
+          <p class="text-center">WILLIAM JI</p>
         </div>
       </div>
 
@@ -487,6 +495,13 @@ export const Teams = () => {
           <div class="py-1" />
           <p class="text-center">PARSHAN JAVANROOD</p>
           <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={user}
+          />
+          <div class="py-1" />
+          <p class="text-center">RAY HO</p>
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
@@ -627,6 +642,13 @@ export const Teams = () => {
           <div class="py-1" />
           <p class="text-center">TERRENCE LEONG</p>
           <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={user}
+          />
+          <div class="py-1" />
+          <p class="text-center">JOYCE WU</p>
         </div>
       </div>
     </div>
