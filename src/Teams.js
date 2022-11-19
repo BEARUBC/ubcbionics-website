@@ -129,13 +129,14 @@ export const Teams = () => {
           <div class="py-5">
             <div class="container-sm">
               <p class="text-center">
-                The administration sub-team is responsible for overseeing and
-                managing the team's public affairs. They secure sponsorship,
-                maintain the budget, and promote the team's social media
-                presence. Additionally, they secure sponsorship, maintain the
-                budget, and promote the team's social media presence.
-                Additionally, they work on recruitment, planning events and
-                maintain the team's website.
+                The administrative subteam is responsible for overseeing all the
+                team’s logistics, including our finances, sponsorship, public
+                relations, and content creation. We’re responsible for
+                everything from tracking the annual budget to engaging in
+                community outreach. You can often find us on all our social
+                media platforms or at team events we’ve organized! Part of the
+                administrative team is the web development group that designs
+                our website, too.
               </p>
             </div>
           </div>
@@ -214,10 +215,13 @@ export const Teams = () => {
             <div class="py-5">
               <div class="container-sm">
                 <p class="text-center">
-                  The analytics sub-team uses data science and machine learning
-                  to improve the usability of the current project. Part of their
-                  work includes programming with Python and performing data
-                  analysis on sensor information like EMG, FSR, etc.
+                  The analytics subteam uses data science and machine learning
+                  to improve the functionality of our current projects. For
+                  GRASP, we are focused on using computer vision (CV) to
+                  optimize the prosthetic arm’s grips. For NERV, we are mainly
+                  focusing on EEG data analysis. Generally, our work includes
+                  programming with Python and performing data analysis on sensor
+                  information like EMG, FSR, EEG, etc.
                 </p>
               </div>
             </div>
@@ -318,11 +322,14 @@ export const Teams = () => {
             <div class="py-5">
               <div class="container-sm">
                 <p class="text-center">
-                  The electrical sub-team is in charge of developing the
-                  electrical components into the prototype. Currently, they're
-                  working on EMG acquisition and battery management systems.
-                  They're developing a PCB using Altium that integrates sensors,
-                  motors, and actuators, while using Oscilloscope for testing.
+                  The electrical subteam focuses on developing and engineering
+                  the underlying infrastructure that spans from actuating the
+                  intended motion of the pilot to making sure the battery
+                  delivers energy; and everything in between! In the past, we’ve
+                  worked on creating our own custom muscle sensor to convert
+                  electric signals in your arm to signals that our processor can
+                  read. We coordinate with the subteams to make sure that the
+                  arm and hand movement are as seamless as possible.
                 </p>
               </div>
             </div>
