@@ -536,11 +536,13 @@ export const Teams = () => {
           <div class="py-5" />
           <div class="container-sm">
             <p class="text-center">
-              The mechanical sub-team designs the structure of the current
-              project and models the devices on CAD software. They research and
-              develop mechanical designs via engineering design process,
-              prototyping, and SolidWorks. They're responsible for the printing
-              and assembly of the
+              The mechanical subteam is responsible for the structural design of
+              the projects and modeling the devices on CAD software. We research
+              and develop mechanical designs via the engineering design process,
+              prototyping, and use of SolidWorks. Additionally, we’re
+              responsible for the printing and assembly of the GRASP project,
+              and are currently helping out with the headset for the NERV
+              project.
             </p>
           </div>
         </div>
