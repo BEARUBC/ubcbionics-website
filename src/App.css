@@ -7,19 +7,19 @@
 }
 
 .shiftLeft {
-  float:right;
+  float: right;
 }
 
 .parent {
-  position:relative;
+  position: relative;
 }
 
 p.subTitle {
   font-style: italic;
-  position:absolute;
-  font-size:small;
+  position: absolute;
+  font-size: small;
   line-height: 0;
-  text-align:center;
+  text-align: center;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -88,8 +88,8 @@ p.bionicsText {
   display: flex;
   font-family: "Lato", sans-serif;
   font-size: 18px;
-  text-align: justify;
-  width: 350px;
+  text-align: center;
+  width: 420px;
 }
 
 p.infoBlock {
