@@ -502,11 +502,12 @@ export const Teams = () => {
           />
           <div class="py-1" />
           <p class="text-center">RAY HO</p>
+          <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
             src={ASoni}
-          />
+          /> 
           <div class="py-1" />
           <p class="text-center">ALBIN SONI</p>
           <div class="py-3" />
