@@ -147,25 +147,25 @@ export const Sponsor = () => {
       />
       <div class="py-2" />
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-md-3">
           <div class="image_div">
             <img class="rect_sponsor" alt="" src={digikey} />
           </div>
-          <div class="py-2" />
+          <div class="py-3" />
         </div>
-        <div class="col-sm-3">
+        <div class="col-md-3">
           <div class="image_div">
             <img class="rect_sponsor" alt="" src={pololu} />
           </div>
           <div class="py-2" />
         </div>
-        <div class="col-sm-3">
+        <div class="col-md-3">
           <div class="image_div">
             <img class="asee_sponsor" alt="" src={asee} />
           </div>
           <div class="py-2" />
         </div>
-        <div class="col-sm-3">
+        <div class="col-md-3">
           <img
             class="sq_sponsor img-responsive center-block d-block mx-auto"
             alt=""
