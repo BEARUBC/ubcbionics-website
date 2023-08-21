@@ -38,6 +38,7 @@ p.subTitle {
   position: absolute;
   font-size: small;
   line-height: 0;
+  white-space: nowrap;
   text-align: center;
   left: 50%;
   transform: translate(-50%, 0);
@@ -363,14 +364,26 @@ p.joinusHeader {
 
 img.sq_sponsor {
   width: auto;
-  height: 125px;
+  height: 110px;
   max-height: 150px;
   max-width: 200px;
 }
 
+.image_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:110px;
+}
+
+img.asee_sponsor {
+  width:70%;
+  height: auto;
+}
+
 img.rect_sponsor {
-  width: 300px;
-  height: 100px;
+  width:60%;
+  height: auto;
 }
 
 /* Control the left side */
