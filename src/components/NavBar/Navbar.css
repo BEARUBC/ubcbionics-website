@@ -1,134 +1,142 @@
-*{
-    margin: 0px;
-    padding:0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .nav {
-    display:flex;
-    justify-content: space-around;
-    background-color: #152349;
-    font-family: 'Lato', sans-serif;
-    min-height: 8vh;
-    align-items:center;
+  display: flex;
+  justify-content: space-around;
+  background-color: #152349;
+  font-family: "Lato", sans-serif;
+  min-height: 8vh;
+  align-items: center;
 }
 
-
-.logo a{
-    text-decoration: none;
-    color:#fff;
-    text-transform: uppercase;
-    letter-spacing:5px;
-    font-size:25px;
-    align-items:inherit;
+.logo {
+  display: flex;
+  height: 80px;
+  width: 80px;
+  padding-right: 600px;
 }
 
-.nav-links{
-    display:flex;
-    justify-content: space-around;
-    width:90%;
+.logo a {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+  align-items: center;
+  white-space: nowrap;
 }
 
-.nav-links li{
-    list-style: none;
-    padding-right: 20px;
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
 }
 
-.nav-links a{
-    color:#fff;
-    text-decoration: none;
-    letter-spacing:3px;
+.nav-links li {
+  list-style: none;
+  padding-right: 20px;
 }
 
-.nav-active{
-    display:flex;
-    justify-content: space-around;
-    width:90%;
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 3px;
 }
 
-.nav-active a{
-    color:#fff;
-    text-decoration: none;
-    letter-spacing:3px;
+.nav-active {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
 }
 
-.burger{
-    display:none
+.nav-active a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 3px;
 }
 
-.burger div{
-    width:25px;
-    height: 2px;
-    background-color:#fff;
-    margin:5px
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  background-color: #fff;
+  margin: 5px;
 }
 
 .MobileNavigation {
-    display:none;
+  display: none;
 }
 
-@media screen and (max-width:1024px){
-    
-    .nav-links{
-        width: 70%;
-    }
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 70%;
+  }
 }
 
-@media screen and (max-width:850px){
-    body{ overflow-x: hidden;}
+@media screen and (max-width: 850px) {
+  body {
+    overflow-x: hidden;
+  }
 
-    .Navigation {
-        display: None;
-    }
+  .Navigation {
+    display: None;
+  }
 
-    .MobileNavigation {
-        display: flex;
-        
-    }
-    
-    .nav-links{
-        position:absolute;
-        right:0px;
-        height:92vh;
-        top: 8vh;
-        background-color:#152349;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        transform: translateX(100%);
-    }
+  .MobileNavigation {
+    display: flex;
+  }
 
-    .nav-links li{
-        opacity:0;
-    }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #152349;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+  }
 
-    .burger{
-        display: block;
-        cursor: pointer;
-    }
+  .nav-links li {
+    opacity: 0;
+  }
 
-    .nav-active {
-        position:absolute;
-        right:0px;
-        height:92vh;
-        top: 8vh;
-        background-color:#152349;
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        transform: translate(0%);
-    }
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-active {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #152349;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translate(0%);
+  }
 }
 
-@keyframes navLinkFade{
-    from{
-        opacity:0;
-        transform: translateX(50px);
-    }
-    to{
-        opacity:1;
-        transform: translateX(0px);
-    }
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }

@@ -3,6 +3,10 @@ import React from "react";
 import "./App.css";
 import { Layout } from "./components/Layout";
 import hand from "./Photos/hand.png";
+import mission from "./Photos/mission.png";
+import vision from "./Photos/vision.png";
+import research from "./Photos/research.png";
+import announcement from "./Photos/announcement.png";
 
 export const Home = () => {
   return (
@@ -10,7 +14,7 @@ export const Home = () => {
       <div class="row">
         <div class="col shiftLeft">
           <div class="py-5" />
-          <div class="py-2" />
+          <div class="py-5" />
           <div class="heading d-flex justify-content-center">UBC BIONICS</div>
 
           <div class="d-flex justify-content-center align-middle">
@@ -31,7 +35,75 @@ export const Home = () => {
           <div class="py-3" />
         </div>
       </div>
-      <div class="row partTwo">
+      <div className="hero-container">
+        <img
+          src={announcement}
+          alt="announcementImage"
+          className="hero-image"
+        />
+        <div className="hero-text">
+          <h1>UBC Bionics is Hiring!</h1>
+          <p>
+            Ready to make your mark? It's recruitment season at UBC Bionics!
+            <br />
+            Explore roles in admin, analytics, electrical, and mechanical
+            sub-teams.
+            <div class="py-3" />
+            Applications open <b>AUG 28TH </b>and close <b>SEPT 17TH</b> at
+            11:59PM. <br />
+            Stay tuned for more recruitment information!
+          </p>
+        </div>
+      </div>
+      <div class="py-3" />
+      <div className="hero-container">
+        <div className="hero-text">
+          <h1>Our Mission</h1>
+          <p>
+            Our team aims to foster an environment that is readily accessible to
+            students and provide a space for them to apply, strengthen, and hone
+            their technical skills. We take pride in providing a very hands-on
+            learning experience for all of our members, with support and
+            guidance from senior leads. It is our utmost priority to ensure that
+            our team members are equipped with the necessary skills to succeed
+            both within and outside of the team. As such, we integrate many
+            research opportunities into the team that pertain to our main tasks,
+            as well as projects that are conducted under our collaboration with
+            the Bionics Network at UBC.
+          </p>
+        </div>
+        <img src={mission} alt="missionImage" className="hero-image" />
+      </div>
+      <div class="py-3" />
+      <div className="hero-container">
+        <img src={vision} alt="visionImage" className="hero-image" />
+        <div className="hero-text">
+          <h1>Our Vision</h1>
+          <p>
+            Our ultimate goal as a team is to create solutions that can replace
+            human physiology. With so many resources available to us, and
+            extensive knowledge at our fingertips, we strive to push the bounds
+            of technology.
+          </p>
+        </div>
+      </div>
+      <div class="py-3" />
+      <div className="hero-container">
+        <div className="hero-text">
+          <h1>New Research Team</h1>
+          <p>
+            We are delighted to announce the recent addition of a brand new
+            research team to the UBC Bionics Team. This research team will
+            collaborate on a collection of smaller group projects with UBC
+            professors and graduate students, that will help members develop
+            skills to aid to the advancement of our current project, GRASP. For
+            more details, view our FAQ section under the Join Us page!
+          </p>
+        </div>
+        <img src={research} alt="researchImage" className="hero-image" />
+      </div>
+
+      {/* <div class="row partTwo">
         <span className="headerWhite">OUR MISSION</span>
         <p className="infoBlock">
           Our team aims to foster an environment that is readily accessible to
@@ -63,7 +135,7 @@ export const Home = () => {
           more details, view our FAQ section under the Join Us page!
         </p>
       </div>
-      <div class="py-4" />
+      <div class="py-4" /> */}
       {/* <div class="headerBlue text-center">PROJECT GOALS</div>
       <div class="py-2" />
       <p className="graspText">

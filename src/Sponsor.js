@@ -1,7 +1,7 @@
 import react from "react";
 import { Layout } from "./components/Layout";
 import ubcapplied from "./Photos/Gold/ubc-applied.png";
-import starfish from "./Photos/Silver/starfish.png";
+import starfish from "./Photos/Silver/Starfish.png";
 import digikey from "./Photos/Supporting/digikey.png";
 import ieee from "./Photos/Bronze/ieee.png";
 import bionicsnetworklogo from "./Photos/Gold/bionicsnetworklogo.png";
@@ -162,7 +162,7 @@ export const Sponsor = () => {
           <img
             class="rect_sponsor img-responsive center-block d-block mx-auto"
             alt=""
-            style={{ height: 115, width: 310 }}
+            style={{ height: 220, width: 330 }}
             src={asee}
           />
         </div>

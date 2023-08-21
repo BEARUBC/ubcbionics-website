@@ -6,6 +6,25 @@
   color: #152349;
 }
 
+.hero-image {
+  width: 45%;
+  padding: 50px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-text h1 {
+  padding: 10px;
+  color: #152348;
+}
+
+.hero-text p {
+  padding: 20px;
+}
+
 .shiftLeft {
   float: right;
 }
@@ -56,9 +75,10 @@ p.subTitle {
 
 img.mainArm {
   display: flex;
-  justify-content: center;
-  width: 400px;
+  justify-content: space-around;
+  width: 70%;
   height: auto;
+  padding-top: 40px;
 }
 
 .backimage {
