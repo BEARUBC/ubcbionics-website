@@ -41,7 +41,7 @@ export const Home = () => {
           className="hero-image"
         />
         <div className="hero-text">
-          <h1>UBC Bionics is Hiring!</h1>
+          <h1>Applications are open!</h1>
           <p>
             Ready to make your mark? It's recruitment season at UBC Bionics!
             <br />
@@ -49,8 +49,10 @@ export const Home = () => {
             sub-teams.
             <div class="py-3" />
             Applications open <b>AUG 28TH </b>and close <b>SEPT 17TH</b> at
-            11:59PM. <br />
-            Stay tuned for more recruitment information!
+            11:59PM.
+            <div class="py-3" />
+            Click <a href="https://forms.gle/A6JVjPZBHqhZTVBr5">here</a> to
+            apply!
           </p>
         </div>
       </div>
