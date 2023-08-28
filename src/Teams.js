@@ -68,7 +68,7 @@ export const Teams = () => {
           <div class="text-center">
             <a
               class="btn btn-primary"
-              href="https://forms.gle/rz21odn1b6Ck3szx5"
+              href="https://forms.gle/Zd4DjTmhk94W2mYL9"
               role="button"
             >
               APPLY NOW
