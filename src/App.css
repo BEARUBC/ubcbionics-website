@@ -1,3 +1,4 @@
+/*formats text to be heading*/
 .heading {
   color: #152349;
   font-family: "Montserrat", sans-serif;
@@ -6,6 +7,7 @@
   color: #152349;
 }
 
+/*formats image to be hero image*/
 .hero-image {
   width: 45%;
   padding: 50px;
@@ -192,6 +194,7 @@ p.graspText {
   font-weight: bold;
 }
 
+/*the sponsorship package button on the sponsors page*/
 .cute-btn {
   background-color: #152349;
   color: white;
