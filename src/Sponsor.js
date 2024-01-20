@@ -188,6 +188,7 @@ export const Sponsor = () => {
       <div class="py-4" />
       <div class="sponsor-header">
         FOR MORE SPONSORSHIP INFORMATION:
+         {/*sponsorship package button*/}
         <button class="cute-btn">
           <a
             class="link"
