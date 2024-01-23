@@ -13,11 +13,19 @@
   align-items: center;
 }
 
+.Navigation {
+  display: flex;
+  justify-content: space-around;
+  background-color: #152349;
+  font-family: "Lato", sans-serif;
+  min-height: 8vh;
+  align-items: center;
+}
+
 .logo {
   display: flex;
   height: 80px;
-  width: 80px;
-  padding-right: 600px;
+  width: 260px;
 }
 
 .logo a {
@@ -100,7 +108,7 @@
     height: 92vh;
     top: 8vh;
     background-color: #152349;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     width: 100%;

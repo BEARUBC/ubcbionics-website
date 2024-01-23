@@ -5,7 +5,7 @@ function Navigation() {
     const[sider, setSider] = useState("nav-links");
 
     return( 
-        <div style={{color:'white'}}class="nav">
+        <div style={{color:'white'}}class="Navigation">
             <NavLinks fn={sider} />
         </div>
      );
