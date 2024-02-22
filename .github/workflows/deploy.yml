@@ -1,4 +1,29 @@
-    - name: Install doctl
-      uses: digitalocean/action-doctl@v2
-      with:
-        token: ${{ secrets.DIGITALOCEAN__TOKEN }}
+name: deploy
+
+on:
+    push:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout files
+              uses: actions/checkout@v2
+
+    deploy:
+        needs: build
+
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout files
+              uses: actions/checkout@v2
+
+            - name: Install doctl
+              uses: digitalocean/action-doctl@v2
+              with:
+                token: ${{ secrets.DIGITALOCEAN__TOKEN }}
+
+            - name: Deploy to droplet
+              
