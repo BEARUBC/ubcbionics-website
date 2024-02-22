@@ -2,6 +2,8 @@ name: deploy
 
 on:
     push:
+        branches:
+          - master
 
 jobs:
     build:
@@ -26,4 +28,5 @@ jobs:
                 token: ${{ secrets.DIGITALOCEAN__TOKEN }}
 
             - name: Deploy to droplet
+              run:
               
