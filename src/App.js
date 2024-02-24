@@ -9,6 +9,7 @@ import { Teams } from './Teams';
 import { Sponsor } from './Sponsor';
 import { Footer } from './components/Footer'
 import { Accordion } from './Accordion';
+import { Pilot } from './Pilot';
 import { Navbar } from './components/NavBar/Navbar';
 
 
@@ -28,6 +29,7 @@ class App extends Component {
               <Route path="/join" component={Joinus} />
               <Route path="/sponsor" component={Sponsor} />
               <Route path='/contactform' component={Accordion} />
+              <Route path="/pilot" component={Pilot}/>
             </Switch>
             </div>
           </Router>

@@ -137,6 +137,10 @@
   }
 }
 
+@media screen and (max-width: 340px) {
+
+}
+
 @keyframes navLinkFade {
   from {
     opacity: 0;
