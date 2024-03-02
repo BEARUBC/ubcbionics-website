@@ -1,50 +1,70 @@
 import "./App.css";
 //admin
-import FXing from "./Photos/Edited Headshots/Frank Xing.jpg";
-import MCheng from "./Photos/Edited Headshots/Melanie Cheng.jpg";
-import BAhyou from "./Photos/Edited Headshots/Brandon Ah You.jpg";
-import SSabourin from "./Photos/Edited Headshots/Sasha Sabourin.jpg";
-import KTan from "./Photos/Edited Headshots/Kim Tan.jpg";
-import LCid from "./Photos/Edited Headshots/Leticia Cid.jpg";
-import HAwosiyan from "./Photos/Edited Headshots/Hikmah Awosiyan.jpg";
-import TZaurev from "./Photos/Edited Headshots/Theo Zaurev.jpg";
-import KReddy from "./Photos/Edited Headshots/Kimathra Reddy.jpg";
-import AHalim from "./Photos/Edited Headshots/Ayesha Halim.jpg";
+// import FXing from "./Photos/Edited Headshots/Frank Xing.JPG";
+import FXing from "./Photos/Edited Headshots/blank.JPG";
+import MCheng from "./Photos/Edited Headshots/Melanie Cheng.JPG";
+import BAhyou from "./Photos/Edited Headshots/Brandon Ah You.JPG";
+import SSabourin from "./Photos/Edited Headshots/Sasha Sabourin.JPG";
+import KTan from "./Photos/Edited Headshots/Kim Tan.JPG";
+import LCid from "./Photos/Edited Headshots/Leticia Cid.JPG";
+// import HAwosiyan from "./Photos/Edited Headshots/Hikmah Awosiyan.JPG";
+import HAwosiyan from "./Photos/Edited Headshots/blank.JPG";
+// import TZaurev from "./Photos/Edited Headshots/Theo Zaurev.JPG";
+import TZaurev from "./Photos/Edited Headshots/blank.JPG";
+// import KReddy from "./Photos/Edited Headshots/Kimathra Reddy.JPG";
+import KReddy from "./Photos/Edited Headshots/blank.JPG";
+// import AHalim from "./Photos/Edited Headshots/Ayesha Halim.JPG";
+import AHalim from "./Photos/Edited Headshots/blank.JPG";
 //analytics
-import LJones from "./Photos/Edited Headshots/Luca Jones.jpg";
-import RArvi from "./Photos/Edited Headshots/Raihan Arvi.jpg";
-import RMacdougall from "./Photos/Edited Headshots/Rachel Macdougall.jpg";
-import MDaffa from "./Photos/Edited Headshots/Muhammad Daffa.jpg";
+// import LJones from "./Photos/Edited Headshots/Luca Jones.JPG";
+import LJones from "./Photos/Edited Headshots/blank.JPG";
+// import RArvi from "./Photos/Edited Headshots/Raihan Arvi.JPG";
+import RArvi from "./Photos/Edited Headshots/blank.JPG";
+import RMacdougall from "./Photos/Edited Headshots/Rachel MacDougall.JPG";
+// import MDaffa from "./Photos/Edited Headshots/Muhammad Daffa.JPG";
+import MDaffa from "./Photos/Edited Headshots/blank.JPG";
 import IXu from "./Photos/Edited Headshots/Iris Xu.jpg";
-import LDavidson from "./Photos/Edited Headshots/Lydia Davidson.jpg";
-import KDo from "./Photos/Edited Headshots/Khue Do.jpg";
+// import LDavidson from "./Photos/Edited Headshots/Lydia Davidson.JPG";
+import LDavidson from "./Photos/Edited Headshots/blank.JPG";
+import KDo from "./Photos/Edited Headshots/Khue Do.JPG";
 //Electrical
-import AStewart from "./Photos/Edited Headshots/Anthony Stewart.jpg";
-import JThe from "./Photos/Edited Headshots/Justin The.jpg";
-import NSantoso from "./Photos/Edited Headshots/Nicholas Santoso.jpg";
-import TMoore from "./Photos/Edited Headshots/Teela Moore.jpg";
-import LRoss from "./Photos/Edited Headshots/Liam Ross.jpg";
-import RSchroeder from "./Photos/Edited Headshots/Ryker Schroeder.jpg";
-import MRoss from "./Photos/Edited Headshots/Michael Ross.jpg";
-import CRajamanthree from "./Photos/Edited Headshots/Chathil Rajamanthree.jpg";
-import GFallahpour from "./Photos/Edited Headshots/Ghazal Fallahpour.jpg";
-import ASoni from "./Photos/Edited Headshots/Albin Soni.jpg";
-import AKumar from "./Photos/Edited Headshots/Arpit Kumar.jpg";
-import RLi from "./Photos/Edited Headshots/Ronald Li.jpg";
-import UAli from "./Photos/Edited Headshots/Umar Ali.jpg"; //advisor
+import AStewart from "./Photos/Edited Headshots/Anthony Stewart.JPG";
+import JThe from "./Photos/Edited Headshots/Justin The.JPG";
+import NSantoso from "./Photos/Edited Headshots/Nick Santoso.JPG";
+import TMoore from "./Photos/Edited Headshots/Teela Moore.JPG";
+// import LRoss from "./Photos/Edited Headshots/Liam Ross.JPG";
+import LRoss from "./Photos/Edited Headshots/blank.JPG";
+import RSchroeder from "./Photos/Edited Headshots/Ryker Schroeder.JPG";
+// import MRoss from "./Photos/Edited Headshots/Michael Ross.JPG";
+import MRoss from "./Photos/Edited Headshots/blank.JPG";
+import CRajamanthree from "./Photos/Edited Headshots/Chathil Rajamanthree.JPG";
+import GFallahpour from "./Photos/Edited Headshots/Ghazal Fallahpour.JPG";
+import ASoni from "./Photos/Edited Headshots/Albin Soni.JPG";
+import AKumar from "./Photos/Edited Headshots/Arpit Kumar.JPG";
+import RLi from "./Photos/Edited Headshots/Ronald Li.JPG";
+import TBoshoff from "./Photos/Edited Headshots/Tiaan Boshoff.JPG";
+import WJi from "./Photos/Edited Headshots/William Ji.JPG";
 //Mechanical
-import AGovind from "./Photos/Edited Headshots/Aditya Govind Menon.jpg"; //advisor
-import TLeong from "./Photos/Edited Headshots/Terrence Leong.jpg";
-import AHawkins from "./Photos/Edited Headshots/Ali Hawkins.jpg";
-import JChen from "./Photos/Edited Headshots/Jackie Chen.jpg";
-import JChiusa from "./Photos/Edited Headshots/Jedidiah Chiusa.jpg";
-import WBarnard from "./Photos/Edited Headshots/Will Barnard.jpg";
-import JWu from "./Photos/Edited Headshots/Joyce Wu.jpg";
-import MTing from "./Photos/Edited Headshots/Marvin Ting.jpg";
-import NNayyar from "./Photos/Edited Headshots/Natalia Nayyar.jpg";
-import ABerkinbateva from "./Photos/Edited Headshots/Ayaulym Berkinbayeva.jpg";
-//Captain
-import EFlaschner from "./Photos/Edited Headshots/EFlaschner.jpg";
+import TLeong from "./Photos/Edited Headshots/Terrence Leong.JPG";
+import AHawkins from "./Photos/Edited Headshots/Ali Hawkins.JPG";
+import JChen from "./Photos/Edited Headshots/Jackie Chen.JPG";
+import JChiusa from "./Photos/Edited Headshots/Jedidiah Chiusa.JPG";
+import WBarnard from "./Photos/Edited Headshots/Willem Barnard.JPG";
+import JWu from "./Photos/Edited Headshots/Joyce Wu.JPG";
+import MTing from "./Photos/Edited Headshots/Marvin Ting.JPG";
+import NNayyar from "./Photos/Edited Headshots/Natalia Nayyar.JPG";
+import ABerkinbateva from "./Photos/Edited Headshots/Ayaulym Berkinbayeva.JPG";
+//Captains
+import JXi from "./Photos/Edited Headshots/Joyce Xi.JPG";
+// import KKochi from "./Photos/Edited Headshots/Kyle Kochi.JPG";
+import KKochi from "./Photos/Edited Headshots/blank.JPG";
+//Advisors
+// import EFlaschner from "./Photos/Edited Headshots/EFlaschner.JPG";
+import EFlaschner from "./Photos/Edited Headshots/blank.JPG";
+import MMadhav from "./Photos/Edited Headshots/Manu Madhav.jpg";
+import JMadden from "./Photos/Edited Headshots/John Madden.jpg";
+import FDouglas from "./Photos/Edited Headshots/Fraser Douglas.jpg";
+import XJin from "./Photos/Edited Headshots/Xiaoliang Jin.jpg";
 
 export const Teams = () => {
   return (
@@ -119,12 +139,12 @@ export const Teams = () => {
                   <img
                     class="teamimg img-responsive center-block d-block mx-auto"
                     alt=""
-                    src={JThe}
+                    src={BAhyou}
                   />
                   <div class="py-3" />
-                  <p class="pad-0 text-center">KYLE KOCHI</p>
+                  <p class="pad-0 text-center">BRANDON AH YOU</p>
                   <div class="parent">
-                    <p class="subTitle text-center">ELECTRICAL CO-LEAD</p>
+                    <p class="subTitle text-center">ADMIN CO-LEAD</p>
                   </div>
                 </div>
               </div>
@@ -133,12 +153,12 @@ export const Teams = () => {
                   <img
                     class="teamimg img-responsive center-block d-block mx-auto"
                     alt=""
-                    src={LRoss}
+                    src={MCheng}
                   />
                   <div class="py-3" />
-                  <p class="pad-0 text-center">TIFFANY PRAYITNO</p>
+                  <p class="pad-0 text-center">MELANIE CHENG</p>
                   <div class="parent">
-                    <p class="subTitle text-center">ELECTRICAL CO-LEAD</p>
+                    <p class="subTitle text-center">ADMIN CO-LEAD</p>
                   </div>
                 </div>
               </div>
@@ -163,37 +183,10 @@ export const Teams = () => {
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={MCheng}
+            src={FXing}
           />
           <div class="py-1" />
-          <p class="text-center">JUDY LEE</p>
-          <div class="py-3" />
-          <img
-            class="memberimg img-responsive center-block d-block mx-auto"
-            alt=""
-            src={MCheng}
-          />
-          <div class="py-1" />
-          <p class="text-center">MELANIE CHENG</p>
-          <div class="py-3" />
-          <img
-            class="memberimg img-responsive center-block d-block mx-auto"
-            alt=""
-            src={BAhyou}
-          />
-          <div class="py-1" />
-          <p class="text-center">BRANDON AH YOU</p>
-          <div class="py-3" />
-        </div>
-        <div class="col-sm">
-          <div class="py-4" />
-          <img
-            class="memberimg img-responsive center-block d-block mx-auto"
-            alt=""
-            src={KTan}
-          />
-          <div class="py-1" />
-          <p class="text-center">EUNSEOL KO</p>
+          <p class="text-center">FRANK XING</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
@@ -201,15 +194,58 @@ export const Teams = () => {
             src={SSabourin}
           />
           <div class="py-1" />
-          <p class="text-center">TIMOTHY FANG</p>
+          <p class="text-center">SASHA SABOURIN</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={SGopee}
+            src={KTan}
           />
           <div class="py-1" />
-          <p class="text-center">SANJANA GOPEE</p>
+          <p class="text-center">KIM TAN</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={LCid}
+          />
+          <div class="py-1" />
+          <p class="text-center">LETICIA CID</p>
+          <div class="py-3" />
+        </div>
+        <div class="col-sm">
+          <div class="py-4" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={HAwosiyan}
+          />
+          <div class="py-1" />
+          <p class="text-center">HIKMAH AWOSIYAN</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={TZaurev}
+          />
+          <div class="py-1" />
+          <p class="text-center">THEO ZAUREV</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={KReddy}
+          />
+          <div class="py-1" />
+          <p class="text-center">KIMATHRA REDDY</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={AHalim}
+          />
+          <div class="py-1" />
+          <p class="text-center">AYESHA HALIM</p>
           <div class="py-3" />
         </div>
       </div>
@@ -225,26 +261,26 @@ export const Teams = () => {
                   <img
                     class="teamimg img-responsive center-block d-block mx-auto"
                     alt=""
-                    src={JThe}
+                    src={RMacdougall}
                   />
                   <div class="py-3" />
-                  <p class="pad-0 text-center">KYLE KOCHI</p>
+                  <p class="pad-0 text-center">RACHAEL MACDOUGALL</p>
                   <div class="parent">
-                    <p class="subTitle text-center">ELECTRICAL CO-LEAD</p>
+                    <p class="subTitle text-center">ANALYTICS CO-LEAD</p>
                   </div>
                 </div>
               </div>
               <div class="col">
                 <div class="pad-right">
                   <img
-                    class="teamimg img-responsive center-block d-block mx-auto"
+                    class="teamimg img-responsive center-block d-block mx-auto irisimg"
                     alt=""
-                    src={LRoss}
+                    src={IXu}
                   />
                   <div class="py-3" />
-                  <p class="pad-0 text-center">TIFFANY PRAYITNO</p>
+                  <p class="pad-0 text-center">IRIS XU</p>
                   <div class="parent">
-                    <p class="subTitle text-center">ELECTRICAL CO-LEAD</p>
+                    <p class="subTitle text-center">ANALYTICS CO-LEAD</p>
                   </div>
                 </div>
               </div>
@@ -270,37 +306,10 @@ export const Teams = () => {
           <img
             class="memberimg-z img-responsive center-block d-block mx-auto"
             alt=""
-            src={RMacdougall}
-          />
-          <div class="py-1" />
-          <p class="text-center">LEON LI</p>
-          <div class="py-3" />
-          <img
-            class="memberimg img-responsive center-block d-block mx-auto"
-            alt=""
-            src={IXu}
-          />
-          <div class="py-1" />
-          <p class="text-center">MATTHEW KIM</p>
-          <div class="py-3" />
-          <img
-            class="memberimg img-responsive center-block d-block mx-auto"
-            alt=""
-            src={RMacdougall}
-          />
-          <div class="py-1" />
-          <p class="text-center">RACHEL MACDOUGALL</p>
-          <div class="py-3" />
-        </div>
-        <div class="col-sm">
-          <div class="py-4" />
-          <img
-            class="memberimg-z img-responsive center-block d-block mx-auto"
-            alt=""
             src={MDaffa}
           />
           <div class="py-1" />
-          <p class="text-center">KIRA LI</p>
+          <p class="text-center">MUHAMMAD DAFFA</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
@@ -308,15 +317,34 @@ export const Teams = () => {
             src={LDavidson}
           />
           <div class="py-1" />
-          <p class="text-center">SAMEER SHANKAR</p>
+          <p class="text-center">LYDIA DAVIDSON</p>
+          <div class="py-3" />
+        </div>
+        <div class="col-sm">
+          <div class="py-4" />
+          <img
+            class="memberimg-z img-responsive center-block d-block mx-auto"
+            alt=""
+            src={LJones}
+          />
+          <div class="py-1" />
+          <p class="text-center">LUCA JONES</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={BAppolinary}
+            src={RArvi}
           />
           <div class="py-1" />
-          <p class="text-center">BLAISE APPOLINARY</p>
+          <p class="text-center">RAIHAN ARVI</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={KDo}
+          />
+          <div class="py-1" />
+          <p class="text-center">KHUE DO</p>
           <div class="py-3" />
         </div>
       </div>
@@ -332,10 +360,10 @@ export const Teams = () => {
                   <img
                     class="teamimg img-responsive center-block d-block mx-auto"
                     alt=""
-                    src={JThe}
+                    src={TBoshoff}
                   />
                   <div class="py-3" />
-                  <p class="pad-0 text-center">KYLE KOCHI</p>
+                  <p class="pad-0 text-center">TIAAN BOSHOFF</p>
                   <div class="parent">
                     <p class="subTitle text-center">ELECTRICAL CO-LEAD</p>
                   </div>
@@ -346,10 +374,10 @@ export const Teams = () => {
                   <img
                     class="teamimg img-responsive center-block d-block mx-auto"
                     alt=""
-                    src={LRoss}
+                    src={WJi}
                   />
                   <div class="py-3" />
-                  <p class="pad-0 text-center">TIFFANY PRAYITNO</p>
+                  <p class="pad-0 text-center">WILLIAM JI</p>
                   <div class="parent">
                     <p class="subTitle text-center">ELECTRICAL CO-LEAD</p>
                   </div>
@@ -378,13 +406,18 @@ export const Teams = () => {
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={RSchroeder}
+            src={AStewart}
           />
           <div class="py-1" />
-          <p class="pad-0 text-center">UMAR ALI</p>
-          <div class="parent">
-            <p class="subTitle text-center">ADVISOR</p>
-          </div>
+          <p class="pad-0 text-center">ANTHONY STEWART</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={JThe}
+          />
+          <div class="py-1" />
+          <p class="text-center">JUSTIN THE</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
@@ -392,31 +425,31 @@ export const Teams = () => {
             src={NSantoso}
           />
           <div class="py-1" />
-          <p class="text-center">MICHAEL ROSS</p>
+          <p class="text-center">NICHOLAS SANTOSO</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={MRoss}
+            src={TMoore}
           />
           <div class="py-1" />
-          <p class="text-center">YASH PARIKH</p>
-          <div class="py-3" />
-          <img
-            class="memberimg img-responsive center-block d-block mx-auto"
-            alt=""
-            src={CRajamanthree}
-          />
-          <div class="py-1" />
-          <p class="text-center">BOLONG TAN</p>
+          <p class="text-center">TEELA MOORE</p>
           <div class="py-3" />
           <img
             class="memberimg-z img-responsive center-block d-block mx-auto"
             alt=""
-            src={user}
+            src={LRoss}
           />
           <div class="py-1" />
-          <p class="text-center">ARSHDEEP KHURANA</p>
+          <p class="text-center">LIAM ROSS</p>
+          <div class="py-3" />
+          <img
+            class="memberimg-z img-responsive center-block d-block mx-auto"
+            alt=""
+            src={ASoni}
+          />
+          <div class="py-1" />
+          <p class="text-center">ALBIN SONI</p>
           <div class="py-3" />
         </div>
         <div class="col-sm">
@@ -424,18 +457,34 @@ export const Teams = () => {
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={TMoore}
+            src={RSchroeder}
           />
           <div class="py-1" />
-          <p class="text-center">TIAAN BOSHOFF</p>
+          <p class="text-center">RYKER SCHROEDER</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={AStewart}
+            src={MRoss}
           />
           <div class="py-1" />
-          <p class="text-center">ALESSIA PALUMBO</p>
+          <p class="text-center">MICHAEL ROSS</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={CRajamanthree}
+          />
+          <div class="py-1" />
+          <p class="text-center">CHATHIL RAJAMANTHREE</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={GFallahpour}
+          />
+          <div class="py-1" />
+          <p class="text-center">GHAZAL FALLAHPOUR</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
@@ -443,24 +492,17 @@ export const Teams = () => {
             src={AKumar}
           />
           <div class="py-1" />
-          <p class="text-center">MANIK DIALANI</p>
+          <p class="text-center">ARPIT KUMAR</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={ASoni}
+            src={RLi}
           />
           <div class="py-1" />
-          <p class="text-center">CONNOR FROESE</p>
+          <p class="text-center">RONALD LI</p>
           <div class="py-3" />
-          <img
-            class="memberimg-z img-responsive center-block d-block mx-auto"
-            alt=""
-            src={GFallahpour}
-          />
-          <div class="py-1" />
-          <p class="text-center">WILLIAM JI</p>
-        </div>
+        </div>  
       </div>
 
       <div class="row partOne">
@@ -488,10 +530,10 @@ export const Teams = () => {
                 <img
                   class="teamimg img-responsive center-block d-block mx-auto"
                   alt=""
-                  src={AGovind}
+                  src={MTing}
                 />
                 <div class="py-3" />
-                <p class="pad-0 text-center">ADITYA GOVIND MENON</p>
+                <p class="pad-0 text-center">MARVIN TING</p>
                 <div class="parent">
                   <p class="subTitle text-center">MECHANICAL CO-LEAD</p>
                 </div>
@@ -517,13 +559,10 @@ export const Teams = () => {
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={JWu}
+            src={TLeong}
           />
           <div class="py-1" />
-          <p class="pad-0 text-center">JULIEN AH YOU</p>
-          <div class="parent">
-            <p class="subTitle text-center">ADVISOR</p>
-          </div>
+          <p class="pad-0 text-center">TERRENCE LEONG</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
@@ -531,16 +570,19 @@ export const Teams = () => {
             src={AHawkins}
           />
           <div class="py-1" />
-          <p class="text-center">DOMINIC STARCK</p>
+          <p class="text-center">ALI HAWKINS</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={SGupta}
+            src={JChen}
           />
           <div class="py-1" />
-          <p class="text-center">SAUM GUPTA</p>
+          <p class="text-center">JACKIE CHEN</p>
           <div class="py-3" />
+        </div>
+        <div class="col-sm">
+          <div class="py-4" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
@@ -552,29 +594,10 @@ export const Teams = () => {
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={MTing}
+            src={ABerkinbateva}
           />
           <div class="py-1" />
-          <p class="text-center">MARVIN TING</p>
-          <div class="py-3" />
-        </div>
-        <div class="col-sm">
-          <div class="py-4" />
-          <img
-            class="memberimg img-responsive center-block d-block mx-auto"
-            alt=""
-            src={JChen}
-          />
-          <div class="py-1" />
-          <p class="text-center">GRACE GOULD</p>
-          <div class="py-3" />
-          <img
-            class="memberimg img-responsive center-block d-block mx-auto"
-            alt=""
-            src={AZheWang}
-          />
-          <div class="py-1" />
-          <p class="text-center">ANDREW ZHE WANG</p>
+          <p class="text-center">AYAULYM BERKINBAYEVA</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
@@ -582,23 +605,111 @@ export const Teams = () => {
             src={WBarnard}
           />
           <div class="py-1" />
-          <p class="text-center">JOYCE XI</p>
+          <p class="text-center">WILL BERNARD</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={TLeong}
-          />
-          <div class="py-1" />
-          <p class="text-center">TERRENCE LEONG</p>
-          <div class="py-3" />
-          <img
-            class="memberimg img-responsive center-block d-block mx-auto"
-            alt=""
-            src={user}
+            src={JWu}
           />
           <div class="py-1" />
           <p class="text-center">JOYCE WU</p>
+          <div class="py-3" />
+        </div>
+      </div>
+
+      <div class="row partTwo">
+        <div class="py-3" />
+        <p class="joinusHeader text-center">ADVISORS</p>
+        <div class="col-sm">
+          <div class="py-4" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto my-auto"
+            alt=""
+            src={EFlaschner}
+          />
+          <div class="py-1" />
+          <p class="pad-0 text-center">EMILY FLASCHNER</p>
+          <div class="parent">
+            <p class="subTitle text-center">UNDERGRADUATE ADVISOR</p>
+          </div>
+          <div class="py-2" />
+          <div class="parent">
+            <p class="subTitle text-center">SBME</p>
+          </div>
+          <div class="py-4" />
+        </div>
+        <div class="col-sm">
+          <div class="py-4" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto my-auto"
+            alt=""
+            src={MMadhav}
+          />
+          <div class="py-1" />
+          <p class="pad-0 text-center">DR. MANU MADHAV</p>
+          <div class="parent">
+            <p class="subTitle text-center">FACULTY ADVISOR</p>
+          </div>
+          <div class="py-2" />
+          <div class="parent">
+            <p class="subTitle text-center">SBME</p>
+          </div>
+          <div class="py-4" />
+        </div>
+        <div class="col-sm">
+          <div class="py-4" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto my-auto"
+            alt=""
+            src={JMadden}
+          />
+          <div class="py-1" />
+          <p class="pad-0 text-center">DR. JOHN MADDEN</p>
+          <div class="parent">
+            <p class="subTitle text-center">FACULTY ADVISOR</p>
+          </div>
+          <div class="py-2" />
+          <div class="parent">
+            <p class="subTitle text-center">ECE</p>
+          </div>
+          <div class="py-4" />
+        </div>
+        <div class="col-sm">
+          <div class="py-4" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto my-auto"
+            alt=""
+            src={FDouglas}
+          />
+          <div class="py-1" />
+          <p class="pad-0 text-center">FRASER DOUGLAS</p>
+          <div class="parent">
+            <p class="subTitle text-center">GRADUATE ADVISOR</p>
+          </div>
+          <div class="py-2" />
+          <div class="parent">
+            <p class="subTitle text-center">SBME</p>
+          </div>
+          <div class="py-4" />
+        </div>
+        <div class="col-sm">
+          <div class="py-4" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto my-auto h120"
+            alt=""
+            src={XJin}
+          />
+          <div class="py-1" />
+          <p class="pad-0 text-center">DR. XIAOLIANG JIN</p>
+          <div class="parent">
+            <p class="subTitle text-center">FACULTY ADVISOR</p>
+          </div>
+          <div class="py-2" />
+          <div class="parent">
+            <p class="subTitle text-center">MECH</p>
+          </div>
+          <div class="py-4" />
         </div>
       </div>
     </div>
