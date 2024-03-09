@@ -322,7 +322,9 @@ img.captain {
   position: relative;
   clip-path: circle();
   width: 300px;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
   display: "block";
   z-index: -1;
 }
@@ -331,9 +333,19 @@ img.memberimg {
   position: relative;
   clip-path: circle();
   width: 120px;
-  height: auto;
+  height: 120px;
+  object-fit: cover;
+  overflow: hidden;
   display: "block";
   z-index: 1;
+}
+
+img.irisimg{
+  padding-top: 37.49px;
+}
+
+img.h120 {
+  height: 120px;
 }
 
 img.memberimg-z {
