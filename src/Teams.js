@@ -21,8 +21,7 @@ import LJones from "./Photos/Edited Headshots/blank.JPG";
 // import RArvi from "./Photos/Edited Headshots/Raihan Arvi.JPG";
 import RArvi from "./Photos/Edited Headshots/blank.JPG";
 import RMacdougall from "./Photos/Edited Headshots/Rachel MacDougall.JPG";
-// import MDaffa from "./Photos/Edited Headshots/Buyang Daffa.JPG";
-import BDaffa from "./Photos/Edited Headshots/blank.JPG";
+import BDaffa from "./Photos/Edited Headshots/Buyang Daffa.JPG";
 import IXu from "./Photos/Edited Headshots/Iris Xu.jpg";
 // import LDavidson from "./Photos/Edited Headshots/Lydia Davidson.JPG";
 import LDavidson from "./Photos/Edited Headshots/blank.JPG";
@@ -32,7 +31,6 @@ import AStewart from "./Photos/Edited Headshots/Anthony Stewart.JPG";
 import JThe from "./Photos/Edited Headshots/Justin The.JPG";
 import NSantoso from "./Photos/Edited Headshots/Nick Santoso.JPG";
 import TMoore from "./Photos/Edited Headshots/Teela Moore.JPG";
-import LRoss from "./Photos/Edited Headshots/Liam Ross.jpg";
 import RSchroeder from "./Photos/Edited Headshots/Ryker Schroeder.JPG";
 import MRoss from "./Photos/Edited Headshots/Michael Ross.jpg";
 import CRajamanthree from "./Photos/Edited Headshots/Chathil Rajamanthree.JPG";
@@ -337,10 +335,10 @@ export const Teams = () => {
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={LJones}
+            src={KDo}
           />
           <div class="py-1" />
-          <p class="text-center">LUCA JONES</p>
+          <p class="text-center">KHUE DO</p>
           <div class="py-3" />
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
@@ -353,10 +351,10 @@ export const Teams = () => {
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={KDo}
+            src={LJones}
           />
           <div class="py-1" />
-          <p class="text-center">KHUE DO</p>
+          <p class="text-center">LUCA JONES</p>
           <div class="py-3" />
         </div>
       </div>
