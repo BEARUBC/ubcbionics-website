@@ -322,7 +322,9 @@ img.captain {
   position: relative;
   clip-path: circle();
   width: 300px;
-  height: auto;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
   display: "block";
   z-index: -1;
 }
@@ -332,6 +334,7 @@ img.memberimg {
   clip-path: circle();
   width: 120px;
   height: 120px;
+  object-fit: cover;
   overflow: hidden;
   display: "block";
   z-index: 1;
