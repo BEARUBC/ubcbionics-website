@@ -41,18 +41,17 @@ export const Home = () => {
           className="hero-image"
         />
         <div className="hero-text">
-          <h1>Applications are open!</h1>
+          <h1>Applications open in September!</h1>
           <p>
-            Ready to make your mark? It's recruitment season at UBC Bionics!
+            Applications for joining our team are currently closed but will reopen in September.
             <br />
-            Explore roles in admin, analytics, electrical, and mechanical
-            sub-teams.
+            Explore roles in admin, analytics, electrical, and mechanical sub-teams <a href="/teams">here</a>! Follow our Instagram for more updates!
             <div class="py-3" />
             Applications open at the end of August and close mid September at
             11:59PM.
-            <div class="py-3" />
+            {/* <div class="py-3" />
             Click <a href="https://forms.gle/A6JVjPZBHqhZTVBr5">here</a> to
-            apply!
+            apply! */}
           </p>
         </div>
       </div>

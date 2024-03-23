@@ -22,7 +22,7 @@ import LJones from "./Photos/Edited Headshots/blank.JPG";
 import RArvi from "./Photos/Edited Headshots/blank.JPG";
 import RMacdougall from "./Photos/Edited Headshots/Rachel MacDougall.JPG";
 import BDaffa from "./Photos/Edited Headshots/Buyang Daffa.JPG";
-import IXu from "./Photos/Edited Headshots/Iris Xu.jpg";
+import IXu from "./Photos/Edited Headshots/Iris Xu.png";
 // import LDavidson from "./Photos/Edited Headshots/Lydia Davidson.JPG";
 import LDavidson from "./Photos/Edited Headshots/blank.JPG";
 import KDo from "./Photos/Edited Headshots/Khue Do.JPG";
@@ -35,7 +35,7 @@ import RSchroeder from "./Photos/Edited Headshots/Ryker Schroeder.JPG";
 import MRoss from "./Photos/Edited Headshots/Michael Ross.jpg";
 import CRajamanthree from "./Photos/Edited Headshots/Chathil Rajamanthree.JPG";
 import GFallahpour from "./Photos/Edited Headshots/Ghazal Fallahpour.JPG";
-import ASoni from "./Photos/Edited Headshots/Albin Soni.JPG";
+import ASoni from "./Photos/Edited Headshots/Albin Soni.png";
 import AKumar from "./Photos/Edited Headshots/Arpit Kumar.JPG";
 import RLi from "./Photos/Edited Headshots/Ronald Li.JPG";
 import TBoshoff from "./Photos/Edited Headshots/Tiaan Boshoff.JPG";
@@ -283,7 +283,7 @@ export const Teams = () => {
               <div class="col">
                 <div class="pad-right">
                   <img
-                    class="teamimg img-responsive center-block d-block mx-auto irisimg"
+                    class="teamimg img-responsive center-block d-block mx-auto"
                     alt=""
                     src={IXu}
                   />
@@ -491,18 +491,18 @@ export const Teams = () => {
           <img
             class="memberimg img-responsive center-block d-block mx-auto"
             alt=""
-            src={MRoss}
-          />
-          <div class="py-1" />
-          <p class="text-center">MICHAEL ROSS</p>
-          <div class="py-3" />
-          <img
-            class="memberimg img-responsive center-block d-block mx-auto"
-            alt=""
             src={ASoni}
           />
           <div class="py-1" />
           <p class="text-center">ALBIN SONI</p>
+          <div class="py-3" />
+          <img
+            class="memberimg img-responsive center-block d-block mx-auto"
+            alt=""
+            src={MRoss}
+          />
+          <div class="py-1" />
+          <p class="text-center">MICHAEL ROSS</p>
           <div class="py-3" />
         </div>  
       </div>
