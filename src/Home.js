@@ -47,7 +47,7 @@ export const Home = () => {
             <br />
             Explore roles in admin, analytics, electrical, and mechanical sub-teams <a href="/teams">here</a>! Follow our Instagram for more updates!
             <div class="py-3" />
-            Applications open <b>AUG 28TH </b>and close <b>SEPT 17TH</b> at
+            Applications open at the end of August and close mid September at
             11:59PM.
             {/* <div class="py-3" />
             Click <a href="https://forms.gle/A6JVjPZBHqhZTVBr5">here</a> to
