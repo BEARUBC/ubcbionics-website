@@ -173,22 +173,22 @@ export const Sponsor = () => {
             alt=""
             src={eus}
           />
-          <div class="py-2" />
+          {/* <div class="py-2" /> */}
         </div>
       </div>
-      <hr
+      {/* <hr
         style={{
           color: "#000000",
           backgroundColor: "#000000",
           height: 1,
           borderColor: "#000000",
         }}
-      />
+      /> */}
 
-      <div class="py-4" />
+      {/* <div class="py-4" />
       <div class="sponsor-header">
         FOR MORE SPONSORSHIP INFORMATION:
-         {/*sponsorship package button*/}
+         {/*sponsorship package button}
         <button class="cute-btn">
           <a
             class="link"
@@ -197,7 +197,7 @@ export const Sponsor = () => {
             Sponsorship Package
           </a>
         </button>
-      </div>
+      </div> */}
     </Layout>
   );
 };
