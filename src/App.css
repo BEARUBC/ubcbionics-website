@@ -388,12 +388,12 @@ img.sq_sponsor {
 }
 
 img.asee_sponsor {
-  width:70%;
+  width: 100%;
   height: auto;
 }
 
 img.rect_sponsor {
-  width:60%;
+  width: 100%;
   height: auto;
 }
 
@@ -502,5 +502,14 @@ img.rect_sponsor {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
+  img.rect_sponsor {
+    width: 60%;
+  }
 }
+
+/* @media (min-width: 576px) {
+  img.rect_sponsor {
+    width: 60%;
+  }
+} */

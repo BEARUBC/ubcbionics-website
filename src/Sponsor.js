@@ -159,13 +159,14 @@ export const Sponsor = () => {
           </div>
           <div class="py-2" />
         </div>
-        <div class="col-sm-3">
-          <img
-            class="rect_sponsor img-responsive center-block d-block mx-auto"
-            alt=""
-            style={{ height: 220, width: 330 }}
-            src={asee}
-          />
+        <div class="col-md-3">
+          <div class="image_div">
+            <img
+              class="rect_sponsor"
+              alt=""
+              src={asee}
+            />
+          </div>
         </div>
         <div class="col-md-3">
           <img
