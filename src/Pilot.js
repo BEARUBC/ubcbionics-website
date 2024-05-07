@@ -1,3 +1,5 @@
+//Pilot recruitment page. No longer active
+
 import arm from "./Photos/arm.jpg";
 import team from "./Photos/team.jpg";
 // import facebook from "../public/facebook-icon.png";
