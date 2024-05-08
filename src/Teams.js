@@ -53,6 +53,8 @@ import ABerkinbateva from "./Photos/Edited Headshots/Ayaulym Berkinbayeva.JPG";
 //Captains
 import JXi from "./Photos/Edited Headshots/Joyce Xi.JPG";
 import KKochi from "./Photos/Edited Headshots/Kyle Kochi.jpg";
+//Pilot
+import AAtkinson from "./Photos/Edited Headshots/blank.JPG";
 //Advisors
 import EFlaschner from "./Photos/Edited Headshots/Emily Flaschner.jpg";
 import MMadhav from "./Photos/Edited Headshots/Manu Madhav.jpg";
@@ -136,6 +138,25 @@ export const Teams = () => {
           bring our projects into reality. I hope you’ll support or join us on
           our journey!
         </p> */}
+      </div>
+      <div class="py-4" />
+      <div class="row">
+        <div class="py-4 " />
+        <p class="joinusHeader text-center">PILOT</p>
+        <div class="col">
+          <div class="py-3" />
+          <img
+            class="captain img-responsive center-block d-block mx-auto"
+            alt=""
+            src={AAtkinson}
+          />
+          <div class="py-3" />
+          <p class="text-center pad-0">ALBERT ATKINSON</p>
+          <div class="parent">
+            <p class="subTitle text-center">TEAM PILOT</p>
+          </div>
+          <div class="py-4" />
+        </div>
       </div>
       <div class="py-4" />
 

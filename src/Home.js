@@ -41,7 +41,7 @@ export const Home = () => {
           className="hero-image"
         />
         <div className="hero-text">
-          <h1>Applications open in September!</h1>
+          <h1>Applications Open in September!</h1>
           <p>
             Applications for joining our team are currently closed but will reopen in September.
             <br />
