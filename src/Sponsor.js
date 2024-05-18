@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import { Layout } from "./components/Layout";
 import ubcapplied from "./Photos/Gold/ubc-applied.png";
 import starfish from "./Photos/Silver/Starfish.png";
@@ -13,37 +13,132 @@ import eus from "./Photos/Supporting/eus.jpeg";
 import pololu from "./Photos/Supporting/pololu.png";
 import mecheng from "./Photos/Bronze/mecheng.jpeg";
 import ubcmaterials from "./Photos/Bronze/ubcmaterials.jpg";
+//slide images:
+import slide1 from "./Photos/Thank You/fraser valley thank you.png";
+import slide2 from "./Photos/Thank You/VHP thank you 1.png";
+import slide3 from "./Photos/Thank You/VHP thank you 2.png";
+
+function Slide({classname, image, alt}) {
+  return(
+  <div class={classname}>
+      <img src={image} alt={alt}/>
+  </div>
+  );
+}
+
+const slides = document.getElementsByClassName("slide");
+const dots = document.getElementsByClassName("dot");
+const delay = 2500;
+
+function Slideshow() {
+  const [slideIndex, setSlideIndex] = React.useState(1);
+  const [classNames, setClassNames] = React.useState(Array(3).fill("slide"));
+  const timeoutRef = React.useRef(null);
+
+  function resetTimeout() {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+  }
+    
+  React.useEffect(() => {
+    resetTimeout();
+    timeoutRef.current = setTimeout(
+      () =>
+        setSlideIndex((slideIndex) => {
+          if (slideIndex >= slides.length) {
+            slideIndex = 1;
+          } else if (slideIndex < 1) {
+            slideIndex = slides.length;
+          } else {
+            slideIndex = slideIndex + 1;
+          }
+        }
+        ),
+      delay
+    );
+  
+    return () => {
+      resetTimeout();
+    };
+  }, []);
+
+  let i;
+  for (i = 0; i < slides.length; i++) {
+    setClassNames(setNextArray(classNames, i, "slide"));
+  }
+  // for (i = 0; i < dots.length; i++) {
+  //   dots[i].className = dots[i].className.replace(" active", "");
+  // }
+  setClassNames(setNextArray(classNames, slideIndex-1, "slide active"));
+  // dots[slideIndex].className += " active";
+  function setNextArray(array, index, value) {
+    //stuck in infiite loop for some reason???
+    const nextArray = array.slice();
+    nextArray[index] = value;
+    return(nextArray);
+  }
+
+  return(
+  <div class="slideshow-container">
+
+    <Slide className={classNames[0]} image={slide1} alt={"fraservalley prosthetics"}/>
+
+    <Slide className={classNames[1]} image={slide2} alt={"victoria hand project"}/>
+
+    <Slide className={classNames[2]} image={slide3} alt={"victoria hand project"}/>
+  </div>
+  );
+}
+
+
+
+//change class to on screen
+// function showSlides(n) {
+//   let i;
+//   let slides = document.getElementsByClassName("mySlides");
+//   let dots = document.getElementsByClassName("dot");
+//   if (n > slides.length) {slideIndex = 1}
+//   if (n < 1) {slideIndex = slides.length}
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].className.replace(" active", "");
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//     dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex].classList.add = "active";
+//   dots[slideIndex].className += " active";
+// }
+
+// showSlides(slideIndex);
+
+// // Next/previous controls
+// function plusSlides(n) {
+//   showSlides(slideIndex += n);
+// }
+
+// // Thumbnail image controls
+// function currentSlide(n) {
+//   showSlides(slideIndex = n);
+// }
 
 export const Sponsor = () => {
   return (
     <Layout>
-      {/* <div class="py-2" />
+      <div class="py-2" />
       <div className="headerBlue text-center">THANK YOU!</div>
       <div class="py-3" />
       
-      <div class="slideshow-container">
-        <div class="mySlides fade">
-          <img src="img1.jpg" style="width:100%"/>
-          <div class="text">Caption Text</div>
-        </div>
+      <Slideshow/>
+      
 
-        <div class="mySlides fade">
-          <img src="img2.jpg" style="width:100%"/>
-          <div class="text">Caption Two</div>
-        </div>
-
-        <div class="mySlides fade">
-          <img src="img3.jpg" style="width:100%"/>
-          <div class="text">Caption Three</div>
-        </div>
-      </div>
-
-      {/*The dots/circles*
-      <div style="text-align:center">
+      {/*The dots/circles*/}
+      <div>
+      {/* <div style="text-align:center"> */}
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
-      </div> */}
+      </div>
 
       <div class="py-4" />
       <div className="headerBlue text-center">OUR SPONSORS</div>
@@ -58,6 +153,7 @@ export const Sponsor = () => {
         }}
       />
 
+      {/* rest of sponsor page */}
       <div class="py-2" />
       <div class="row">
         <div class="col-md-3">
