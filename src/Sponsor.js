@@ -18,109 +18,87 @@ import slide1 from "./Photos/Thank You/fraser valley thank you.png";
 import slide2 from "./Photos/Thank You/VHP thank you 1.png";
 import slide3 from "./Photos/Thank You/VHP thank you 2.png";
 
-function Slide({classname, image, alt}) {
+function Slide(props) {
   return(
-  <div class={classname}>
-      <img src={image} alt={alt}/>
+  <div class={props.className}>
+      <img src={props.image} alt={props.alt}/>
   </div>
   );
 }
 
-const slides = document.getElementsByClassName("slide");
+const numberSlides = 3;
 const dots = document.getElementsByClassName("dot");
 const delay = 2500;
 
-function Slideshow() {
-  const [slideIndex, setSlideIndex] = React.useState(1);
-  const [classNames, setClassNames] = React.useState(Array(3).fill("slide"));
+
+function Slideshow() {;
+  let initialArray = Array(3).fill("slide");
+  initialArray[0] = "slide active";
+  const [slideIndex, setSlideIndex] = React.useState(0);
+  // const [classNames, setClassNames] = React.useState(initialArray);
   const timeoutRef = React.useRef(null);
+  const indexRef = React.useRef(0);
+  const classNames = React.useRef(initialArray);
 
   function resetTimeout() {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
     }
   }
-    
+
   React.useEffect(() => {
     resetTimeout();
-    timeoutRef.current = setTimeout(
-      () =>
-        setSlideIndex((slideIndex) => {
-          if (slideIndex >= slides.length) {
-            slideIndex = 1;
-          } else if (slideIndex < 1) {
-            slideIndex = slides.length;
-          } else {
-            slideIndex = slideIndex + 1;
-          }
-        }
-        ),
+    timeoutRef.current = setInterval(
+      () => {
+        let prevIndex = indexRef.current;
+        setSlideIndex(prevIndex => ((prevIndex + 1) % numberSlides));
+        classNames.current = setNextArray(classNames.current, prevIndex, "slide", slideIndex, "slide active");
+        indexRef.current = slideIndex;
+      },
       delay
     );
   
     return () => {
       resetTimeout();
     };
-  }, []);
+  }, [slideIndex]);
 
-  let i;
-  for (i = 0; i < slides.length; i++) {
-    setClassNames(setNextArray(classNames, i, "slide"));
+  if (dots.length != 0) {
+    for (let i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    dots[slideIndex].className += " active";
   }
-  // for (i = 0; i < dots.length; i++) {
-  //   dots[i].className = dots[i].className.replace(" active", "");
-  // }
-  setClassNames(setNextArray(classNames, slideIndex-1, "slide active"));
-  // dots[slideIndex].className += " active";
-  function setNextArray(array, index, value) {
+
+  function setNextArray(array, previous, prevValue, index, value) {
     //stuck in infiite loop for some reason???
     const nextArray = array.slice();
+    nextArray[previous] = prevValue;
     nextArray[index] = value;
     return(nextArray);
   }
 
   return(
-  <div class="slideshow-container">
+    <div>
+      <div class="slideshow-container">
 
-    <Slide className={classNames[0]} image={slide1} alt={"fraservalley prosthetics"}/>
+        <Slide className={classNames.current[0]} image={slide1} alt={"fraservalley prosthetics"}/>
 
-    <Slide className={classNames[1]} image={slide2} alt={"victoria hand project"}/>
+        <Slide className={classNames.current[1]} image={slide2} alt={"victoria hand project"}/>
 
-    <Slide className={classNames[2]} image={slide3} alt={"victoria hand project"}/>
-  </div>
+        <Slide className={classNames.current[2]} image={slide3} alt={"victoria hand project"}/>
+      </div>
+      <div class="dot-container">
+        <span class="dot active" onClick={() => setSlideIndex(0)}></span>
+        <span class="dot" onClick={() => setSlideIndex(1)}></span>
+        <span class="dot" onClick={() => setSlideIndex(2)}></span>
+      </div>
+    </div>
   );
 }
 
+// Thumbnail image controls
 
-
-//change class to on screen
-// function showSlides(n) {
-//   let i;
-//   let slides = document.getElementsByClassName("mySlides");
-//   let dots = document.getElementsByClassName("dot");
-//   if (n > slides.length) {slideIndex = 1}
-//   if (n < 1) {slideIndex = slides.length}
-//   for (i = 0; i < slides.length; i++) {
-//     slides[i].className.replace(" active", "");
-//   }
-//   for (i = 0; i < dots.length; i++) {
-//     dots[i].className = dots[i].className.replace(" active", "");
-//   }
-//   slides[slideIndex].classList.add = "active";
-//   dots[slideIndex].className += " active";
-// }
-
-// showSlides(slideIndex);
-
-// // Next/previous controls
-// function plusSlides(n) {
-//   showSlides(slideIndex += n);
-// }
-
-// // Thumbnail image controls
-// function currentSlide(n) {
-//   showSlides(slideIndex = n);
-// }
 
 export const Sponsor = () => {
   return (
@@ -130,15 +108,9 @@ export const Sponsor = () => {
       <div class="py-3" />
       
       <Slideshow/>
-      
 
       {/*The dots/circles*/}
-      <div>
-      {/* <div style="text-align:center"> */}
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
+      
 
       <div class="py-4" />
       <div className="headerBlue text-center">OUR SPONSORS</div>
