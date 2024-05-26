@@ -18,27 +18,15 @@ import slide1 from "./Photos/Thank You/fraser valley thank you.png";
 import slide2 from "./Photos/Thank You/VHP thank you 1.png";
 import slide3 from "./Photos/Thank You/VHP thank you 2.png";
 
-function Slide(props) {
-  return(
-  <div class={props.className}>
-      <img src={props.image} alt={props.alt}/>
-  </div>
-  );
-}
-
 const numberSlides = 3;
 const dots = document.getElementsByClassName("dot");
-const delay = 2500;
+const slides = document.getElementsByClassName("slide");
+const delay = 4000;
 
-
-function Slideshow() {;
-  let initialArray = Array(3).fill("slide");
-  initialArray[0] = "slide active";
+function Slideshow() {
   const [slideIndex, setSlideIndex] = React.useState(0);
-  // const [classNames, setClassNames] = React.useState(initialArray);
   const timeoutRef = React.useRef(null);
   const indexRef = React.useRef(0);
-  const classNames = React.useRef(initialArray);
 
   function resetTimeout() {
     if (timeoutRef.current) {
@@ -52,7 +40,6 @@ function Slideshow() {;
       () => {
         let prevIndex = indexRef.current;
         setSlideIndex(prevIndex => ((prevIndex + 1) % numberSlides));
-        classNames.current = setNextArray(classNames.current, prevIndex, "slide", slideIndex, "slide active");
         indexRef.current = slideIndex;
       },
       delay
@@ -63,6 +50,13 @@ function Slideshow() {;
     };
   }, [slideIndex]);
 
+  if (slides.length != 0) {
+    for (let i = 0; i < dots.length; i++) {
+      slides[i].className = slides[i].className.replace(" active", "");
+    }
+    slides[slideIndex].className += " active";
+  }
+
   if (dots.length != 0) {
     for (let i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
@@ -70,23 +64,18 @@ function Slideshow() {;
     dots[slideIndex].className += " active";
   }
 
-  function setNextArray(array, previous, prevValue, index, value) {
-    //stuck in infiite loop for some reason???
-    const nextArray = array.slice();
-    nextArray[previous] = prevValue;
-    nextArray[index] = value;
-    return(nextArray);
-  }
-
   return(
     <div>
       <div class="slideshow-container">
-
-        <Slide className={classNames.current[0]} image={slide1} alt={"fraservalley prosthetics"}/>
-
-        <Slide className={classNames.current[1]} image={slide2} alt={"victoria hand project"}/>
-
-        <Slide className={classNames.current[2]} image={slide3} alt={"victoria hand project"}/>
+        <div class="slide active">
+            <img src={slide1} alt="fraservalley prosthetics"/>
+        </div>
+        <div class="slide">
+            <img src={slide2} alt="victoria hand project"/>
+        </div>
+        <div class="slide">
+            <img src={slide3} alt="victoria hand project"/>
+        </div>
       </div>
       <div class="dot-container">
         <span class="dot active" onClick={() => setSlideIndex(0)}></span>
@@ -97,8 +86,6 @@ function Slideshow() {;
   );
 }
 
-// Thumbnail image controls
-
 
 export const Sponsor = () => {
   return (
@@ -108,9 +95,6 @@ export const Sponsor = () => {
       <div class="py-3" />
       
       <Slideshow/>
-
-      {/*The dots/circles*/}
-      
 
       <div class="py-4" />
       <div className="headerBlue text-center">OUR SPONSORS</div>
