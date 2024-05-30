@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import { Layout } from "./components/Layout";
 import ubcapplied from "./Photos/Gold/ubc-applied.png";
 import starfish from "./Photos/Silver/Starfish.png";
@@ -13,37 +13,88 @@ import eus from "./Photos/Supporting/eus.jpeg";
 import pololu from "./Photos/Supporting/pololu.png";
 import mecheng from "./Photos/Bronze/mecheng.jpeg";
 import ubcmaterials from "./Photos/Bronze/ubcmaterials.jpg";
+//slide images:
+import slide1 from "./Photos/Thank You/fraser valley thank you.png";
+import slide2 from "./Photos/Thank You/VHP thank you 1.png";
+import slide3 from "./Photos/Thank You/VHP thank you 2.png";
+
+const numberSlides = 3;
+const dots = document.getElementsByClassName("dot");
+const slides = document.getElementsByClassName("slide");
+const delay = 8000;
+
+function Slideshow() {
+  const [slideIndex, setSlideIndex] = React.useState(0);
+  const timeoutRef = React.useRef(null);
+  const indexRef = React.useRef(0);
+
+  function resetTimeout() {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
+  }
+
+  React.useEffect(() => {
+    resetTimeout();
+    timeoutRef.current = setInterval(
+      () => {
+        let prevIndex = indexRef.current;
+        setSlideIndex(prevIndex => ((prevIndex + 1) % numberSlides));
+        indexRef.current = slideIndex;
+      },
+      delay
+    );
+  
+    return () => {
+      resetTimeout();
+    };
+  }, [slideIndex]);
+
+  if (slides.length != 0) {
+    for (let i = 0; i < dots.length; i++) {
+      slides[i].className = slides[i].className.replace(" active", "");
+    }
+    slides[slideIndex].className += " active";
+  }
+
+  if (dots.length != 0) {
+    for (let i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    dots[slideIndex].className += " active";
+  }
+
+  return(
+    <div>
+      <div class="slideshow-container">
+        <div class="slide active">
+            <img src={slide1} alt="fraservalley prosthetics"/>
+        </div>
+        <div class="slide">
+            <img src={slide2} alt="victoria hand project"/>
+        </div>
+        <div class="slide">
+            <img src={slide3} alt="victoria hand project"/>
+        </div>
+      </div>
+      <div class="dot-container">
+        <span class="dot active" onClick={() => setSlideIndex(0)}></span>
+        <span class="dot" onClick={() => setSlideIndex(1)}></span>
+        <span class="dot" onClick={() => setSlideIndex(2)}></span>
+      </div>
+    </div>
+  );
+}
+
 
 export const Sponsor = () => {
   return (
     <Layout>
-      {/* <div class="py-2" />
+      <div class="py-2" />
       <div className="headerBlue text-center">THANK YOU!</div>
       <div class="py-3" />
       
-      <div class="slideshow-container">
-        <div class="mySlides fade">
-          <img src="img1.jpg" style="width:100%"/>
-          <div class="text">Caption Text</div>
-        </div>
-
-        <div class="mySlides fade">
-          <img src="img2.jpg" style="width:100%"/>
-          <div class="text">Caption Two</div>
-        </div>
-
-        <div class="mySlides fade">
-          <img src="img3.jpg" style="width:100%"/>
-          <div class="text">Caption Three</div>
-        </div>
-      </div>
-
-      {/*The dots/circles*
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div> */}
+      <Slideshow/>
 
       <div class="py-4" />
       <div className="headerBlue text-center">OUR SPONSORS</div>
@@ -58,6 +109,7 @@ export const Sponsor = () => {
         }}
       />
 
+      {/* rest of sponsor page */}
       <div class="py-2" />
       <div class="row">
         <div class="col-md-3">

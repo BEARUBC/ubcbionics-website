@@ -1,3 +1,5 @@
+* {box-sizing:border-box}
+
 /*formats text to be heading*/
 .heading {
   color: #152349;
@@ -490,6 +492,68 @@ img.rect_sponsor {
   display: block;
 }
 
+/*sponsor page slide show CSS*/
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.slide {
+  display: none;
+}
+
+.slide > img {
+  width: 100%;
+}
+
+/* Fading animation */
+.slide.active {
+  display: block;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/*screen widths*/
 @media only screen and (max-width: 600px) {
   .who, .goal {
       display: grid;
