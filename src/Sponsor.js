@@ -21,7 +21,7 @@ import slide3 from "./Photos/Thank You/VHP thank you 2.png";
 const numberSlides = 3;
 const dots = document.getElementsByClassName("dot");
 const slides = document.getElementsByClassName("slide");
-const delay = 4000;
+const delay = 8000;
 
 function Slideshow() {
   const [slideIndex, setSlideIndex] = React.useState(0);
