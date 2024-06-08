@@ -17,8 +17,9 @@ import ubcmaterials from "./Photos/Bronze/ubcmaterials.jpg";
 import slide1 from "./Photos/Thank You/fraser valley thank you.png";
 import slide2 from "./Photos/Thank You/VHP thank you 1.png";
 import slide3 from "./Photos/Thank You/VHP thank you 2.png";
+import slide4 from "./Photos/Thank You/pentland thank you.png";
 
-const numberSlides = 3;
+const numberSlides = 4;
 const dots = document.getElementsByClassName("dot");
 const slides = document.getElementsByClassName("slide");
 const delay = 8000;
@@ -50,14 +51,14 @@ function Slideshow() {
     };
   }, [slideIndex]);
 
-  if (slides.length != 0) {
+  if (slides.length !== 0) {
     for (let i = 0; i < dots.length; i++) {
       slides[i].className = slides[i].className.replace(" active", "");
     }
     slides[slideIndex].className += " active";
   }
 
-  if (dots.length != 0) {
+  if (dots.length !== 0) {
     for (let i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
     }
@@ -76,11 +77,15 @@ function Slideshow() {
         <div class="slide">
             <img src={slide3} alt="victoria hand project"/>
         </div>
+        <div class="slide">
+            <img src={slide4} alt="pentland prosthetics & othotics"/>
+        </div>
       </div>
       <div class="dot-container">
         <span class="dot active" onClick={() => setSlideIndex(0)}></span>
         <span class="dot" onClick={() => setSlideIndex(1)}></span>
         <span class="dot" onClick={() => setSlideIndex(2)}></span>
+        <span class="dot" onClick={() => setSlideIndex(3)}></span>
       </div>
     </div>
   );
@@ -91,12 +96,6 @@ export const Sponsor = () => {
   return (
     <Layout>
       <div class="py-2" />
-      <div className="headerBlue text-center">THANK YOU!</div>
-      <div class="py-3" />
-      
-      <Slideshow/>
-
-      <div class="py-4" />
       <div className="headerBlue text-center">OUR SPONSORS</div>
       <div class="py-3" />
       <div class="sponsor-header text-center">GOLD</div>
@@ -109,7 +108,6 @@ export const Sponsor = () => {
         }}
       />
 
-      {/* rest of sponsor page */}
       <div class="py-2" />
       <div class="row">
         <div class="col-md-3">
@@ -216,7 +214,7 @@ export const Sponsor = () => {
       </div>
 
       <div class="py-3" />
-      <div class="sponsor-header text-center">SUPPORTING ORGANIZATIONS</div>
+      <div class="sponsor-header text-center">THANK YOU TO OUR SUPPORTING ORGANIZATIONS</div>
       <hr
         style={{
           color: "#000000",
@@ -226,6 +224,10 @@ export const Sponsor = () => {
         }}
       />
       <div class="py-2" />
+      
+      <Slideshow/>
+
+      <div class="py-4" />
       <div class="row">
         <div class="col-md-3">
           <div class="image_div">
