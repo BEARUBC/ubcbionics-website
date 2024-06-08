@@ -11,6 +11,7 @@
   font-family: "Lato", sans-serif;
   min-height: 8vh;
   align-items: center;
+  z-index: 50;
 }
 
 .Navigation {
@@ -80,6 +81,7 @@
 
 .MobileNavigation {
   display: none;
+  z-index: 51;
 }
 
 @media screen and (max-width: 1024px) {
